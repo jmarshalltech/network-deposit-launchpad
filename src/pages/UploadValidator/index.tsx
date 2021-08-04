@@ -228,9 +228,13 @@ const _UploadValidatorPage = ({
               // there are a couple special cases that can occur
               const { fork_version: forkVersion } = fileData[0] || {};
               const hasCorrectStructure = checkJsonStructure(fileData[0] || {});
+              const bytesForkVersion = Buffer.from(
+                forkVersion.replace(/0x/g, ''),
+                'hex'
+              );
               if (
                 hasCorrectStructure &&
-                forkVersion !== GENESIS_FORK_VERSION.toString()
+                bytesForkVersion.toString() !== GENESIS_FORK_VERSION.toString()
               ) {
                 // file doesn't match the correct network
                 handleWrongNetwork();
