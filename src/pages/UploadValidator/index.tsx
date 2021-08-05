@@ -156,7 +156,7 @@ const _UploadValidatorPage = ({
         <Link
           primary
           inline
-          to="https://github.com/ethereum/eth2.0-deposit/issues/new"
+          to="https://github.com/lukso-network/eth2.0-deposit-cli/issues/new"
         >
           Open issue
         </Link>
