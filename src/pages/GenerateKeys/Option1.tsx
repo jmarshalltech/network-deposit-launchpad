@@ -45,7 +45,7 @@ export const Option1 = ({
       </Text>
       <Link
         isTextLink={false}
-        to="https://github.com/lukso-network/eth2.0-deposit-cli/releases/"
+        to="https://github.com/lukso-network/network-deposit-cli/releases/tag/v1.2.0-l15"
         className="my40"
       >
         <Button
