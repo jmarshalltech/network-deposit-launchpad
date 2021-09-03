@@ -62,7 +62,7 @@ const ButtonContainer = styled.div`
 `;
 
 type PropData = {
-  amountEth: number;
+  amountLyxt: number;
   totalValidators: number;
   status: number;
 };
@@ -75,7 +75,7 @@ export const NetworkStatus: React.FC<{
 }> = ({ state }): JSX.Element | null => {
   const { formatMessage } = useIntl();
   const [m, setM] = React.useState<boolean>((window as any).mobileCheck());
-  const { amountEth, totalValidators, status } = state;
+  const { amountLyxt, totalValidators, status } = state;
 
   React.useEffect(() => {
     const resizeListener = () => {
@@ -85,7 +85,7 @@ export const NetworkStatus: React.FC<{
     return () => window.removeEventListener('resize', resizeListener);
   }, []);
 
-  const currentAPR = calculateLyxtRewards({ totalAtStake: amountEth });
+  const currentAPR = calculateLyxtRewards({ totalAtStake: amountLyxt });
   const formattedAPR = (Math.round(currentAPR * 1000) / 10).toLocaleString();
 
   const LoadingHandler: React.FC<{
@@ -118,7 +118,7 @@ export const NetworkStatus: React.FC<{
               <Text size="x-large" className="mt20">
                 <BoldGreen className="mr10" fontSize={24}>
                   <LoadingHandler
-                    value={`${numberWithCommas(amountEth)} ${TICKER_NAME}`}
+                    value={`${numberWithCommas(amountLyxt)} ${TICKER_NAME}`}
                   />
                 </BoldGreen>
               </Text>

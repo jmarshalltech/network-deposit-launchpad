@@ -33,7 +33,7 @@ import {
   PRICE_PER_VALIDATOR,
   TICKER_NAME,
   CONTRACT_ADDRESS,
-  ETHER_TO_GWEI,
+  LUKSO_TO_GWEI,
 } from '../../../utils/envVars';
 
 interface Props {
@@ -90,11 +90,11 @@ const TopupPage: React.FC<Props> = ({ validator }) => {
   const { connector, account } = useWeb3React();
 
   const effectiveBalance = useMemo(
-    () => Number(validator.effectivebalance) / ETHER_TO_GWEI,
+    () => Number(validator.effectivebalance) / LUKSO_TO_GWEI,
     [validator]
   );
 
-  const balance = useMemo(() => Number(validator.balance) / ETHER_TO_GWEI, [
+  const balance = useMemo(() => Number(validator.balance) / LUKSO_TO_GWEI, [
     validator,
   ]);
 

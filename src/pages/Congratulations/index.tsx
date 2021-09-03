@@ -205,7 +205,7 @@ const _CongratulationsPage = ({
   dispatchTransactionStatusUpdate,
 }: Props): JSX.Element => {
   const [state, setState] = useState({
-    amountEth: 0,
+    amountLyxt: 0,
     status: 0,
   });
   const { status } = state;
@@ -232,7 +232,7 @@ const _CongratulationsPage = ({
 
   const actualTxConfirmed = totalTxCount - remainingTxCount;
 
-  const currentAPR = calculateLyxtRewards({ totalAtStake: state.amountEth });
+  const currentAPR = calculateLyxtRewards({ totalAtStake: state.amountLyxt });
   const formattedAPR = (Math.round(currentAPR * 1000) / 10).toLocaleString();
 
   const handleAllTransactionsClick = () => {
@@ -250,7 +250,7 @@ const _CongratulationsPage = ({
     (async () => {
       const response = await queryBeaconchain();
       setState({
-        amountEth: response.body.amountEth,
+        amountLyxt: response.body.amountLyxt,
         status: response.statusCode,
       });
     })();

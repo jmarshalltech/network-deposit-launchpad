@@ -28,11 +28,11 @@ if(process.env.REACT_APP_LYXT_REQUIREMENT && Number.isNaN(Number(process.env.REA
 }
 export const ETH_REQUIREMENT            = process.env.REACT_APP_LYXT_REQUIREMENT     || 524288;
 
-// ETH_DEPOSIT_OFFSET is added to the balance of the deposit contract to account for testnet deposit-contracts that allow some number of free deposit
+// LYXT_DEPOSIT_OFFSET is added to the balance of the deposit contract to account for testnet deposit-contracts that allow some number of free deposit
 if(process.env.REACT_APP_LYXT_DEPOSIT_OFFSET && Number.isNaN(Number(process.env.REACT_APP_LYXT_DEPOSIT_OFFSET))) {
     throw new Error("REACT_APP_LYXT_DEPOSIT_OFFSET must be of type: number")
 }
-export const ETH_DEPOSIT_OFFSET = Number(process.env.REACT_APP_LYXT_DEPOSIT_OFFSET) * Number(!IS_MAINNET) || 0;
+export const LYXT_DEPOSIT_OFFSET = Number(process.env.REACT_APP_LYXT_DEPOSIT_OFFSET) * Number(!IS_MAINNET) || 0;
 
 let forkVersion = Buffer.from('00000000', 'hex')
 if(typeof process.env.REACT_APP_GENESIS_FORK_VERSION === 'string'){
@@ -52,7 +52,7 @@ if(process.env.REACT_APP_EJECTION_PRICE && Number.isNaN(Number(process.env.REACT
 export const EJECTION_PRICE             = process.env.REACT_APP_EJECTION_PRICE || 16;
 
 // BLS signature verification variables
-export const ETHER_TO_GWEI              = 1e9;
-export const MIN_DEPOSIT_AMOUNT         = 1 * ETHER_TO_GWEI;
+export const LUKSO_TO_GWEI              = 1e9;
+export const MIN_DEPOSIT_AMOUNT         = 1 * LUKSO_TO_GWEI;
 export const DOMAIN_DEPOSIT             = Buffer.from('03000000', 'hex');
 export const EMPTY_ROOT                 = Buffer.from('0000000000000000000000000000000000000000000000000000000000000000', 'hex');
