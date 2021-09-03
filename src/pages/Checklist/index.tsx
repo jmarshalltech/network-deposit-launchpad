@@ -766,7 +766,7 @@ export const Checklist = () => {
               <Text className="checkbox-label">
                 <FormattedMessage
                   defaultMessage="I've synced my LYXt beacon node on {LUKSO_NETWORK_NAME}."
-                  values={{ LUKSO_NETWORK_NAME: LUKSO_NETWORK_NAME }}
+                  values={{ LUKSO_NETWORK_NAME }}
                   description="{LUKSO_NETWORK_NAME} is name of network, do not translate"
                 />
               </Text>
