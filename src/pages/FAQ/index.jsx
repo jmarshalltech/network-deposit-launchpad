@@ -559,7 +559,7 @@ export const FAQ = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="Slashing has two purposes: (1) to make it prohibitively expensive
-                  to attack Lyxt, and (2) to stop validators from being lazy by
+                  to attack LYXt, and (2) to stop validators from being lazy by
                   checking that they actually perform their duties. If you're slashed because you've acted in a provably destructive manner, a portion of your stake will be destroyed."
               />
             </Text>
