@@ -9,7 +9,7 @@ export const INFURA_URL                 = `https://${IS_MAINNET ? "mainnet" : "g
 
 // public
 export const LUKSO_NETWORK_NAME          = (IS_MAINNET || !process.env.REACT_APP_TESTNET_LAUNCHPAD_NAME) ? 'mainnet' : process.env.REACT_APP_TESTNET_LAUNCHPAD_NAME;
-export const TICKER_NAME                = IS_MAINNET ? 'ETH' : 'GöETH';
+export const TICKER_NAME                = IS_MAINNET ? 'LYXt' : 'GöLYXt';
 export const ETHERSCAN_URL              = IS_MAINNET ? 'https://etherscan.io/tx' : 'https://goerli.etherscan.io/tx';
 export const BEACONSCAN_URL             = IS_MAINNET ? 'https://beaconscan.com/validator' : `https://beaconscan.com/${LUKSO_NETWORK_NAME.toLowerCase()}/validator`;
 export const BEACONCHAIN_URL            = `https://${LUKSO_NETWORK_NAME.toLowerCase()}.beaconcha.in`;

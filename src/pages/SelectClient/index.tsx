@@ -69,7 +69,7 @@ export type Client = {
 };
 
 // define and shuffle the clients
-const ethClients: {
+const lyxtClients: {
   [ethVersion: number]: Array<Client>;
 } = {
   1: _shuffle([
@@ -138,7 +138,7 @@ const _SelectClientPage = ({
   const { formatMessage } = useIntl();
 
   // filter the options based on the eth version the user is on
-  const clientOptions = React.useMemo(() => ethClients[ethVersionStep], [
+  const clientOptions = React.useMemo(() => lyxtClients[ethVersionStep], [
     ethVersionStep,
   ]);
 
@@ -175,11 +175,11 @@ const _SelectClientPage = ({
 
   const title = formatMessage(
     {
-      defaultMessage: `Choose {lukso-l15-testnet} client`,
-      description: '{lukso-l15-testnet} injects LYXt',
+      defaultMessage: `Choose {lyxt} client`,
+      description: '{lyxt} injects Eth1 or Eth2 depending on step',
     },
     {
-      ethereum: `Eth${ethVersionStep}`,
+      lyxt: `Eth${ethVersionStep}`,
     }
   );
 

@@ -166,7 +166,7 @@ export const Hero = () => {
                             <FormattedMessage defaultMessage="LYXt Launchpad" />
                           ) : (
                             <FormattedMessage
-                                defaultMessage="LYXt Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
+                              defaultMessage="LYXt Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
                               values={{ TESTNET_LAUNCHPAD_NAME }}
                               description="This phrase is a sentence "
                             />
@@ -184,7 +184,7 @@ export const Hero = () => {
                       color="brand"
                       className="my20"
                     >
-                      <FormattedMessage defaultMessage="Become a validator and help secure the future of Ethereum" />
+                      <FormattedMessage defaultMessage="Become a LYXt validator and help secure the future of LUKSO" />
                     </Heading>
                   </ScrollAnimation>
                   <ScrollAnimation animateIn="fadeInUp" delay={750} animateOnce>

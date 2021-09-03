@@ -1,2 +1,92 @@
 {
+  "'0uqjBl'": [
+    {
+      "type": 0,
+      "value": "Earn continuous rewards for providing a public good to the community."
+    }
+  ],
+  "'3Q43SM'": [
+    {
+      "type": 0,
+      "value": "Become a validator"
+    }
+  ],
+  "'4TOYsg'": [
+    {
+      "type": 0,
+      "value": "LUKSO L15 Ephemeral Testnet Launchpad"
+    }
+  ],
+  "'L6lZMb'": [
+    {
+      "type": 0,
+      "value": "Become a LYXt validator and help secure the future of LUKSO"
+    }
+  ],
+  "'Mm83tP'": [
+    {
+      "type": 0,
+      "value": "LYXt Launchpad"
+    }
+  ],
+  "'MypYJN'": [
+    {
+      "type": 0,
+      "value": "Choose "
+    },
+    {
+      "type": 1,
+      "value": "lyxt"
+    },
+    {
+      "type": 0,
+      "value": " client"
+    }
+  ],
+  "'SMffKt'": [
+    {
+      "type": 0,
+      "value": "Choose your Eth"
+    },
+    {
+      "type": 1,
+      "value": "ethVersionStep"
+    },
+    {
+      "type": 0,
+      "value": " client and set up a node"
+    }
+  ],
+  "'h+pDxO'": [
+    {
+      "type": 0,
+      "value": "Become a LYXt validator and help secure the future of LUKSO."
+    }
+  ],
+  "'idDbou'": [
+    {
+      "type": 0,
+      "value": "Thinking about staking?"
+    }
+  ],
+  "'k5RWQ/'": [
+    {
+      "type": 0,
+      "value": "LYXt Launchpad for "
+    },
+    {
+      "type": 1,
+      "value": "TESTNET_LAUNCHPAD_NAME"
+    },
+    {
+      "type": 0,
+      "value": " testnet"
+    }
+  ],
+  "'kXhUdD'": [
+    {
+      "type": 0,
+      "value": "Become a validator on desktop"
+    }
+  ]
 }

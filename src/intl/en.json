@@ -1,2 +1,38 @@
 {
+  "'0uqjBl'": {
+    "message": "Earn continuous rewards for providing a public good to the community."
+  },
+  "'3Q43SM'": {
+    "message": "Become a validator"
+  },
+  "'4TOYsg'": {
+    "message": "LUKSO L15 Ephemeral Testnet Launchpad"
+  },
+  "'L6lZMb'": {
+    "message": "Become a LYXt validator and help secure the future of LUKSO"
+  },
+  "'Mm83tP'": {
+    "message": "LYXt Launchpad"
+  },
+  "'MypYJN'": {
+    "description": "{lyxt} injects Eth1 or Eth2 depending on step",
+    "message": "Choose {lyxt} client"
+  },
+  "'SMffKt'": {
+    "description": "{ethVersionStep} is either 1 or 2, depending on which step user is on",
+    "message": "Choose your Eth{ethVersionStep} client and set up a node"
+  },
+  "'h+pDxO'": {
+    "message": "Become a LYXt validator and help secure the future of LUKSO."
+  },
+  "'idDbou'": {
+    "message": "Thinking about staking?"
+  },
+  "'k5RWQ/'": {
+    "description": "This phrase is a sentence ",
+    "message": "LYXt Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
+  },
+  "'kXhUdD'": {
+    "message": "Become a validator on desktop"
+  }
 }
