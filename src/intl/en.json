@@ -11,6 +11,9 @@
   "'3XK21U'": {
     "message": "We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until The Merge, you will not create your withdrawal keys now. When it is possible to withdraw your funds, you can derive your withdrawal keys from your mnemonic."
   },
+  "'3ZyN99'": {
+    "message": "To become a validator on the LYXt (L15) testnet, you need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME} per validator that you wish to run."
+  },
   "'6nh4de'": {
     "message": "You're joining a network in its early stages. As with any new piece of software, there is the potential for software bugs. While unlikely, potential bugs may result in slashing."
   },
@@ -112,9 +115,6 @@
   },
   "'ll/zMW'": {
     "message": "This is a non-reversible transaction."
-  },
-  "'ogbG7r'": {
-    "message": "To become a validator on the Beacon Chain, you need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME} per validator that you wish to run."
   },
   "'qDvaNm'": {
     "message": "I understand that keys are my responsibility and that my mnemonic (seed) will be the {onlyWay} to withdraw my funds."

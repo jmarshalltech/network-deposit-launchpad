@@ -47,6 +47,28 @@
       "value": "We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until The Merge, you will not create your withdrawal keys now. When it is possible to withdraw your funds, you can derive your withdrawal keys from your mnemonic."
     }
   ],
+  "'3ZyN99'": [
+    {
+      "type": 0,
+      "value": "To become a validator on the LYXt (L15) testnet, you need to deposit "
+    },
+    {
+      "type": 1,
+      "value": "PRICE_PER_VALIDATOR"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " per validator that you wish to run."
+    }
+  ],
   "'6nh4de'": [
     {
       "type": 0,
@@ -297,28 +319,6 @@
     {
       "type": 0,
       "value": "This is a non-reversible transaction."
-    }
-  ],
-  "'ogbG7r'": [
-    {
-      "type": 0,
-      "value": "To become a validator on the Beacon Chain, you need to deposit "
-    },
-    {
-      "type": 1,
-      "value": "PRICE_PER_VALIDATOR"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "TICKER_NAME"
-    },
-    {
-      "type": 0,
-      "value": " per validator that you wish to run."
     }
   ],
   "'qDvaNm'": [
