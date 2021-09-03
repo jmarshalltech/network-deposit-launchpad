@@ -31,7 +31,7 @@ const RainbowBackground = styled(Box)`
   background-image: ${p => `linear-gradient(to right, ${p.theme.rainbow})`};
 `;
 
-const EthLogo = styled.img`
+const LuksoLogo = styled.img`
   height: 40px;
   width: 40px;
 `;
@@ -164,7 +164,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
     >
       <NavBarLinks>
         <Link to={routesEnum.landingPage} className="mr30">
-          <EthLogo src={EthDiamond} alt="eth-diamond" />
+          <LuksoLogo src={EthDiamond} alt="eth-diamond" />
           {!mobile && (
             <div className="flex flex-column center ml5">
               <BarLinkText

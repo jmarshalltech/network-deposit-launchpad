@@ -33,12 +33,12 @@ export const Phishing = () => {
           <li>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="Does the site asking you for your {ethAmount} deposit have a URL you
+                defaultMessage="Does the site asking you for your {lyxtAmount} deposit have a URL you
                 expect?"
                 values={{
-                  ethAmount: `${PRICE_PER_VALIDATOR} ETH`,
+                  lyxtAmount: `${PRICE_PER_VALIDATOR} ETH`,
                 }}
-                description="{ethAmount} will generally refer to 32 ETH"
+                description="{lyxtAmount} will generally refer to 32 ETH"
               />
             </Text>
           </li>
@@ -89,9 +89,9 @@ export const Phishing = () => {
               <li>
                 <Text className="mt10">
                   <FormattedMessage
-                    defaultMessage="Are there recent {ethAmount} deposits?"
+                    defaultMessage="Are there recent {lyxtAmount} deposits?"
                     values={{
-                      ethAmount: `${PRICE_PER_VALIDATOR} ETH`,
+                      lyxtAmount: `${PRICE_PER_VALIDATOR} ETH`,
                     }}
                     description="Asks users to check deposit contract address against a block explorer and confirm 32 ETH deposits are present"
                   />

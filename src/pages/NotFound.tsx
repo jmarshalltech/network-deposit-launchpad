@@ -15,7 +15,7 @@ const LogoContainer = styled.div`
   flex-direction: column;
   justify-content: center;
 `;
-const EthLogo = styled.img`
+const LuksoLogo = styled.img`
   height: 100px;
 `;
 const LogoText = styled(Text)`
@@ -47,7 +47,7 @@ export const NotFoundPage = (): JSX.Element => {
     <RainbowBackground>
       <Content>
         <LogoContainer>
-          <EthLogo src={EthDiamondPlain} />
+          <LuksoLogo src={EthDiamondPlain} />
           <LogoText className="mt20" center size="large">
             Eth2 Launchpad
           </LogoText>

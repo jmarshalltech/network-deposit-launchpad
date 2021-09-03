@@ -8,7 +8,7 @@ import { Link } from '../../../components/Link';
 import { Button } from '../../../components/Button';
 import { numberWithCommas } from '../../../utils/numberWithCommas';
 import { BEACONCHAIN_URL, TICKER_NAME } from '../../../utils/envVars';
-import calculateEth2Rewards from '../../../utils/calculateEth2Rewards';
+import calculateLyxtRewards from '../../../utils/calculateLyxtRewards';
 
 //
 // Styled Components
@@ -85,7 +85,7 @@ export const NetworkStatus: React.FC<{
     return () => window.removeEventListener('resize', resizeListener);
   }, []);
 
-  const currentAPR = calculateEth2Rewards({ totalAtStake: amountEth });
+  const currentAPR = calculateLyxtRewards({ totalAtStake: amountEth });
   const formattedAPR = (Math.round(currentAPR * 1000) / 10).toLocaleString();
 
   const LoadingHandler: React.FC<{

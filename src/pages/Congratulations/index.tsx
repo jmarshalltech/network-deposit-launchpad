@@ -19,7 +19,7 @@ import { web3ReactInterface } from '../ConnectWallet';
 import { queryBeaconchain } from '../../utils/queryBeaconchain';
 import { DepositKeyInterface, StoreState } from '../../store/reducers';
 import { WorkflowStep } from '../../store/actions/workflowActions';
-import calculateEth2Rewards from '../../utils/calculateEth2Rewards';
+import calculateLyxtRewards from '../../utils/calculateLyxtRewards';
 import {
   PRICE_PER_VALIDATOR,
   TESTNET_LAUNCHPAD_NAME,
@@ -232,7 +232,7 @@ const _CongratulationsPage = ({
 
   const actualTxConfirmed = totalTxCount - remainingTxCount;
 
-  const currentAPR = calculateEth2Rewards({ totalAtStake: state.amountEth });
+  const currentAPR = calculateLyxtRewards({ totalAtStake: state.amountEth });
   const formattedAPR = (Math.round(currentAPR * 1000) / 10).toLocaleString();
 
   const handleAllTransactionsClick = () => {

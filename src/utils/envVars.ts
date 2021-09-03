@@ -23,16 +23,16 @@ export const TEKU_INSTALLATION_URL      = process.env.REACT_APP_TEKU_INSTALLATIO
 export const MAINNET_LAUNCHPAD_URL      = 'https://launchpad.ethereum.org/'
 export const TESTNET_LAUNCHPAD_URL      = `https://${TESTNET_LAUNCHPAD_NAME.toLowerCase()}.launchpad.ethereum.org/`
 
-if(process.env.REACT_APP_ETH_REQUIREMENT && Number.isNaN(Number(process.env.REACT_APP_ETH_REQUIREMENT))) {
-    throw new Error("REACT_APP_ETH_REQUIREMENT must be of type: number")
+if(process.env.REACT_APP_LYXT_REQUIREMENT && Number.isNaN(Number(process.env.REACT_APP_LYXT_REQUIREMENT))) {
+    throw new Error("REACT_APP_LYXT_REQUIREMENT must be of type: number")
 }
-export const ETH_REQUIREMENT            = process.env.REACT_APP_ETH_REQUIREMENT     || 524288;
+export const ETH_REQUIREMENT            = process.env.REACT_APP_LYXT_REQUIREMENT     || 524288;
 
 // ETH_DEPOSIT_OFFSET is added to the balance of the deposit contract to account for testnet deposit-contracts that allow some number of free deposit
-if(process.env.REACT_APP_ETH_DEPOSIT_OFFSET && Number.isNaN(Number(process.env.REACT_APP_ETH_DEPOSIT_OFFSET))) {
-    throw new Error("REACT_APP_ETH_DEPOSIT_OFFSET must be of type: number")
+if(process.env.REACT_APP_LYXT_DEPOSIT_OFFSET && Number.isNaN(Number(process.env.REACT_APP_LYXT_DEPOSIT_OFFSET))) {
+    throw new Error("REACT_APP_LYXT_DEPOSIT_OFFSET must be of type: number")
 }
-export const ETH_DEPOSIT_OFFSET = Number(process.env.REACT_APP_ETH_DEPOSIT_OFFSET) * Number(!IS_MAINNET) || 0;
+export const ETH_DEPOSIT_OFFSET = Number(process.env.REACT_APP_LYXT_DEPOSIT_OFFSET) * Number(!IS_MAINNET) || 0;
 
 let forkVersion = Buffer.from('00000000', 'hex')
 if(typeof process.env.REACT_APP_GENESIS_FORK_VERSION === 'string'){

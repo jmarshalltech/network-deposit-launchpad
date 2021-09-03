@@ -1720,8 +1720,8 @@
     "message": "You can install pip using a Linux Package Manager like {apt} or {yum}."
   },
   "lM/dEI": {
-    "description": "{ethAmount} will generally refer to 32 ETH",
-    "message": "Does the site asking you for your {ethAmount} deposit have a URL you expect?"
+    "description": "{lyxtAmount} will generally refer to 32 ETH",
+    "message": "Does the site asking you for your {lyxtAmount} deposit have a URL you expect?"
   },
   "lQzdpT": {
     "description": "this is used as a command line flag, short for \"number of validators\"",
@@ -2052,7 +2052,7 @@
   },
   "up+5YH": {
     "description": "Asks users to check deposit contract address against a block explorer and confirm 32 ETH deposits are present",
-    "message": "Are there recent {ethAmount} deposits?"
+    "message": "Are there recent {lyxtAmount} deposits?"
   },
   "vBOf5K": {
     "message": "Your balance is updated periodically by the Ethereum network rules as you carry (or fail to carry) out your responsibilities."

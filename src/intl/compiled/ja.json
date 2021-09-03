@@ -4276,7 +4276,7 @@
   "lM/dEI": [
     {
       "type": 1,
-      "value": "ethAmount"
+      "value": "lyxtAmount"
     },
     {
       "type": 0,
@@ -5132,7 +5132,7 @@
     },
     {
       "type": 1,
-      "value": "ethAmount"
+      "value": "lyxtAmount"
     },
     {
       "type": 0,
