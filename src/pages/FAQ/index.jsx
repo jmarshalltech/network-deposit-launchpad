@@ -90,7 +90,7 @@ export const FAQ = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="You can think of the deposit contract as a transfer of funds between Ethereum accounts and
-                  Eth2 validators."
+                  LYXt validators."
               />
             </Text>
             <Text className="mt10">
@@ -119,7 +119,7 @@ export const FAQ = () => {
           </section>
           <section>
             <Heading level={4}>
-              <FormattedMessage defaultMessage="How much ETH do I need to stake to become a validator?" />
+              <FormattedMessage defaultMessage="How much LYXt do I need to stake to become a validator?" />
             </Heading>
             <Text className="mt10">
               <FormattedMessage
@@ -559,7 +559,7 @@ export const FAQ = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="Slashing has two purposes: (1) to make it prohibitively expensive
-                  to attack Eth2, and (2) to stop validators from being lazy by
+                  to attack Lyxt, and (2) to stop validators from being lazy by
                   checking that they actually perform their duties. If you're slashed because you've acted in a provably destructive manner, a portion of your stake will be destroyed."
               />
             </Text>

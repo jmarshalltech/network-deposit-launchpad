@@ -175,8 +175,8 @@ const _SelectClientPage = ({
 
   const title = formatMessage(
     {
-      defaultMessage: `Choose {ethereum} client`,
-      description: '{ethereum} injects Eth1 or Eth2 depending on step',
+      defaultMessage: `Choose {lukso-l15-testnet} client`,
+      description: '{lukso-l15-testnet} injects LYXt',
     },
     {
       ethereum: `Eth${ethVersionStep}`,

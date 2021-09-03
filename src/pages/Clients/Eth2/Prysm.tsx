@@ -55,7 +55,7 @@ export const Prysm = () => {
   return (
     <PageTemplate
       title={formatMessage(
-        { defaultMessage: 'Eth2 Clients: {clientName}' },
+        { defaultMessage: 'LYXt Clients: {clientName}' },
         { clientName: 'Prysm' }
       )}
     >

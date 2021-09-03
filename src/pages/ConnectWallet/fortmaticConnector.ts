@@ -72,7 +72,7 @@ export class FortmaticConnector extends AbstractConnector {
   public async getAccount(): Promise<null | string> {
     return this.fortmatic
       .getProvider()
-      .send('eth_accounts')
+      .send('lyxt_accounts')
       .then((accounts: string[]): string => accounts[0]);
   }
 

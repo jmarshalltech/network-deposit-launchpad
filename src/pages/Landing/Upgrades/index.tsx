@@ -58,7 +58,7 @@ export const Upgrades = (): JSX.Element => {
     {
       title: formatMessage({ defaultMessage: 'The upgrades' }),
       subTitle: formatMessage({
-        defaultMessage: 'Dig deeper into how Eth2 upgrades Ethereum.',
+        defaultMessage: 'Dig deeper into how LUKSO upgrades Ethereum.',
       }),
       linkUrl: 'https://ethereum.org/en/eth2/',
       link: formatMessage({ defaultMessage: 'How does this all happen?' }),
@@ -79,7 +79,7 @@ export const Upgrades = (): JSX.Element => {
       title: formatMessage({ defaultMessage: 'Validators FAQ' }),
       subTitle: formatMessage({
         defaultMessage:
-          'Learn more about the roles and responsibilities of Eth2 validators.',
+          'Learn more about the roles and responsibilities of LYXt validators.',
       }),
       linkUrl: '/faq',
       link: formatMessage({ defaultMessage: 'More on validators' }),
@@ -93,7 +93,7 @@ export const Upgrades = (): JSX.Element => {
           <div className="px20">
             <ScrollAnimation animateIn="fadeIn" animateOnce>
               <StyledHeading margin="none" className="mt20" isMobile={m}>
-                <FormattedMessage defaultMessage="How does Eth2 upgrade Ethereum?" />
+                <FormattedMessage defaultMessage="How does LUKSO upgrade Ethereum?" />
               </StyledHeading>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeInUp" animateOnce>

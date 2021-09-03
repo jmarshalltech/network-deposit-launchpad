@@ -66,7 +66,7 @@ export const Introduction = (): JSX.Element => {
         <ContentContainer>
           <ScrollAnimation animateIn="fadeIn" animateOnce>
             <Heading level={2} size="medium" color="blueDark" margin="none">
-              <FormattedMessage defaultMessage="Validators and Eth2" />
+              <FormattedMessage defaultMessage="Validators and LYXt" />
             </Heading>
           </ScrollAnimation>
           <ScrollAnimation animateIn="fadeInUp" animateOnce>
@@ -82,7 +82,7 @@ export const Introduction = (): JSX.Element => {
               className="mt20 mb40"
               to="https://ethereum.org/en/eth2/vision/"
             >
-              <FormattedMessage defaultMessage="More on the Eth2 vision" />
+              <FormattedMessage defaultMessage="More on the LYXt vision" />
             </Link>
             <Text className="mt20">
               <FormattedMessage
