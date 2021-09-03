@@ -1,3 +1,6 @@
+[![Build status](https://img.shields.io/github/workflow/status/lukso-network/network-deposit-launchpad/ci)](https://github.com/lukso-network/network-deposit-launchpad/actions)
+[![Licence](https://img.shields.io/github/license/lukso-network/network-deposit-launchpad.svg)](https://github.com/lukso-network/network-deposit-launchpad/blob/master/LICENSE)
+
 # Ethereum 2.0 Launchpad
 
 The [Launchpad](https://launchpad.ethereum.org/) is the Ethereum Foundation's official way to deposit your Eth for Ethereum 2.0
