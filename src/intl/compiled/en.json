@@ -927,6 +927,12 @@
       "value": " blockchain explorers."
     }
   ],
+  "7lhBkq": [
+    {
+      "type": 0,
+      "value": "Use L15LYX to sync the L15 testnet."
+    }
+  ],
   "7s6XNV": [
     {
       "type": 0,
@@ -2423,6 +2429,12 @@
       "value": "Formal verification report"
     }
   ],
+  "PlU6f3": [
+    {
+      "type": 0,
+      "value": "Testing on L15"
+    }
+  ],
   "PoBIK+": [
     {
       "type": 0,
@@ -3909,20 +3921,6 @@
       "value": "You should see that you have one keystore per validator. This keystore contains your signing key, encrypted with your password. You can use your mnemonic to generate your withdrawal key when you wish to withdraw."
     }
   ],
-  "gN9D/h": [
-    {
-      "type": 0,
-      "value": "Use "
-    },
-    {
-      "type": 1,
-      "value": "goerli"
-    },
-    {
-      "type": 0,
-      "value": " to sync the Goerli testnet."
-    }
-  ],
   "gQkd2y": [
     {
       "type": 0,
@@ -5227,6 +5225,12 @@
     {
       "type": 0,
       "value": " this is ~700-800 MB/hour, and is likely to increase."
+    }
+  ],
+  "uHaXQZ": [
+    {
+      "type": 0,
+      "value": "Geth on L15 documentation"
     }
   ],
   "uJzGSb": [
