@@ -26,7 +26,7 @@ export const TESTNET_LAUNCHPAD_URL      = `https://${TESTNET_LAUNCHPAD_NAME.toLo
 if(process.env.REACT_APP_LYXT_REQUIREMENT && Number.isNaN(Number(process.env.REACT_APP_LYXT_REQUIREMENT))) {
     throw new Error("REACT_APP_LYXT_REQUIREMENT must be of type: number")
 }
-export const ETH_REQUIREMENT            = process.env.REACT_APP_LYXT_REQUIREMENT     || 524288;
+export const LYXT_REQUIREMENT            = process.env.REACT_APP_LYXT_REQUIREMENT     || 524288;
 
 // LYXT_DEPOSIT_OFFSET is added to the balance of the deposit contract to account for testnet deposit-contracts that allow some number of free deposit
 if(process.env.REACT_APP_LYXT_DEPOSIT_OFFSET && Number.isNaN(Number(process.env.REACT_APP_LYXT_DEPOSIT_OFFSET))) {
