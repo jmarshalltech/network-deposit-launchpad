@@ -1985,8 +1985,8 @@
     "message": "Waiting to connect..."
   },
   "svsq8J": {
-    "description": "{ETH2_NETWORK_NAME} is name of network, do not translate",
-    "message": "I've synced my Eth2 beacon node on {ETH2_NETWORK_NAME}."
+    "description": "{LUKSO_NETWORK_NAME} is name of network, do not translate",
+    "message": "I've synced my Eth2 beacon node on {LUKSO_NETWORK_NAME}."
   },
   "sy35J+": {
     "message": "What is the deposit contract?"
