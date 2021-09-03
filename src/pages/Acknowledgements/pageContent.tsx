@@ -22,22 +22,33 @@ export const pageContent = {
     content: (
       <>
         <Text size="medium" className="my10">
-          <FormattedMessage defaultMessage="The Beacon Chain upgrade brings proof-of-stake consensus to Ethereum." />
+          <FormattedMessage defaultMessage="The LUKSO Mainnet is the first to bring proof-of-stake consensus based on Ethereum's Beacon Chain Architecture. LYXt (L15) is the ephemeral testnet prior to mainnet launch." />
         </Text>
         <Text size="medium" className="my10">
           <FormattedMessage
             defaultMessage="For this, we need active participants - known as validators - to
               propose, verify, and vouch for the validity of blocks. In exchange, honest
-              validators receive financial rewards."
+              validators on mainnet will receive financial rewards."
           />
         </Text>
         <Text size="medium" className="my10">
           <FormattedMessage
             defaultMessage="Importantly, as a validator you'll need to post {TICKER_NAME} as
-              collateral - in other words, have some funds at stake. The only way to become a
+              collateral - in other words, have some funds at stake (get some at the {faucetLink}). The only way to become a
               validator is to make a one-way {TICKER_NAME} transaction to the deposit contract
-              on the current Ethereum chain."
-            values={{ TICKER_NAME }}
+              on the current LUKSO L15 Testnet."
+            values={{
+              TICKER_NAME,
+              faucetLink: (
+                <Link
+                  to="https://faucet.l15.lukso.network/"
+                  className="inline"
+                  primary
+                >
+                  <FormattedMessage defaultMessage="LYXt Faucet" />
+                </Link>
+              ),
+            }}
           />
         </Text>
         <Link

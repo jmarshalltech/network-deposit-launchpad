@@ -1,92 +1,394 @@
 {
-  "'0uqjBl'": [
+  "'+V+ZX+'": [
     {
       "type": 0,
-      "value": "Earn continuous rewards for providing a public good to the community."
+      "value": "Validator uptime"
     }
   ],
-  "'3Q43SM'": [
+  "'2Qn0Hh'": [
     {
       "type": 0,
-      "value": "Become a validator"
-    }
-  ],
-  "'4TOYsg'": [
-    {
-      "type": 0,
-      "value": "LUKSO L15 Ephemeral Testnet Launchpad"
-    }
-  ],
-  "'L6lZMb'": [
-    {
-      "type": 0,
-      "value": "Become a LYXt validator and help secure the future of LUKSO"
-    }
-  ],
-  "'Mm83tP'": [
-    {
-      "type": 0,
-      "value": "LYXt Launchpad"
-    }
-  ],
-  "'MypYJN'": [
-    {
-      "type": 0,
-      "value": "Choose "
+      "value": "Importantly, as a validator you'll need to post "
     },
     {
       "type": 1,
-      "value": "lyxt"
+      "value": "TICKER_NAME"
     },
     {
       "type": 0,
-      "value": " client"
-    }
-  ],
-  "'SMffKt'": [
-    {
-      "type": 0,
-      "value": "Choose your Eth"
+      "value": " as collateral - in other words, have some funds at stake (get some at the "
     },
     {
       "type": 1,
-      "value": "ethVersionStep"
+      "value": "faucetLink"
     },
     {
       "type": 0,
-      "value": " client and set up a node"
-    }
-  ],
-  "'h+pDxO'": [
-    {
-      "type": 0,
-      "value": "Become a LYXt validator and help secure the future of LUKSO."
-    }
-  ],
-  "'idDbou'": [
-    {
-      "type": 0,
-      "value": "Thinking about staking?"
-    }
-  ],
-  "'k5RWQ/'": [
-    {
-      "type": 0,
-      "value": "LYXt Launchpad for "
+      "value": "). The only way to become a validator is to make a one-way "
     },
     {
       "type": 1,
-      "value": "TESTNET_LAUNCHPAD_NAME"
+      "value": "TICKER_NAME"
     },
     {
       "type": 0,
-      "value": " testnet"
+      "value": " transaction to the deposit contract on the current LUKSO L15 Testnet."
     }
   ],
-  "'kXhUdD'": [
+  "'36KKVb'": [
     {
       "type": 0,
-      "value": "Become a validator on desktop"
+      "value": "More on Eth2 economics"
+    }
+  ],
+  "'3XK21U'": [
+    {
+      "type": 0,
+      "value": "We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until The Merge, you will not create your withdrawal keys now. When it is possible to withdraw your funds, you can derive your withdrawal keys from your mnemonic."
+    }
+  ],
+  "'6nh4de'": [
+    {
+      "type": 0,
+      "value": "You're joining a network in its early stages. As with any new piece of software, there is the potential for software bugs. While unlikely, potential bugs may result in slashing."
+    }
+  ],
+  "'Affixg'": [
+    {
+      "type": 0,
+      "value": "The deposit"
+    }
+  ],
+  "'B2EKj+'": [
+    {
+      "type": 0,
+      "value": "I understand that I need to deposit "
+    },
+    {
+      "type": 1,
+      "value": "PRICE_PER_VALIDATOR"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " to become a validator, and that the transfer of "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " to the Beacon Chain is one-way, and non-reversible."
+    }
+  ],
+  "'Bf2QKg'": [
+    {
+      "type": 0,
+      "value": "Validating is a long-term commitment"
+    }
+  ],
+  "'CF9vMR'": [
+    {
+      "type": 0,
+      "value": "Proof of stake"
+    }
+  ],
+  "'DKSrR+'": [
+    {
+      "type": 0,
+      "value": "I understand that if I act contrary to the specification, I am liable to be slashed."
+    }
+  ],
+  "'DNRQa7'": [
+    {
+      "type": 0,
+      "value": "I have read and agree to the Launchpad terms of service."
+    }
+  ],
+  "'E8t6ru'": [
+    {
+      "type": 0,
+      "value": "To become a validator you'll need to know about managing keys and protecting a mnemonic. If you are not yet familiar with keys and mnemomics, please do not proceed. Note that during this process you will not derive the keys needed to withdraw later, so store your mnemonic safely in order to be able to withdraw later."
+    }
+  ],
+  "'FqgDIV'": [
+    {
+      "type": 0,
+      "value": "Terms of service"
+    }
+  ],
+  "'IugT5/'": [
+    {
+      "type": 0,
+      "value": "cannot transfer"
+    }
+  ],
+  "'M3GwXS'": [
+    {
+      "type": 0,
+      "value": "You'll only get your full rewards if your validator is online and up to date. This is your responsibility. If your validator goes offline you'll be penalized. The penalties for being offline are roughly equal to the rewards for actively participating."
+    }
+  ],
+  "'MZEcKL'": [
+    {
+      "type": 0,
+      "value": "Bad validator behaviour"
+    }
+  ],
+  "'Mb3npQ'": [
+    {
+      "type": 0,
+      "value": "Using the terminal"
+    }
+  ],
+  "'NYFKzu'": [
+    {
+      "type": 0,
+      "value": "Staking checklist"
+    }
+  ],
+  "'OsO8ik'": [
+    {
+      "type": 0,
+      "value": "I am technically capable of setting up and running a validator."
+    }
+  ],
+  "'Pswssl'": [
+    {
+      "type": 0,
+      "value": "Confirmation"
+    }
+  ],
+  "'QWDxrk'": [
+    {
+      "type": 0,
+      "value": "Key management"
+    }
+  ],
+  "'RCGrka'": [
+    {
+      "type": 0,
+      "value": "only way"
+    }
+  ],
+  "'RkbwNZ'": [
+    {
+      "type": 0,
+      "value": "Withdrawing your deposit won't be possible until mainnet merges with the Beacon Chain."
+    }
+  ],
+  "'Sd9qhL'": [
+    {
+      "type": 0,
+      "value": "More on slashing risks"
+    }
+  ],
+  "'VPpHAq'": [
+    {
+      "type": 0,
+      "value": "I understand that I "
+    },
+    {
+      "type": 1,
+      "value": "cannotTransfer"
+    },
+    {
+      "type": 0,
+      "value": " my stake for a while, and I "
+    },
+    {
+      "type": 1,
+      "value": "cannotWithdraw"
+    },
+    {
+      "type": 0,
+      "value": " until the merge. I understand that if I exit, I will not be able to rejoin until much later. This is a long term commitment."
+    }
+  ],
+  "'VY3/Wo'": [
+    {
+      "type": 0,
+      "value": "To become a validator, you will need to be able to run commands in the terminal on your computer. Generating your new Eth2 key pairs and installing the validator software are both done in the terminal."
+    }
+  ],
+  "'YFFqcn'": [
+    {
+      "type": 0,
+      "value": "I understand proof-of-stake and why validators are needed."
+    }
+  ],
+  "'ZBtnGs'": [
+    {
+      "type": 0,
+      "value": "I have reviewed the checklist."
+    }
+  ],
+  "'ZRbxwY'": [
+    {
+      "type": 0,
+      "value": "Eth2 validator checklist"
+    }
+  ],
+  "'aDomwX'": [
+    {
+      "type": 0,
+      "value": "If you try to cheat the system, or act contrary to the specification, you will be liable to incur a penalty, known as slashing. Running your validator keys simultaneously on two or more machines will result in slashing."
+    }
+  ],
+  "'c4KIsA'": [
+    {
+      "type": 0,
+      "value": "LYXt Faucet"
+    }
+  ],
+  "'elCkOU'": [
+    {
+      "type": 0,
+      "value": "More on the merge"
+    }
+  ],
+  "'g0zIUd'": [
+    {
+      "type": 0,
+      "value": "cannot withdraw"
+    }
+  ],
+  "'h8ZHus'": [
+    {
+      "type": 0,
+      "value": "Transfers between validators aren't possible yet. You will have to wait until mainnet merges with the Beacon Chain (around two years) before you can withdraw or transfer your "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "'hzLd+/'": [
+    {
+      "type": 0,
+      "value": "I understand that it is important to keep my validator online and updated."
+    }
+  ],
+  "'iPRnRG'": [
+    {
+      "type": 0,
+      "value": "With transfers disabled for now, you won't be able to voluntarily exit and then restart later. This means you need to be in it for the long haul."
+    }
+  ],
+  "'j4ctVP'": [
+    {
+      "type": 0,
+      "value": "The Eth2 specification"
+    }
+  ],
+  "'ll/zMW'": [
+    {
+      "type": 0,
+      "value": "This is a non-reversible transaction."
+    }
+  ],
+  "'ogbG7r'": [
+    {
+      "type": 0,
+      "value": "To become a validator on the Beacon Chain, you need to deposit "
+    },
+    {
+      "type": 1,
+      "value": "PRICE_PER_VALIDATOR"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " per validator that you wish to run."
+    }
+  ],
+  "'qDvaNm'": [
+    {
+      "type": 0,
+      "value": "I understand that keys are my responsibility and that my mnemonic (seed) will be the "
+    },
+    {
+      "type": 1,
+      "value": "onlyWay"
+    },
+    {
+      "type": 0,
+      "value": " to withdraw my funds."
+    }
+  ],
+  "'r+MMQx'": [
+    {
+      "type": 0,
+      "value": "The LUKSO Mainnet is the first to bring proof-of-stake consensus based on Ethereum's Beacon Chain Architecture. LYXt (L15) is the ephemeral testnet prior to mainnet launch."
+    }
+  ],
+  "'rxttyC'": [
+    {
+      "type": 0,
+      "value": "Your mnemonic is the backup for your signing keys and will be the ONLY way to withdraw your "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " when the time comes and no one can help you recover your mnemonic if you lose it."
+    }
+  ],
+  "'sf0AS/'": [
+    {
+      "type": 0,
+      "value": "For this, we need active participants - known as validators - to propose, verify, and vouch for the validity of blocks. In exchange, honest validators on mainnet will receive financial rewards."
+    }
+  ],
+  "'szN3Fl'": [
+    {
+      "type": 0,
+      "value": "I understand and agree to the terms-of-service and everything stated in the previous sections."
+    }
+  ],
+  "'wdb1NC'": [
+    {
+      "type": 0,
+      "value": "More on proof of stake"
+    }
+  ],
+  "'wqUcy/'": [
+    {
+      "type": 0,
+      "value": "Early adopter risks"
+    }
+  ],
+  "'xH5GKj'": [
+    {
+      "type": 0,
+      "value": "I am an early adopter, and I accept that software and design bugs may result in me being slashed."
+    }
+  ],
+  "'xQrU13'": [
+    {
+      "type": 0,
+      "value": "Please review the staking checklist prior to proceeding. Use this as a guide to check off tasks as you complete validator setup."
     }
   ]
 }

@@ -1,38 +1,146 @@
 {
-  "'0uqjBl'": {
-    "message": "Earn continuous rewards for providing a public good to the community."
+  "'+V+ZX+'": {
+    "message": "Validator uptime"
   },
-  "'3Q43SM'": {
-    "message": "Become a validator"
+  "'2Qn0Hh'": {
+    "message": "Importantly, as a validator you'll need to post {TICKER_NAME} as collateral - in other words, have some funds at stake (get some at the {faucetLink}). The only way to become a validator is to make a one-way {TICKER_NAME} transaction to the deposit contract on the current LUKSO L15 Testnet."
   },
-  "'4TOYsg'": {
-    "message": "LUKSO L15 Ephemeral Testnet Launchpad"
+  "'36KKVb'": {
+    "message": "More on Eth2 economics"
   },
-  "'L6lZMb'": {
-    "message": "Become a LYXt validator and help secure the future of LUKSO"
+  "'3XK21U'": {
+    "message": "We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until The Merge, you will not create your withdrawal keys now. When it is possible to withdraw your funds, you can derive your withdrawal keys from your mnemonic."
   },
-  "'Mm83tP'": {
-    "message": "LYXt Launchpad"
+  "'6nh4de'": {
+    "message": "You're joining a network in its early stages. As with any new piece of software, there is the potential for software bugs. While unlikely, potential bugs may result in slashing."
   },
-  "'MypYJN'": {
-    "description": "{lyxt} injects Eth1 or Eth2 depending on step",
-    "message": "Choose {lyxt} client"
+  "'Affixg'": {
+    "message": "The deposit"
   },
-  "'SMffKt'": {
-    "description": "{ethVersionStep} is either 1 or 2, depending on which step user is on",
-    "message": "Choose your Eth{ethVersionStep} client and set up a node"
+  "'B2EKj+'": {
+    "message": "I understand that I need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME} to become a validator, and that the transfer of {TICKER_NAME} to the Beacon Chain is one-way, and non-reversible."
   },
-  "'h+pDxO'": {
-    "message": "Become a LYXt validator and help secure the future of LUKSO."
+  "'Bf2QKg'": {
+    "message": "Validating is a long-term commitment"
   },
-  "'idDbou'": {
-    "message": "Thinking about staking?"
+  "'CF9vMR'": {
+    "message": "Proof of stake"
   },
-  "'k5RWQ/'": {
-    "description": "This phrase is a sentence ",
-    "message": "LYXt Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
+  "'DKSrR+'": {
+    "message": "I understand that if I act contrary to the specification, I am liable to be slashed."
   },
-  "'kXhUdD'": {
-    "message": "Become a validator on desktop"
+  "'DNRQa7'": {
+    "message": "I have read and agree to the Launchpad terms of service."
+  },
+  "'E8t6ru'": {
+    "message": "To become a validator you'll need to know about managing keys and protecting a mnemonic. If you are not yet familiar with keys and mnemomics, please do not proceed. Note that during this process you will not derive the keys needed to withdraw later, so store your mnemonic safely in order to be able to withdraw later."
+  },
+  "'FqgDIV'": {
+    "message": "Terms of service"
+  },
+  "'IugT5/'": {
+    "message": "cannot transfer"
+  },
+  "'M3GwXS'": {
+    "message": "You'll only get your full rewards if your validator is online and up to date. This is your responsibility. If your validator goes offline you'll be penalized. The penalties for being offline are roughly equal to the rewards for actively participating."
+  },
+  "'MZEcKL'": {
+    "message": "Bad validator behaviour"
+  },
+  "'Mb3npQ'": {
+    "message": "Using the terminal"
+  },
+  "'NYFKzu'": {
+    "message": "Staking checklist"
+  },
+  "'OsO8ik'": {
+    "message": "I am technically capable of setting up and running a validator."
+  },
+  "'Pswssl'": {
+    "message": "Confirmation"
+  },
+  "'QWDxrk'": {
+    "message": "Key management"
+  },
+  "'RCGrka'": {
+    "message": "only way"
+  },
+  "'RkbwNZ'": {
+    "message": "Withdrawing your deposit won't be possible until mainnet merges with the Beacon Chain."
+  },
+  "'Sd9qhL'": {
+    "message": "More on slashing risks"
+  },
+  "'VPpHAq'": {
+    "message": "I understand that I {cannotTransfer} my stake for a while, and I {cannotWithdraw} until the merge. I understand that if I exit, I will not be able to rejoin until much later. This is a long term commitment."
+  },
+  "'VY3/Wo'": {
+    "message": "To become a validator, you will need to be able to run commands in the terminal on your computer. Generating your new Eth2 key pairs and installing the validator software are both done in the terminal."
+  },
+  "'YFFqcn'": {
+    "message": "I understand proof-of-stake and why validators are needed."
+  },
+  "'ZBtnGs'": {
+    "message": "I have reviewed the checklist."
+  },
+  "'ZRbxwY'": {
+    "message": "Eth2 validator checklist"
+  },
+  "'aDomwX'": {
+    "message": "If you try to cheat the system, or act contrary to the specification, you will be liable to incur a penalty, known as slashing. Running your validator keys simultaneously on two or more machines will result in slashing."
+  },
+  "'c4KIsA'": {
+    "message": "LYXt Faucet"
+  },
+  "'elCkOU'": {
+    "message": "More on the merge"
+  },
+  "'g0zIUd'": {
+    "message": "cannot withdraw"
+  },
+  "'h8ZHus'": {
+    "message": "Transfers between validators aren't possible yet. You will have to wait until mainnet merges with the Beacon Chain (around two years) before you can withdraw or transfer your {TICKER_NAME}."
+  },
+  "'hzLd+/'": {
+    "message": "I understand that it is important to keep my validator online and updated."
+  },
+  "'iPRnRG'": {
+    "message": "With transfers disabled for now, you won't be able to voluntarily exit and then restart later. This means you need to be in it for the long haul."
+  },
+  "'j4ctVP'": {
+    "message": "The Eth2 specification"
+  },
+  "'ll/zMW'": {
+    "message": "This is a non-reversible transaction."
+  },
+  "'ogbG7r'": {
+    "message": "To become a validator on the Beacon Chain, you need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME} per validator that you wish to run."
+  },
+  "'qDvaNm'": {
+    "message": "I understand that keys are my responsibility and that my mnemonic (seed) will be the {onlyWay} to withdraw my funds."
+  },
+  "'r+MMQx'": {
+    "message": "The LUKSO Mainnet is the first to bring proof-of-stake consensus based on Ethereum's Beacon Chain Architecture. LYXt (L15) is the ephemeral testnet prior to mainnet launch."
+  },
+  "'rxttyC'": {
+    "message": "Your mnemonic is the backup for your signing keys and will be the ONLY way to withdraw your {TICKER_NAME} when the time comes and no one can help you recover your mnemonic if you lose it."
+  },
+  "'sf0AS/'": {
+    "message": "For this, we need active participants - known as validators - to propose, verify, and vouch for the validity of blocks. In exchange, honest validators on mainnet will receive financial rewards."
+  },
+  "'szN3Fl'": {
+    "message": "I understand and agree to the terms-of-service and everything stated in the previous sections."
+  },
+  "'wdb1NC'": {
+    "message": "More on proof of stake"
+  },
+  "'wqUcy/'": {
+    "message": "Early adopter risks"
+  },
+  "'xH5GKj'": {
+    "message": "I am an early adopter, and I accept that software and design bugs may result in me being slashed."
+  },
+  "'xQrU13'": {
+    "message": "Please review the staking checklist prior to proceeding. Use this as a guide to check off tasks as you complete validator setup."
   }
 }
