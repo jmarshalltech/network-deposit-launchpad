@@ -29,7 +29,7 @@ import {
   TICKER_NAME,
 } from '../../utils/envVars';
 import { routesEnum } from '../../Routes';
-import LeslieTheRhinoPNG from '../../static/eth2-leslie-rhino.png';
+import LuksoArtJpg from '../../static/LUKSO-art-800x1200.jpg';
 import { Button } from '../../components/Button';
 import { routeToCorrectWorkflowStep } from '../../utils/RouteToCorrectWorkflowStep';
 import {
@@ -182,7 +182,7 @@ const ChecklistAlert = styled.div`
   }
 `;
 
-const Leslie = styled.img.attrs({ src: LeslieTheRhinoPNG })`
+const LuksoArt = styled.img.attrs({ src: LuksoArtJpg })`
   width: 200px;
   transform: scale(-1.2, 1.2);
   margin: 3rem 0 5rem 4rem;
@@ -485,7 +485,7 @@ const _CongratulationsPage = ({
             </div>
           )}
           <ChecklistAlert>
-            <Leslie />
+            <LuksoArt />
             <div>
               <div className="flex">
                 <Heading level={3} size="medium" color="white" margin="none">
