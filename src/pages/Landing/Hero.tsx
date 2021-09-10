@@ -98,6 +98,7 @@ const StyledLuksoArtImgNode = styled.img`
   margin: 3rem 0 5rem;
   transform: scale(1.2, 1.2);
   transform-origin: 0% 0%;
+  width: 420px;
   @media screen and (min-width: 800px) {
     transform: translate3d(0, 0, 0);
     margin: 0 -3rem 0 3rem;
