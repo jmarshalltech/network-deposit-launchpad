@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { FormattedMessage } from 'react-intl';
-import EthDiamondPlain from '../../static/eth-diamond-plain.svg';
+import LuksoLogoPng from '../../static/LUKSO-logo.png';
 import EthRound from '../../static/eth-round-landing.svg';
 import { Text } from '../../components/Text';
 import { Heading } from '../../components/Heading';
@@ -45,7 +45,7 @@ const ContentContainer = styled.div`
       height: 400px;
       z-index: 1;
       opacity: 0.15;
-      background-image: url(${EthDiamondPlain});
+      background-image: url(${LuksoLogoPng});
       background-repeat: no-repeat;
       background-position: 50% 0;
       -ms-background-size: cover;

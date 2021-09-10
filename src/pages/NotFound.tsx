@@ -1,7 +1,7 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import styled from 'styled-components';
-import EthDiamondPlain from '../static/eth-diamond-plain.svg';
+import LuksoLogoPng from '../static/LUKSO-logo.png';
 import { Text } from '../components/Text';
 import { Link } from '../components/Link';
 
@@ -47,7 +47,7 @@ export const NotFoundPage = (): JSX.Element => {
     <RainbowBackground>
       <Content>
         <LogoContainer>
-          <LuksoLogo src={EthDiamondPlain} />
+          <LuksoLogo src={LuksoLogoPng} />
           <LogoText className="mt20" center size="large">
             Eth2 Launchpad
           </LogoText>
