@@ -1092,10 +1092,6 @@
   "Seanpx": {
     "message": "Required"
   },
-  "Sj956n": {
-    "description": "{network} inserts the testnet name, only if on the testnet",
-    "message": "LYXt {network} Launchpad"
-  },
   "SqKNq2": {
     "description": "{homebrew} = 'homebrew' and links to the homebrew package manager website documentation",
     "message": "You can install python3 on your macOS device using {homebrew}"
@@ -1871,6 +1867,10 @@
   },
   "pfVqm7": {
     "message": "I'm able to connect my LYXt beacon node to my Eth1 client via HTTP API(s)."
+  },
+  "pkgxrV": {
+    "description": "{network} inserts the testnet name, only if on the testnet",
+    "message": "LUKSO L15 Testnet Launchpad"
   },
   "pnxB8A": {
     "message": "Nimbus looks for keystores in your validators folder."

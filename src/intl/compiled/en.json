@@ -2807,20 +2807,6 @@
       "value": "Required"
     }
   ],
-  "Sj956n": [
-    {
-      "type": 0,
-      "value": "LYXt "
-    },
-    {
-      "type": 1,
-      "value": "network"
-    },
-    {
-      "type": 0,
-      "value": " Launchpad"
-    }
-  ],
   "SqKNq2": [
     {
       "type": 0,
@@ -4791,6 +4777,12 @@
     {
       "type": 0,
       "value": "I'm able to connect my LYXt beacon node to my Eth1 client via HTTP API(s)."
+    }
+  ],
+  "pkgxrV": [
+    {
+      "type": 0,
+      "value": "LUKSO L15 Testnet Launchpad"
     }
   ],
   "pnxB8A": [
