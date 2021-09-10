@@ -93,15 +93,12 @@ export const Upgrades = (): JSX.Element => {
           <div className="px20">
             <ScrollAnimation animateIn="fadeIn" animateOnce>
               <StyledHeading margin="none" className="mt20" isMobile={m}>
-                <FormattedMessage defaultMessage="How does LUKSO upgrade Ethereum?" />
+                <FormattedMessage defaultMessage="How LUKSO moves towards Mainnet?" />
               </StyledHeading>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeInUp" animateOnce>
               <Text className="mt20 mb40">
-                <FormattedMessage
-                  defaultMessage="Eth2 is a set of upgrades that will make Ethereum more scalable, secure, and sustainable. These upgrades will improve Ethereum while seamlessly continuing on the chain
-                  of today. Here's more on the different upgrades:"
-                />
+                <FormattedMessage defaultMessage="The first LUKSO testnet brings a series of upgrades that makes things easier, more scaleable, secure, and sustainable. LUKSO aims to change the way you think about, use and interact with the blockchain, dApps, NFTs, wallets, both as a user, and as a developer. More on how we do that:" />
               </Text>
               <UpgradeTitle className="mt20">
                 <FormattedMessage defaultMessage="Proof-of-stake (PoS) and the Beacon Chain" />

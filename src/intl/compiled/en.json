@@ -827,12 +827,6 @@
       "value": "Proof-of-stake (PoS) and the Beacon Chain"
     }
   ],
-  "6LAuJA": [
-    {
-      "type": 0,
-      "value": "How does LUKSO upgrade Ethereum?"
-    }
-  ],
   "6UUL73": [
     {
       "type": 0,
@@ -1143,6 +1137,20 @@
     {
       "type": 0,
       "value": "If you need help, check out the Python documentation."
+    }
+  ],
+  "AIEf0K": [
+    {
+      "type": 0,
+      "value": "LUKSO L15 Testnet Launchpad for "
+    },
+    {
+      "type": 1,
+      "value": "TESTNET_LAUNCHPAD_NAME"
+    },
+    {
+      "type": 0,
+      "value": " testnet"
     }
   ],
   "AYKxmf": [
@@ -1721,6 +1729,12 @@
       "value": "Section 2"
     }
   ],
+  "H+cVuO": [
+    {
+      "type": 0,
+      "value": "LUKSO L15 Testnet Launchpad"
+    }
+  ],
   "H+kIpp": [
     {
       "type": 0,
@@ -1973,6 +1987,12 @@
       "value": "Hardware checklist"
     }
   ],
+  "KMyzzI": [
+    {
+      "type": 0,
+      "value": "How LUKSO moves towards Mainnet?"
+    }
+  ],
   "KN7zKn": [
     {
       "type": 0,
@@ -2193,12 +2213,6 @@
     {
       "type": 0,
       "value": "Transaction failed"
-    }
-  ],
-  "Mm83tP": [
-    {
-      "type": 0,
-      "value": "LYXt Launchpad"
     }
   ],
   "MmZjeu": [
@@ -3237,6 +3251,12 @@
       "value": "Top up"
     }
   ],
+  "Y4OdcM": [
+    {
+      "type": 0,
+      "value": "The first LUKSO testnet brings a series of upgrades that makes things easier, more scaleable, secure, and sustainable. LUKSO aims to change the way you think about, use and interact with the blockchain, dApps, NFTs, wallets, both as a user, and as a developer. More on how we do that:"
+    }
+  ],
   "Y8YLHs": [
     {
       "type": 0,
@@ -4267,20 +4287,6 @@
       "value": "Nimbus documentation"
     }
   ],
-  "k5RWQ/": [
-    {
-      "type": 0,
-      "value": "LYXt Launchpad for "
-    },
-    {
-      "type": 1,
-      "value": "TESTNET_LAUNCHPAD_NAME"
-    },
-    {
-      "type": 0,
-      "value": " testnet"
-    }
-  ],
   "kFS5Sd": [
     {
       "type": 0,
@@ -4773,12 +4779,6 @@
     {
       "type": 0,
       "value": "The Besu documentation explains how to download and install the client."
-    }
-  ],
-  "penFMT": [
-    {
-      "type": 0,
-      "value": "Eth2 is a set of upgrades that will make Ethereum more scalable, secure, and sustainable. These upgrades will improve Ethereum while seamlessly continuing on the chain of today. Here's more on the different upgrades:"
     }
   ],
   "pfJX2D": [

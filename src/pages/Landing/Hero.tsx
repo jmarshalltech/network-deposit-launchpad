@@ -163,10 +163,10 @@ export const Hero = () => {
                       <LogoContainer className={m ? 'mb50' : undefined}>
                         <LogoText>
                           {IS_MAINNET ? (
-                            <FormattedMessage defaultMessage="LYXt Launchpad" />
+                            <FormattedMessage defaultMessage="LUKSO L15 Testnet Launchpad" />
                           ) : (
                             <FormattedMessage
-                              defaultMessage="LYXt Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
+                              defaultMessage="LUKSO L15 Testnet Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
                               values={{ TESTNET_LAUNCHPAD_NAME }}
                               description="This phrase is a sentence "
                             />

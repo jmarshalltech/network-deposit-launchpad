@@ -294,9 +294,6 @@
   "6HBTTN": {
     "message": "Proof-of-stake (PoS) and the Beacon Chain"
   },
-  "6LAuJA": {
-    "message": "How does LUKSO upgrade Ethereum?"
-  },
   "6UUL73": {
     "message": "More on validators"
   },
@@ -425,6 +422,10 @@
   },
   "AC669U": {
     "message": "If you need help, check out the Python documentation."
+  },
+  "AIEf0K": {
+    "description": "This phrase is a sentence ",
+    "message": "LUKSO L15 Testnet Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
   },
   "AYKxmf": {
     "message": "Connect your hardware wallet to Metamask"
@@ -670,6 +671,9 @@
   "H+Wcch": {
     "message": "Section 2"
   },
+  "H+cVuO": {
+    "message": "LUKSO L15 Testnet Launchpad"
+  },
   "H+kIpp": {
     "message": "Total amount required"
   },
@@ -769,6 +773,9 @@
   "KC9jbz": {
     "message": "Hardware checklist"
   },
+  "KMyzzI": {
+    "message": "How LUKSO moves towards Mainnet?"
+  },
   "KN7zKn": {
     "message": "Error"
   },
@@ -865,9 +872,6 @@
   },
   "Mc8nNE": {
     "message": "Transaction failed"
-  },
-  "Mm83tP": {
-    "message": "LYXt Launchpad"
   },
   "MmZjeu": {
     "message": "Top-up details"
@@ -1248,6 +1252,9 @@
   },
   "Y47aYU": {
     "message": "Top up"
+  },
+  "Y4OdcM": {
+    "message": "The first LUKSO testnet brings a series of upgrades that makes things easier, more scaleable, secure, and sustainable. LUKSO aims to change the way you think about, use and interact with the blockchain, dApps, NFTs, wallets, both as a user, and as a developer. More on how we do that:"
   },
   "Y8YLHs": {
     "message": "If your signing key is not under the thief’s control, the thief cannot exit your validator."
@@ -1671,10 +1678,6 @@
   "jytPQU": {
     "message": "Nimbus documentation"
   },
-  "k5RWQ/": {
-    "description": "This phrase is a sentence ",
-    "message": "LYXt Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
-  },
   "kFS5Sd": {
     "message": "Deposit contract formally verified"
   },
@@ -1862,9 +1865,6 @@
   },
   "pXyH++": {
     "message": "The Besu documentation explains how to download and install the client."
-  },
-  "penFMT": {
-    "message": "Eth2 is a set of upgrades that will make Ethereum more scalable, secure, and sustainable. These upgrades will improve Ethereum while seamlessly continuing on the chain of today. Here's more on the different upgrades:"
   },
   "pfJX2D": {
     "message": "More on phishing"

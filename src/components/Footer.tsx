@@ -69,7 +69,7 @@ export const Footer = () => {
       <FooterStyles>
         <div className="col">
           <Heading level={4}>
-            <FormattedMessage defaultMessage="LYXt Launchpad" />
+            <FormattedMessage defaultMessage="LUKSO L15 Testnet Launchpad" />
           </Heading>
           <Link to={routesEnum.acknowledgementPage}>
             <FormattedMessage defaultMessage="Deposit" />
