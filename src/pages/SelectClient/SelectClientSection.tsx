@@ -32,7 +32,7 @@ type Props = {
   currentClient: ClientId;
   setCurrentClient: (client: ClientId) => void;
   clientDetails: any;
-  ethVersionStep: number;
+  luksoVersionStep: number;
 };
 
 const SelectClientSection = ({
@@ -41,13 +41,13 @@ const SelectClientSection = ({
   currentClient,
   setCurrentClient,
   clientDetails,
-  ethVersionStep,
+  luksoVersionStep,
 }: Props): JSX.Element => (
   <Paper>
     <Heading level={3} size="small" color="blueDark" className="mb20">
       {title}
     </Heading>
-    {ethVersionStep === 1 && (
+    {luksoVersionStep === 1 && (
       <div style={{ paddingBottom: '1rem' }}>
         <FormattedMessage
           defaultMessage="To process incoming validator deposits from mainnet (the Eth1 chain),
@@ -77,7 +77,7 @@ const SelectClientSection = ({
           );
         })}
       </ClientOptionContainer>
-      {ethVersionStep === 1 && (
+      {luksoVersionStep === 1 && (
         <Link
           to="https://ethereum.org/en/developers/docs/nodes-and-clients/#clients"
           primary

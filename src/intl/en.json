@@ -26,6 +26,10 @@
   "+ozGrs": {
     "message": "Polish"
   },
+  "+rEvxo": {
+    "description": "{lyxt} injects Pandora or Vanguard networks depending on step",
+    "message": "Choose {lyxt} client"
+  },
   "+s8Gac": {
     "message": "Connect {wallet} to {network}"
   },
@@ -310,6 +314,10 @@
   },
   "738tqz": {
     "message": "Prysm is written in Go and released under a GPL-3.0 license."
+  },
+  "73x8l/": {
+    "description": "{luksoVersionStep} is either 1 (Pandora) or 2 (Vanguard), depending on which step user is on",
+    "message": "Choose your Eth{luksoVersionStep} client and set up a node"
   },
   "74QdCu": {
     "message": "Transaction started"
@@ -864,10 +872,6 @@
   "MmZjeu": {
     "message": "Top-up details"
   },
-  "MypYJN": {
-    "description": "{lyxt} injects Eth1 or Eth2 depending on step",
-    "message": "Choose {lyxt} client"
-  },
   "N0rwnt": {
     "message": "{depositFileName} isn't a valid deposit_data JSON file. Try again."
   },
@@ -1059,10 +1063,6 @@
   },
   "SGzXoY": {
     "message": "Your stake has reached the deposit contract!"
-  },
-  "SMffKt": {
-    "description": "{ethVersionStep} is either 1 or 2, depending on which step user is on",
-    "message": "Choose your Eth{ethVersionStep} client and set up a node"
   },
   "SR0qHv": {
     "message": "Avoid overly-complicated setups and be aware of trade offs. Being offline for brief periods of time will result in small inactivity penalities, but will be recouped easily after being online again for about the same amount of time. Complicated power backups can add to the expense of your setup, and redundant backup validators can lead to slashing."

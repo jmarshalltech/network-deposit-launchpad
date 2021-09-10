@@ -79,26 +79,26 @@ const _SelectClientPage = ({
   dispatchClientUpdate,
 }: Props): JSX.Element => {
   // set the default the eth version to 1 on initial render
-  const [ethVersionStep, setEthVersionStep] = useState<1 | 2>(1);
+  const [luksoVersionStep, setLuksoVersionStep] = useState<1 | 2>(1);
 
   const { formatMessage } = useIntl();
 
   // filter the options based on the eth version the user is on
-  const clientOptions = React.useMemo(() => lyxtClients[ethVersionStep], [
-    ethVersionStep,
+  const clientOptions = React.useMemo(() => lyxtClients[luksoVersionStep], [
+    luksoVersionStep,
   ]);
 
   // memoize the chosen client by step
   const selectedClient: ClientId = React.useMemo(
     () =>
-      ethVersionStep === 1
-        ? chosenClients.eth1Client
-        : chosenClients.eth2Client,
-    [ethVersionStep, chosenClients]
+      luksoVersionStep === 1
+        ? chosenClients.pandoraClient
+        : chosenClients.vanguardClient,
+    [luksoVersionStep, chosenClients]
   );
 
   const setClientFxn = (clientId: ClientId) => {
-    dispatchClientUpdate(clientId, ethVersionStep);
+    dispatchClientUpdate(clientId, luksoVersionStep);
   };
 
   React.useEffect(() => {
@@ -107,7 +107,7 @@ const _SelectClientPage = ({
     if (header) {
       header.scrollIntoView({ behavior: 'smooth' });
     }
-  }, [ethVersionStep]);
+  }, [luksoVersionStep]);
 
   const handleSubmit = () => {
     if (workflow === WorkflowStep.SELECT_CLIENT) {
@@ -122,10 +122,11 @@ const _SelectClientPage = ({
   const title = formatMessage(
     {
       defaultMessage: `Choose {lyxt} client`,
-      description: '{lyxt} injects Eth1 or Eth2 depending on step',
+      description:
+        '{lyxt} injects Pandora or Vanguard networks depending on step',
     },
     {
-      lyxt: `Eth${ethVersionStep}`,
+      lyxt: `Eth${luksoVersionStep}`,
     }
   );
 
@@ -134,21 +135,21 @@ const _SelectClientPage = ({
       <SelectClientSection
         title={formatMessage(
           {
-            defaultMessage: `Choose your Eth{ethVersionStep} client and set up a node`,
-            description: `{ethVersionStep} is either 1 or 2, depending on which step user is on`,
+            defaultMessage: `Choose your Eth{luksoVersionStep} client and set up a node`,
+            description: `{luksoVersionStep} is either 1 (Pandora) or 2 (Vanguard), depending on which step user is on`,
           },
-          { ethVersionStep }
+          { luksoVersionStep }
         )}
         clients={clientOptions}
         currentClient={selectedClient}
         setCurrentClient={setClientFxn}
         clientDetails={clientDetails}
-        ethVersionStep={ethVersionStep}
+        luksoVersionStep={luksoVersionStep}
       />
       <div className="flex center p30">
         <SelectClientButtons
-          updateStep={setEthVersionStep}
-          ethVersionStep={ethVersionStep}
+          updateStep={setLuksoVersionStep}
+          luksoVersionStep={luksoVersionStep}
           handleSubmit={handleSubmit}
           currentClient={selectedClient}
         />

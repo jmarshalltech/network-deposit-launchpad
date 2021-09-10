@@ -53,6 +53,20 @@
       "value": "Polish"
     }
   ],
+  "+rEvxo": [
+    {
+      "type": 0,
+      "value": "Choose "
+    },
+    {
+      "type": 1,
+      "value": "lyxt"
+    },
+    {
+      "type": 0,
+      "value": " client"
+    }
+  ],
   "+s8Gac": [
     {
       "type": 0,
@@ -853,6 +867,20 @@
     {
       "type": 0,
       "value": "Prysm is written in Go and released under a GPL-3.0 license."
+    }
+  ],
+  "73x8l/": [
+    {
+      "type": 0,
+      "value": "Choose your Eth"
+    },
+    {
+      "type": 1,
+      "value": "luksoVersionStep"
+    },
+    {
+      "type": 0,
+      "value": " client and set up a node"
     }
   ],
   "74QdCu": [
@@ -2179,20 +2207,6 @@
       "value": "Top-up details"
     }
   ],
-  "MypYJN": [
-    {
-      "type": 0,
-      "value": "Choose "
-    },
-    {
-      "type": 1,
-      "value": "lyxt"
-    },
-    {
-      "type": 0,
-      "value": " client"
-    }
-  ],
   "N0rwnt": [
     {
       "type": 1,
@@ -2729,20 +2743,6 @@
     {
       "type": 0,
       "value": "Your stake has reached the deposit contract!"
-    }
-  ],
-  "SMffKt": [
-    {
-      "type": 0,
-      "value": "Choose your Eth"
-    },
-    {
-      "type": 1,
-      "value": "ethVersionStep"
-    },
-    {
-      "type": 0,
-      "value": " client and set up a node"
     }
   ],
   "SR0qHv": [

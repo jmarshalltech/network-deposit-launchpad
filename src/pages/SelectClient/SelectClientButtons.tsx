@@ -7,21 +7,21 @@ import { routesEnum } from '../../Routes';
 import { ClientId } from '../../store/actions/clientActions';
 
 type Props = {
-  ethVersionStep: 1 | 2;
+  luksoVersionStep: 1 | 2;
   currentClient: ClientId;
   handleSubmit: LinkProps['onClick'];
   updateStep: (nextStep: 1 | 2) => void;
 };
 
 const SelectClientButtons = ({
-  ethVersionStep,
+  luksoVersionStep,
   currentClient,
   handleSubmit,
   updateStep,
 }: Props) => {
   const { formatMessage } = useIntl();
 
-  if (ethVersionStep === 1) {
+  if (luksoVersionStep === 1) {
     return (
       <>
         <Link to={routesEnum.acknowledgementPage}>
