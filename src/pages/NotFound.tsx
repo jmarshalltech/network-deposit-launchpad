@@ -5,9 +5,9 @@ import EthDiamondPlain from '../static/eth-diamond-plain.svg';
 import { Text } from '../components/Text';
 import { Link } from '../components/Link';
 
-const RainbowBackground = styled.div`
+const GradientBackground = styled.div`
   background-image: ${p =>
-    `radial-gradient(circle at 100% -80%, ${p.theme.rainbowLight})`};
+    `radial-gradient(circle at 100% -80%, ${p.theme.gradientLight})`};
   min-height: 100vh;
 `;
 const LogoContainer = styled.div`
@@ -44,7 +44,7 @@ const Content = styled.div`
 
 export const NotFoundPage = (): JSX.Element => {
   return (
-    <RainbowBackground>
+    <GradientBackground>
       <Content>
         <LogoContainer>
           <EthLogo src={EthDiamondPlain} />
@@ -60,6 +60,6 @@ export const NotFoundPage = (): JSX.Element => {
           </Link>
         </Text>
       </Content>
-    </RainbowBackground>
+    </GradientBackground>
   );
 };

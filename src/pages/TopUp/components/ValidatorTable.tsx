@@ -190,7 +190,7 @@ const ValidatorTable: React.FC<{
               <Button
                 onClick={() => setSelectedValidator(validator)}
                 label={formatMessage({ defaultMessage: 'Top up' })}
-                rainbow
+                gradient
                 disabled={statusIneligible}
               />
             </TableCell>

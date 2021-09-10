@@ -39,9 +39,9 @@ import {
   updateTransactionStatus,
 } from '../../store/actions/depositFileActions';
 
-const RainbowBackground = styled.div`
+const GradientBackground = styled.div`
   background-image: ${p =>
-    `radial-gradient(circle at 100% -80%, ${p.theme.rainbowLight})`};
+    `radial-gradient(circle at 100% -80%, ${p.theme.gradientLight})`};
   min-height: 100vh;
 `;
 
@@ -83,7 +83,7 @@ const CardLink = styled(Link)`
   width: 496px;
   margin-bottom: 24px;
   background-image: ${p =>
-    `radial-gradient(circle at 100% -80%, ${p.theme.rainbowLight})`};
+    `radial-gradient(circle at 100% -80%, ${p.theme.gradientLight})`};
   @media only screen and (max-width: ${p => p.theme.screenSizes.medium}) {
     margin: 0px;
     margin-top: 16px;
@@ -92,7 +92,7 @@ const CardLink = styled(Link)`
   &:hover {
     border-radius: 4px;
     box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.15);
-    background-image: ${p => `linear-gradient(to right, ${p.theme.rainbow})`};
+    background-image: ${p => `linear-gradient(to right, ${p.theme.gradient})`};
     transition: transform 0.1s;
     transform: scale(1.02);
   }
@@ -105,7 +105,7 @@ const CardButton = styled.div`
   width: 496px;
   margin-bottom: 24px;
   background-image: ${p =>
-    `radial-gradient(circle at 100% -80%, ${p.theme.rainbowLight})`};
+    `radial-gradient(circle at 100% -80%, ${p.theme.gradientLight})`};
   @media only screen and (max-width: ${p => p.theme.screenSizes.medium}) {
     margin: 0px;
     margin-top: 16px;
@@ -114,7 +114,7 @@ const CardButton = styled.div`
   &:hover {
     border-radius: 4px;
     box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.15);
-    background-image: ${p => `linear-gradient(to right, ${p.theme.rainbow})`};
+    background-image: ${p => `linear-gradient(to right, ${p.theme.gradient})`};
     transition: transform 0.1s;
     transform: scale(1.02);
   }
@@ -273,7 +273,7 @@ const _CongratulationsPage = ({
   }
 
   return (
-    <RainbowBackground>
+    <GradientBackground>
       <AppBar />
       <Gutter>
         <Content>
@@ -511,7 +511,7 @@ const _CongratulationsPage = ({
                     <Button
                       label={formatMessage({ defaultMessage: 'Checklist' })}
                       className="mr20"
-                      rainbow
+                      gradient
                     />
                   </Link>
                   <Link
@@ -532,7 +532,7 @@ const _CongratulationsPage = ({
           </ChecklistAlert>
         </Content>
       </Gutter>
-    </RainbowBackground>
+    </GradientBackground>
   );
 };
 

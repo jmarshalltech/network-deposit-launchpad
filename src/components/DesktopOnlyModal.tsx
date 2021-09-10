@@ -11,7 +11,7 @@ import { Link } from './Link';
 
 const RainbowBackground = styled.div`
   background-image: ${p =>
-    `radial-gradient(circle at 100% -80%, ${p.theme.rainbowLight}`});
+    `radial-gradient(circle at 100% -80%, ${p.theme.gradientLight}`});
   min-height: 100vh;
 `;
 
@@ -76,7 +76,7 @@ export const DesktopOnlyModal = (): JSX.Element => {
           <Button
             fullWidth
             label={formatMessage({ defaultMessage: 'Close' })}
-            rainbow
+            gradient
           />
         </Link>
       </Container>

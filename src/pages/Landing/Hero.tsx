@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 // @ts-ignore
 import Animate from 'animate.css-react';
 import { FormattedMessage, useIntl } from 'react-intl';
-import LeslieTheRhinoPNG from '../../static/eth2-leslie-rhino.png';
+import LuksoArtJpg from '../../static/LUKSO-art-800x1200.jpg';
 import { routesEnum } from '../../Routes';
 import { Heading } from '../../components/Heading';
 import { Text } from '../../components/Text';
@@ -18,7 +18,7 @@ interface mobile {
   isMobile: boolean;
 }
 
-const RainbowBackground = styled.div`
+const GradientBackground = styled.div`
   min-width: 100%;
   overflow: hidden;
   background-image: ${p =>
@@ -93,7 +93,8 @@ const LogoText = styled(Text)`
     line-height: 24px;
   }
 `;
-const StyledLeslieImgNode = styled.img`
+
+const StyledLuksoArtImgNode = styled.img`
   max-width: 100%;
   margin: 3rem 0 5rem;
   transform: scale(1.2, 1.2);
@@ -130,12 +131,14 @@ const ButtonContainer = styled.div`
 //
 // Sub-components
 
-const LeslieImage: React.FC<{ style?: React.CSSProperties }> = ({ style }) => (
+const LuksoArtImage: React.FC<{ style?: React.CSSProperties }> = ({
+  style,
+}) => (
   <div>
     <ScrollAnimation animateIn="fadeIn" delay={750} animateOnce>
-      <StyledLeslieImgNode
-        src={LeslieTheRhinoPNG}
-        alt="Leslie the Rhino - eth2 mascot"
+      <StyledLuksoArtImgNode
+        src={LuksoArtJpg}
+        alt="Pandora X Vanguard - Art By Fongshader & ItzMike"
         {...{ style }}
       />
     </ScrollAnimation>
@@ -151,7 +154,7 @@ export const Hero = () => {
   const isMediumScreen = useMobileCheck('1080px');
   const m: boolean = (window as any).mobileCheck();
   return (
-    <RainbowBackground isMobile={m}>
+    <GradientBackground isMobile={m}>
       <MainContainer isMobile={m}>
         <ResponsiveContainer isMobile={m}>
           <div className={`flex ${m ? 'flex-column is-mobile' : ''}`}>
@@ -193,7 +196,7 @@ export const Hero = () => {
                     </Text>
                   </ScrollAnimation>
 
-                  {!!isSmallScreen && <LeslieImage />}
+                  {!!isSmallScreen && <LuksoArtImage />}
                   <Animate
                     enter="fadeIn"
                     appear="fadeIn"
@@ -204,7 +207,7 @@ export const Hero = () => {
                         <Link to={routesEnum.acknowledgementPage}>
                           <Button
                             fullWidth={m || isSmallScreen}
-                            rainbow
+                            gradient
                             label={
                               m
                                 ? formatMessage({
@@ -234,11 +237,11 @@ export const Hero = () => {
                   </Animate>
                 </InfoContainer>
               </LefContentContainer>
-              {!isSmallScreen && <LeslieImage />}
+              {!isSmallScreen && <LuksoArtImage />}
             </ContentContainer>
           </div>
         </ResponsiveContainer>
       </MainContainer>
-    </RainbowBackground>
+    </GradientBackground>
   );
 };

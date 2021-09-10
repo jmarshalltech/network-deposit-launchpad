@@ -5,7 +5,7 @@ import { Box, DropButton } from 'grommet';
 import { Menu, Language, FormDown } from 'grommet-icons';
 import { useWeb3React } from '@web3-react/core';
 import { Web3Provider } from '@ethersproject/providers';
-import EthDiamond from '../static/eth-diamond-plain.svg';
+import LuksoLogoPng from '../static/LUKSO-logo.png';
 import { web3ReactInterface } from '../pages/ConnectWallet';
 import { trimString } from '../utils/trimString';
 import {
@@ -27,13 +27,13 @@ import {
 import useMobileCheck from '../hooks/useMobileCheck';
 import { FormattedMessage } from 'react-intl';
 
-const RainbowBackground = styled(Box)`
+const GradientBackground = styled(Box)`
   background-image: ${p => `linear-gradient(to right, ${p.theme.rainbow})`};
 `;
 
-const EthLogo = styled.img`
-  height: 40px;
-  width: 40px;
+const LuksoLogo = styled.img`
+  height: 50px;
+  width: 50px;
 `;
 
 const NetworkText = styled.div`
@@ -52,11 +52,21 @@ const NetworkText = styled.div`
     background-image: ${p => `linear-gradient(to right, ${p.theme.rainbow})`};
     transition: transform 0.1s;
     transform: scale(1.02);
+    color: #000;
   }
 `;
 
 const NavBarLinks = styled.div`
   display: flex;
+  .white {
+    color: #fff;
+  }
+  .white span {
+    color: #fff;
+  }
+  .bold span {
+    font-weight: 600;
+  }
   @media only screen and (max-width: 1080px) {
     .secondary-link {
       display: none;
@@ -74,6 +84,7 @@ const ValidatorDropdown = styled(DropButton)`
     border: none;
     box-shadow: none;
   }
+  color: #fff;
 `;
 
 const DotDropdown = styled(DropButton)`
@@ -104,6 +115,9 @@ const NetworkInfo = styled.div`
 const NavLinksRight = styled.div`
   display: flex;
   align-items: center;
+  .white {
+    color: #fff;
+  }
 `;
 
 const BarLinkText = styled(Heading)`
@@ -153,7 +167,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
   const networkName = IS_MAINNET ? 'mainnet' : 'Göerli testnet';
 
   return (
-    <RainbowBackground
+    <GradientBackground
       tag="header"
       direction="row"
       align="center"
@@ -164,14 +178,14 @@ const _AppBar = ({ location }: RouteComponentProps) => {
     >
       <NavBarLinks>
         <Link to={routesEnum.landingPage} className="mr30">
-          <EthLogo src={EthDiamond} alt="eth-diamond" />
+          <LuksoLogo src={LuksoLogoPng} alt="LUKSO logo" />
           {!mobile && (
             <div className="flex flex-column center ml5">
               <BarLinkText
                 active={pathname === routesEnum.landingPage}
                 level={4}
                 margin="none"
-                className="bar-link-text no-padding"
+                className="bar-link-text no-padding white bold"
               >
                 <Text>
                   <FormattedMessage
@@ -194,7 +208,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
           <BarLinkText
             level={4}
             margin="none"
-            className="bar-link-text"
+            className="bar-link-text white"
             active={pathname === routesEnum.acknowledgementPage}
           >
             <FormattedMessage defaultMessage="Deposit" />
@@ -203,7 +217,12 @@ const _AppBar = ({ location }: RouteComponentProps) => {
         <ValidatorDropdown
           className="secondary-link"
           label={
-            <BarLinkText level={4} margin="none" active={isDropdownPage}>
+            <BarLinkText
+              level={4}
+              margin="none"
+              active={isDropdownPage}
+              className="white"
+            >
               <FormattedMessage defaultMessage="Clients" />
             </BarLinkText>
           }
@@ -221,7 +240,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
           <BarLinkText
             level={4}
             margin="none"
-            className="bar-link-text"
+            className="bar-link-text white"
             active={pathname === routesEnum.checklistPage}
           >
             <FormattedMessage defaultMessage="Checklist" />
@@ -231,7 +250,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
           <BarLinkText
             level={4}
             margin="none"
-            className="bar-link-text"
+            className="bar-link-text white"
             active={pathname === routesEnum.FaqPage}
           >
             <FormattedMessage defaultMessage="FAQ" />
@@ -241,7 +260,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
           <BarLinkText
             level={4}
             margin="none"
-            className="bar-link-text"
+            className="bar-link-text white"
             active={pathname === routesEnum.topUpPage}
           >
             <FormattedMessage defaultMessage="Top Up" />
@@ -254,7 +273,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
             <BarLinkText
               level={4}
               margin="none"
-              className="bar-link-text"
+              className="bar-link-text white"
               active={pathname === routesEnum.languagesPage}
             >
               <FormattedMessage defaultMessage="Languages" />
@@ -263,13 +282,13 @@ const _AppBar = ({ location }: RouteComponentProps) => {
         )}
         {mobile && (
           <Link to={routesEnum.languagesPage} className="mx10">
-            <Language color="black" />
+            <Language color="white" />
           </Link>
         )}
         {mobile && (
           <ValidatorDropdown
             className="secondary-link"
-            label={<Menu color="black" />}
+            label={<Menu color="white" />}
             dropAlign={{ top: 'bottom', right: 'right' }}
             dropContent={
               <Card>
@@ -277,7 +296,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                   {walletConnected && (
                     <Box className="flex flex-row mb20">
                       <Dot success={networkAllowed} error={!networkAllowed} />
-                      <Text size="small" className="ml10" color="blueDark">
+                      <Text size="small" className="ml10" color="white">
                         {trimString(account as string, 10)}
                       </Text>
                     </Box>
@@ -410,7 +429,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
           </Box>
         )}
       </NavLinksRight>
-    </RainbowBackground>
+    </GradientBackground>
   );
 };
 

@@ -379,7 +379,7 @@ const _UploadValidatorPage = ({
         <Link to={routesEnum.connectWalletPage} onClick={handleSubmit}>
           <Button
             width={300}
-            rainbow
+            gradient
             disabled={!isFileAccepted}
             label={formatMessage({ defaultMessage: 'Continue' })}
           />

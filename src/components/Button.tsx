@@ -6,7 +6,7 @@ interface CustomButtonProps {
   className?: string;
   width?: number;
   fullWidth?: boolean;
-  rainbow?: boolean;
+  gradient?: boolean;
   onClick?: () => any;
 }
 
@@ -36,12 +36,12 @@ const StyledButton = styled(GrommetButton)`
     transition: transform 0.1s;
     transform: scale(1.02);
   }
-  // rainbow styles
+  // gradient styles
   ${p =>
     // @ts-ignore
-    p.rainbow &&
-    `background-image: linear-gradient(to right, ${p.theme.rainbow});
-     color: ${p.theme.blue.dark};
+    p.gradient &&
+    `background-image: linear-gradient(to right, ${p.theme.gradientBlack});
+     color: ${p.theme.white};
      border: 1px solid ${p.theme.blue.dark};
    `}
 `;

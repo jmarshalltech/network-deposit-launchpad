@@ -12,11 +12,11 @@ const Rhino = styled.span`
   font-size: 20px;
 `;
 
-const RainbowBackground = styled.div`
+const GradientBackground = styled.div`
   min-width: 100%;
   overflow: hidden;
   background-image: ${p =>
-    `radial-gradient(circle at 100% -80%, ${p.theme.rainbowLight})`};
+    `radial-gradient(circle at 100% -80%, ${p.theme.gradientLight})`};
 `;
 
 const FooterStyles = styled.div`
@@ -65,7 +65,7 @@ export const Footer = () => {
   ];
 
   return (
-    <RainbowBackground>
+    <GradientBackground>
       <FooterStyles>
         <div className="col">
           <Heading level={4}>
@@ -92,7 +92,7 @@ export const Footer = () => {
               className="cta-button"
             >
               <Button
-                rainbow
+                gradient
                 fullWidth
                 width={400}
                 label={
@@ -135,6 +135,6 @@ export const Footer = () => {
           </Link>
         </div>
       </FooterStyles>
-    </RainbowBackground>
+    </GradientBackground>
   );
 };

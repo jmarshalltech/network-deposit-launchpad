@@ -41,7 +41,7 @@ export const details = {
   borderRadius: '3px',
 };
 
-export const rainbowColors = [
+export const gradientColors = [
   '#fdccd3', // pink
   '#fca09a', // red
   '#ffcc9e', // yellow
@@ -51,7 +51,7 @@ export const rainbowColors = [
   '#a0aaed', // purple
 ];
 
-export const rainbowBGColors = [
+export const gradientBGColors = [
   '#fdccd3', // pink
   '#FED4D1', // red
   '#fcead9', // yellow-orange
@@ -61,7 +61,7 @@ export const rainbowBGColors = [
   '#a0aaed', // purple
 ];
 
-export const rainbowLightColors = [
+export const gradientLightColors = [
   '#fef2f4', // pink
   '#fdf8f7', // red
   '#FFF2E6', // yellow-orange
@@ -71,8 +71,11 @@ export const rainbowLightColors = [
   '#e7e9fa', // purple
 ];
 
-export const rainbow = rainbowColors.join(', ');
-export const rainbowLight = rainbowLightColors.join(', ');
+export const gradientBlackColors = ['#000000', '#0a0a0a', '#1f1f1f', '#151515'];
+
+export const gradient = gradientColors.join(', ');
+export const gradientLight = gradientLightColors.join(', ');
+export const gradientBlack = gradientBlackColors.join(', ');
 
 export const screenSizes = {
   smaller: '420px',
@@ -88,7 +91,8 @@ export const styledComponentsTheme = {
   ...colors,
   screenSizes,
   ...details,
-  rainbow,
-  rainbowLight,
-  rainbowLightColors,
+  gradient,
+  gradientLight,
+  gradientBlack,
+  gradientLightColors,
 };
