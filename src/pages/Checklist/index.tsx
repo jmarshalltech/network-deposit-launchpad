@@ -122,7 +122,7 @@ const SectionHeader = styled.div`
   }
 `;
 
-const RainbowHeader = styled(SectionHeader as any)`
+const GradientHeader = styled(SectionHeader as any)`
   margin: 3rem 1rem 1rem;
   background-image: ${p =>
     `linear-gradient(to right, ${p.theme.gradientLight})`};
@@ -1049,7 +1049,7 @@ export const Checklist = () => {
             }
           />
         </section>
-        <RainbowHeader>
+        <GradientHeader>
           <FormattedMessage
             defaultMessage="If you have questions, EthStaker community is a good place to get help!
                 You can find support on {discord} or {reddit}."
@@ -1067,7 +1067,7 @@ export const Checklist = () => {
             }}
             description="{variables} social media platform links to Discord and Reddit (do not translate names)"
           />
-        </RainbowHeader>
+        </GradientHeader>
       </ChecklistPageStyles>
     </PageTemplate>
   );

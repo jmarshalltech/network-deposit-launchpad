@@ -28,7 +28,8 @@ import useMobileCheck from '../hooks/useMobileCheck';
 import { FormattedMessage } from 'react-intl';
 
 const GradientBackground = styled(Box)`
-  background-image: ${p => `linear-gradient(to right, ${p.theme.rainbow})`};
+  background-image: ${p =>
+    `linear-gradient(to right, ${p.theme.gradientNavbar})`};
 `;
 
 const LuksoLogo = styled.img`
@@ -49,7 +50,7 @@ const NetworkText = styled.div`
   &:hover {
     border-radius: 4px;
     box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.15);
-    background-image: ${p => `linear-gradient(to right, ${p.theme.rainbow})`};
+    background-image: ${p => `linear-gradient(to right, ${p.theme.gradient})`};
     transition: transform 0.1s;
     transform: scale(1.02);
     color: #000;

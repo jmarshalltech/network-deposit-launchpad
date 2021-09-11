@@ -22,7 +22,7 @@ const GradientBackground = styled.div`
   min-width: 100%;
   overflow: hidden;
   background-image: ${p =>
-    `radial-gradient(circle at 100% -80%, ${p.theme.rainbowLight})`};
+    `radial-gradient(circle at 100% -80%, ${p.theme.gradientLight})`};
   min-height: ${(p: mobile) => p.isMobile && 'calc(100vh - 20px)'};
 `;
 const MainContainer = styled.div`
