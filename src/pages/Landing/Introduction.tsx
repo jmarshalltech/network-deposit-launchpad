@@ -73,10 +73,13 @@ export const Introduction = (): JSX.Element => {
             <Text className="mt20">
               <FormattedMessage
                 defaultMessage="This launchpad will help you become a validator, so you can play
-                  an active part in Ethereum's future. Validators are key to the
-                  more secure, scalable, and sustainable Ethereum we're building
+                  an active part in LUKSO's future. Validators are key to the
+                  more secure, scalable, and sustainable network we're building
                   together."
               />
+            </Text>
+            <Text className="mt20">
+              <FormattedMessage defaultMessage="Currently we are running the L15 Ephemeral Testnet to prepare for L16, and we need your help!" />
             </Text>
             <Link
               className="mt20 mb40"
@@ -93,10 +96,9 @@ export const Introduction = (): JSX.Element => {
             </Text>
             <Text className="mt20">
               <FormattedMessage
-                defaultMessage="Today, you'll secure the Beacon Chain, the first Eth2 upgrade.
-                  It's a separate chain that uses a proof-of-stake consensus
-                  mechanism. Eventually you'll help secure all of Ethereum, once
-                  mainnet (the Ethereum we use today) merges with the Beacon Chain."
+                defaultMessage="Today, you'll secure LUKSO's Vanguard Consensus Chain.
+                  It's a new and separate chain that uses a proof-of-stake consensus
+                  mechanism."
               />
             </Text>
             <Link
@@ -107,7 +109,7 @@ export const Introduction = (): JSX.Element => {
             </Link>
             <Text className="mt20">
               <FormattedMessage
-                defaultMessage="Validating in Ethereum is not the same as mining. The outcomes are
+                defaultMessage="Validating in LUKSO is not the same as mining. The outcomes are
                   similar: the work you do will extend and secure the chain. But the
                   process is completely different because they use different
                   consensus mechanisms."

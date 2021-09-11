@@ -1,7 +1,4 @@
 {
-  "+3PPtT": {
-    "message": "Today, you'll secure the Beacon Chain, the first Eth2 upgrade. It's a separate chain that uses a proof-of-stake consensus mechanism. Eventually you'll help secure all of Ethereum, once mainnet (the Ethereum we use today) merges with the Beacon Chain."
-  },
   "+L0IkF": {
     "message": "Step 2: Generate deposit keys using the Ethereum Foundation deposit tool"
   },
@@ -109,6 +106,9 @@
   "0S8/Wo": {
     "message": "Testnet practice"
   },
+  "0ac/fX": {
+    "message": "To become a validator, you will need to be able to run commands in the terminal on your computer. Generating your new BLS key pairs and installing the validator software are both done in the terminal."
+  },
   "0i4cCJ": {
     "message": "Confirm deposits ({depositKeys})"
   },
@@ -154,6 +154,9 @@
   "1fytak": {
     "message": "Check deposit contract details"
   },
+  "1lwIVT": {
+    "message": "LUKSO validator checklist"
+  },
   "2+TGmE": {
     "message": "To process incoming validator deposits from the Eth1 chain, you'll need to run an Eth1 client as well as your Eth2 client. You can use a third-party service like Infura, but we recommend running your own client to keep the network as decentralised as possible."
   },
@@ -188,9 +191,6 @@
   },
   "32rBNK": {
     "message": "Terms of Service"
-  },
-  "36KKVb": {
-    "message": "More on Eth2 economics"
   },
   "38VH2G": {
     "message": "Install deposit-cli tool"
@@ -337,6 +337,9 @@
   "7d3Nzd": {
     "description": "{variables} are Beacon Chain block explorers, with links to each (do not translate names)",
     "message": "You can use your validator client's graffiti flag to add a personal touch to your proposed blocks (some text of your choice). You will be able to see it using {beaconchain} or {beaconscan} blockchain explorers."
+  },
+  "7iEYck": {
+    "message": "More on LUKSO economics"
   },
   "7lhBkq": {
     "message": "Use L15LYX to sync the L15 testnet."
@@ -574,6 +577,9 @@
     "description": "{deposit} = 'deposit' styled as code",
     "message": "Use the terminal to move into the directory that contains the {deposit} executable"
   },
+  "EOAJVt": {
+    "message": "Today, you'll secure LUKSO's Vanguard Consensus Chain. It's a new and separate chain that uses a proof-of-stake consensus mechanism."
+  },
   "EPCHZV": {
     "message": "If you lose your signing key, your validator can no longer propose or attest."
   },
@@ -588,6 +594,9 @@
   },
   "EXLB88": {
     "message": "This is a test network ⚠️"
+  },
+  "EzNTpk": {
+    "message": "Note: Withdrawing your deposits won't be possible from the Testnet (L15) to Mainnet (L16)."
   },
   "FEbVwB": {
     "message": "The key concept is the following:"
@@ -867,9 +876,6 @@
   "Mb3npQ": {
     "message": "Using the terminal"
   },
-  "MbsAo3": {
-    "message": "This launchpad will help you become a validator, so you can play an active part in Ethereum's future. Validators are key to the more secure, scalable, and sustainable Ethereum we're building together."
-  },
   "Mc8nNE": {
     "message": "Transaction failed"
   },
@@ -1037,9 +1043,6 @@
   "Rj0OAx": {
     "message": "Or in other words, a human running a computer process. This process proposes and vouches for new blocks to be added to the blockchain."
   },
-  "RkbwNZ": {
-    "message": "Withdrawing your deposit won't be possible until mainnet merges with the Beacon Chain."
-  },
   "Rm2GQZ": {
     "message": "Total {TICKER_NAME} staked (millions)"
   },
@@ -1185,9 +1188,6 @@
   "VUuZsb": {
     "message": "martial arts uniform"
   },
-  "VY3/Wo": {
-    "message": "To become a validator, you will need to be able to run commands in the terminal on your computer. Generating your new Eth2 key pairs and installing the validator software are both done in the terminal."
-  },
   "VctWDX": {
     "message": "I am certain that the validator I am topping up is my validator."
   },
@@ -1315,9 +1315,6 @@
   "ZPpZDC": {
     "message": "Please ensure that you have control over the Eth1 address."
   },
-  "ZRbxwY": {
-    "message": "Eth2 validator checklist"
-  },
   "ZTo0Fl": {
     "message": "Why is there a wait?"
   },
@@ -1332,9 +1329,6 @@
   },
   "a+xjjV": {
     "message": "Become a validator with Prysm"
-  },
-  "aDomwX": {
-    "message": "If you try to cheat the system, or act contrary to the specification, you will be liable to incur a penalty, known as slashing. Running your validator keys simultaneously on two or more machines will result in slashing."
   },
   "aEBE6s": {
     "message": "2. Prep nodes"
@@ -1561,11 +1555,11 @@
   "h+pDxO": {
     "message": "Become a LYXt validator and help secure the future of LUKSO."
   },
+  "h1nTWx": {
+    "message": "If you try to cheat the system, you will be liable to incur a penalty, known as slashing. Running your validator keys simultaneously on two or more machines will result in slashing."
+  },
   "h8MTUo": {
     "message": "Your stake"
-  },
-  "h8ZHus": {
-    "message": "Transfers between validators aren't possible yet. You will have to wait until mainnet merges with the Beacon Chain (around two years) before you can withdraw or transfer your {TICKER_NAME}."
   },
   "hFzE1M": {
     "message": "Rewards are given for actions that help the network reach consensus."
@@ -1624,6 +1618,9 @@
   "igA+2L": {
     "message": "You'll need to run a LYXt node to become a validator. Take a look at the checklist to prepare yourself and your equipment."
   },
+  "igGcu9": {
+    "message": "Validating in LUKSO is not the same as mining. The outcomes are similar: the work you do will extend and secure the chain. But the process is completely different because they use different consensus mechanisms."
+  },
   "irRdC0": {
     "message": "Hardware suggestions are an ever-evolving target. Current minimum requirements are likely to increase by an order of magnitude after the merge and introduction of shard chains. Do your own research before depositing funds."
   },
@@ -1632,9 +1629,6 @@
   },
   "iv88b5": {
     "message": "Send all {totalTxCount} deposits"
-  },
-  "j4ctVP": {
-    "message": "The Eth2 specification"
   },
   "jBFD/q": {
     "message": "More on LYXt"
@@ -1762,6 +1756,9 @@
   },
   "mArJcj": {
     "message": "Hard drive"
+  },
+  "mJ85+k": {
+    "message": "Transfers between {TICKER_NAME} validators aren't possible yet. You will have to wait until after Pandora (L14) merges with the Vanguard Consensus Engine before you can withdraw or transfer real tokens."
   },
   "mZOXtM": {
     "message": "Validators"
@@ -2015,6 +2012,9 @@
   "tkFTZw": {
     "message": "Balance after topping up"
   },
+  "tkad+U": {
+    "message": "Currently we are running the L15 Ephemeral Testnet to prepare for L16, and we need your help!"
+  },
   "tsfX5f": {
     "message": "Confirm deposit"
   },
@@ -2068,6 +2068,9 @@
   "unzIoE": {
     "description": "{pricePerValidator} represents deposit amount styled in bold",
     "message": "Before you can run a validator and start to secure the network, you need to stake {pricePerValidator} ETH. This forms your initial balance."
+  },
+  "uprpgn": {
+    "message": "This launchpad will help you become a validator, so you can play an active part in LUKSO's future. Validators are key to the more secure, scalable, and sustainable network we're building together."
   },
   "vBOf5K": {
     "message": "Your balance is updated periodically by the Ethereum network rules as you carry (or fail to carry) out your responsibilities."
@@ -2137,9 +2140,6 @@
   },
   "x+fF+M": {
     "message": "Testnet simulations"
-  },
-  "x0tVK4": {
-    "message": "Validating in Ethereum is not the same as mining. The outcomes are similar: the work you do will extend and secure the chain. But the process is completely different because they use different consensus mechanisms."
   },
   "xDyl3T": {
     "description": "{ethereumorg} is a link to deposit contract page on ethereum.org",

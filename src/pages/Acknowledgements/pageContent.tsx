@@ -79,14 +79,8 @@ export const pageContent = {
           <FormattedMessage defaultMessage="This is a non-reversible transaction." />
         </Text>
         <Text size="medium" className="my20">
-          <FormattedMessage
-            defaultMessage="Withdrawing your deposit won't be possible until mainnet merges
-              with the Beacon Chain."
-          />
+          <FormattedMessage defaultMessage="Note: Withdrawing your deposits won't be possible from the Testnet (L15) to Mainnet (L16)." />
         </Text>
-        <Link to="https://ethereum.org/eth2/docking/" className="my10" primary>
-          <FormattedMessage defaultMessage="More on the merge" />
-        </Link>
       </>
     ),
     acknowledgementText: (
@@ -116,7 +110,7 @@ export const pageContent = {
           primary
           inline
         >
-          <FormattedMessage defaultMessage="More on Eth2 economics" />
+          <FormattedMessage defaultMessage="More on LUKSO economics" />
         </Link>
       </>
     ),
@@ -130,17 +124,10 @@ export const pageContent = {
       <>
         <Text size="medium" className="my10">
           <FormattedMessage
-            defaultMessage="If you try to cheat the system, or act contrary to the specification,
+            defaultMessage="If you try to cheat the system, 
               you will be liable to incur a penalty, known as slashing. Running your validator keys simultaneously on two or more machines will result in slashing."
           />
         </Text>
-        <Link
-          to="https://github.com/ethereum/eth2.0-specs"
-          className="my10"
-          primary
-        >
-          <FormattedMessage defaultMessage="The Eth2 specification" />
-        </Link>
         <Link shouldOpenNewTab={true} to="/faq" className="my10" primary>
           <FormattedMessage defaultMessage="More on slashing risks" />
         </Link>
@@ -200,9 +187,9 @@ export const pageContent = {
       <>
         <Text size="medium" className="my10">
           <FormattedMessage
-            defaultMessage={`Transfers between validators aren't possible yet. You will have to
-              wait until mainnet merges with the Beacon Chain (around two years) before you can
-              withdraw or transfer your {TICKER_NAME}.`}
+            defaultMessage={`Transfers between {TICKER_NAME} validators aren't possible yet. You will have to
+              wait until after Pandora (L14) merges with the Vanguard Consensus Engine before you can
+              withdraw or transfer real tokens.`}
             values={{ TICKER_NAME }}
           />
         </Text>
@@ -265,7 +252,7 @@ export const pageContent = {
       <Text size="medium" className="my10">
         <FormattedMessage
           defaultMessage="To become a validator, you will need to be able to run commands in
-            the terminal on your computer. Generating your new Eth2 key pairs and installing
+            the terminal on your computer. Generating your new BLS key pairs and installing
             the validator software are both done in the terminal."
         />
       </Text>
@@ -288,7 +275,7 @@ export const pageContent = {
           className="my10"
           primary
         >
-          <FormattedMessage defaultMessage="Eth2 validator checklist" />
+          <FormattedMessage defaultMessage="LUKSO validator checklist" />
         </Link>
       </>
     ),

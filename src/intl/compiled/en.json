@@ -1,10 +1,4 @@
 {
-  "+3PPtT": [
-    {
-      "type": 0,
-      "value": "Today, you'll secure the Beacon Chain, the first Eth2 upgrade. It's a separate chain that uses a proof-of-stake consensus mechanism. Eventually you'll help secure all of Ethereum, once mainnet (the Ethereum we use today) merges with the Beacon Chain."
-    }
-  ],
   "+L0IkF": [
     {
       "type": 0,
@@ -295,6 +289,12 @@
       "value": "Testnet practice"
     }
   ],
+  "0ac/fX": [
+    {
+      "type": 0,
+      "value": "To become a validator, you will need to be able to run commands in the terminal on your computer. Generating your new BLS key pairs and installing the validator software are both done in the terminal."
+    }
+  ],
   "0i4cCJ": [
     {
       "type": 0,
@@ -391,6 +391,12 @@
     {
       "type": 0,
       "value": "Check deposit contract details"
+    }
+  ],
+  "1lwIVT": [
+    {
+      "type": 0,
+      "value": "LUKSO validator checklist"
     }
   ],
   "2+TGmE": [
@@ -513,12 +519,6 @@
     {
       "type": 0,
       "value": "Terms of Service"
-    }
-  ],
-  "36KKVb": [
-    {
-      "type": 0,
-      "value": "More on Eth2 economics"
     }
   ],
   "38VH2G": [
@@ -941,6 +941,12 @@
     {
       "type": 0,
       "value": " blockchain explorers."
+    }
+  ],
+  "7iEYck": [
+    {
+      "type": 0,
+      "value": "More on LUKSO economics"
     }
   ],
   "7lhBkq": [
@@ -1529,6 +1535,12 @@
       "value": " executable"
     }
   ],
+  "EOAJVt": [
+    {
+      "type": 0,
+      "value": "Today, you'll secure LUKSO's Vanguard Consensus Chain. It's a new and separate chain that uses a proof-of-stake consensus mechanism."
+    }
+  ],
   "EPCHZV": [
     {
       "type": 0,
@@ -1557,6 +1569,12 @@
     {
       "type": 0,
       "value": "This is a test network ⚠️"
+    }
+  ],
+  "EzNTpk": [
+    {
+      "type": 0,
+      "value": "Note: Withdrawing your deposits won't be possible from the Testnet (L15) to Mainnet (L16)."
     }
   ],
   "FEbVwB": [
@@ -2203,12 +2221,6 @@
       "value": "Using the terminal"
     }
   ],
-  "MbsAo3": [
-    {
-      "type": 0,
-      "value": "This launchpad will help you become a validator, so you can play an active part in Ethereum's future. Validators are key to the more secure, scalable, and sustainable Ethereum we're building together."
-    }
-  ],
   "Mc8nNE": [
     {
       "type": 0,
@@ -2683,12 +2695,6 @@
       "value": "Or in other words, a human running a computer process. This process proposes and vouches for new blocks to be added to the blockchain."
     }
   ],
-  "RkbwNZ": [
-    {
-      "type": 0,
-      "value": "Withdrawing your deposit won't be possible until mainnet merges with the Beacon Chain."
-    }
-  ],
   "Rm2GQZ": [
     {
       "type": 0,
@@ -3075,12 +3081,6 @@
       "value": "martial arts uniform"
     }
   ],
-  "VY3/Wo": [
-    {
-      "type": 0,
-      "value": "To become a validator, you will need to be able to run commands in the terminal on your computer. Generating your new Eth2 key pairs and installing the validator software are both done in the terminal."
-    }
-  ],
   "VctWDX": [
     {
       "type": 0,
@@ -3419,12 +3419,6 @@
       "value": "Please ensure that you have control over the Eth1 address."
     }
   ],
-  "ZRbxwY": [
-    {
-      "type": 0,
-      "value": "Eth2 validator checklist"
-    }
-  ],
   "ZTo0Fl": [
     {
       "type": 0,
@@ -3453,12 +3447,6 @@
     {
       "type": 0,
       "value": "Become a validator with Prysm"
-    }
-  ],
-  "aDomwX": [
-    {
-      "type": 0,
-      "value": "If you try to cheat the system, or act contrary to the specification, you will be liable to incur a penalty, known as slashing. Running your validator keys simultaneously on two or more machines will result in slashing."
     }
   ],
   "aEBE6s": [
@@ -4005,24 +3993,16 @@
       "value": "Become a LYXt validator and help secure the future of LUKSO."
     }
   ],
+  "h1nTWx": [
+    {
+      "type": 0,
+      "value": "If you try to cheat the system, you will be liable to incur a penalty, known as slashing. Running your validator keys simultaneously on two or more machines will result in slashing."
+    }
+  ],
   "h8MTUo": [
     {
       "type": 0,
       "value": "Your stake"
-    }
-  ],
-  "h8ZHus": [
-    {
-      "type": 0,
-      "value": "Transfers between validators aren't possible yet. You will have to wait until mainnet merges with the Beacon Chain (around two years) before you can withdraw or transfer your "
-    },
-    {
-      "type": 1,
-      "value": "TICKER_NAME"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "hFzE1M": [
@@ -4161,6 +4141,12 @@
       "value": "You'll need to run a LYXt node to become a validator. Take a look at the checklist to prepare yourself and your equipment."
     }
   ],
+  "igGcu9": [
+    {
+      "type": 0,
+      "value": "Validating in LUKSO is not the same as mining. The outcomes are similar: the work you do will extend and secure the chain. But the process is completely different because they use different consensus mechanisms."
+    }
+  ],
   "irRdC0": [
     {
       "type": 0,
@@ -4185,12 +4171,6 @@
     {
       "type": 0,
       "value": " deposits"
-    }
-  ],
-  "j4ctVP": [
-    {
-      "type": 0,
-      "value": "The Eth2 specification"
     }
   ],
   "jBFD/q": [
@@ -4509,6 +4489,20 @@
     {
       "type": 0,
       "value": "Hard drive"
+    }
+  ],
+  "mJ85+k": [
+    {
+      "type": 0,
+      "value": "Transfers between "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " validators aren't possible yet. You will have to wait until after Pandora (L14) merges with the Vanguard Consensus Engine before you can withdraw or transfer real tokens."
     }
   ],
   "mZOXtM": [
@@ -5131,6 +5125,12 @@
       "value": "Balance after topping up"
     }
   ],
+  "tkad+U": [
+    {
+      "type": 0,
+      "value": "Currently we are running the L15 Ephemeral Testnet to prepare for L16, and we need your help!"
+    }
+  ],
   "tsfX5f": [
     {
       "type": 0,
@@ -5287,6 +5287,12 @@
     {
       "type": 0,
       "value": " ETH. This forms your initial balance."
+    }
+  ],
+  "uprpgn": [
+    {
+      "type": 0,
+      "value": "This launchpad will help you become a validator, so you can play an active part in LUKSO's future. Validators are key to the more secure, scalable, and sustainable network we're building together."
     }
   ],
   "vBOf5K": [
@@ -5447,12 +5453,6 @@
     {
       "type": 0,
       "value": "Testnet simulations"
-    }
-  ],
-  "x0tVK4": [
-    {
-      "type": 0,
-      "value": "Validating in Ethereum is not the same as mining. The outcomes are similar: the work you do will extend and secure the chain. But the process is completely different because they use different consensus mechanisms."
     }
   ],
   "xDyl3T": [
