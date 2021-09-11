@@ -171,12 +171,6 @@
       "value": "Understand the risks"
     }
   ],
-  "/vPNsl": [
-    {
-      "type": 0,
-      "value": "The merge, also known as the docking, will see the Ethereum mainnet we use today merge with the Beacon Chain. This is when Ethereum will fully transition to proof-of-stake."
-    }
-  ],
   "/vkCbT": [
     {
       "type": 0,
@@ -821,12 +815,6 @@
       "value": "network"
     }
   ],
-  "6HBTTN": [
-    {
-      "type": 0,
-      "value": "Proof-of-stake (PoS) and the Beacon Chain"
-    }
-  ],
   "6UUL73": [
     {
       "type": 0,
@@ -891,6 +879,12 @@
     {
       "type": 0,
       "value": " is not supported in offline mode."
+    }
+  ],
+  "7RVokJ": [
+    {
+      "type": 0,
+      "value": "More on the Vanguard Consensus Chain"
     }
   ],
   "7UOvbT": [
@@ -1595,6 +1589,12 @@
       "value": "I understand that this transaction is not reversible."
     }
   ],
+  "FYRKlK": [
+    {
+      "type": 0,
+      "value": "Proof-of-stake (PoS) and the Vanguard Consensus Chain"
+    }
+  ],
   "FZa0R+": [
     {
       "type": 0,
@@ -1809,6 +1809,12 @@
     {
       "type": 0,
       "value": "Note that in the second (unlikely) scenario, you stand to progressively lose up to 50% (16 ETH) of your stake over 21 days. After 21 days you are ejected out of the validator pool. This ensures that blocks start finalizing again at some point."
+    }
+  ],
+  "IWHQWi": [
+    {
+      "type": 0,
+      "value": "The merge, also known as the docking, will see the Pandora mainnet we use today merge with the Vanguard Chain. This is when LUKSO will fully transition to proof-of-stake."
     }
   ],
   "IZFEUg": [
@@ -2813,6 +2819,12 @@
       "value": "Required"
     }
   ],
+  "ShW01z": [
+    {
+      "type": 0,
+      "value": "PoS is a more secure, decentralized, and environmentally-friendly consensus mechanism than the proof-of-work (PoW) that secures Ethereum today. It rewards validators for building the chain, but slashes their deposits if they try to attack it, incentivising healthy behaviour. This upgrade is already live in the form of the Vanguard Consensus Chain / L15 testnet."
+    }
+  ],
   "SqKNq2": [
     {
       "type": 0,
@@ -3193,12 +3205,6 @@
       "value": "More on installing pip"
     }
   ],
-  "XL6ITc": [
-    {
-      "type": 0,
-      "value": "Dig deeper into how LUKSO upgrades Ethereum."
-    }
-  ],
   "XVehvN": [
     {
       "type": 1,
@@ -3393,6 +3399,12 @@
     {
       "type": 0,
       "value": "Note: the RTC (Real-Time Clock) time may be set to your local timezone instead of UTC, especially in a VM which has its clock configured on Windows."
+    }
+  ],
+  "ZN5u17": [
+    {
+      "type": 0,
+      "value": "ETH2 Launchpad Github"
     }
   ],
   "ZOU+p7": [
@@ -3921,12 +3933,6 @@
       "value": "It uses the assisted password in your secrets folder."
     }
   ],
-  "gfLdAQ": [
-    {
-      "type": 0,
-      "value": "More on the Beacon Chain"
-    }
-  ],
   "gjBiyj": [
     {
       "type": 0,
@@ -4171,6 +4177,12 @@
     {
       "type": 0,
       "value": " deposits"
+    }
+  ],
+  "j81rpi": [
+    {
+      "type": 0,
+      "value": "Dig deeper into how LUKSO moves towards Mainnet."
     }
   ],
   "jBFD/q": [
@@ -4547,12 +4559,6 @@
     {
       "type": 0,
       "value": "Service"
-    }
-  ],
-  "nHk8Et": [
-    {
-      "type": 0,
-      "value": "PoS is a more secure, decentralized, and environmentally-friendly consensus mechanism than the proof-of-work (PoW) that secures Ethereum today. It rewards validators for building the chain, but slashes their deposits if they try to attack it, incentivising healthy behaviour. This upgrade is already live in the form of the Beacon Chain."
     }
   ],
   "nIb6XF": [

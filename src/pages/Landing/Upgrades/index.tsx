@@ -58,7 +58,7 @@ export const Upgrades = (): JSX.Element => {
     {
       title: formatMessage({ defaultMessage: 'The upgrades' }),
       subTitle: formatMessage({
-        defaultMessage: 'Dig deeper into how LUKSO upgrades Ethereum.',
+        defaultMessage: 'Dig deeper into how LUKSO moves towards Mainnet.',
       }),
       linkUrl: 'https://ethereum.org/en/eth2/',
       link: formatMessage({ defaultMessage: 'How does this all happen?' }),
@@ -101,7 +101,7 @@ export const Upgrades = (): JSX.Element => {
                 <FormattedMessage defaultMessage="The first LUKSO testnet brings a series of upgrades that makes things easier, more scaleable, secure, and sustainable. LUKSO aims to change the way you think about, use and interact with the blockchain, dApps, NFTs, wallets, both as a user, and as a developer. More on how we do that:" />
               </Text>
               <UpgradeTitle className="mt20">
-                <FormattedMessage defaultMessage="Proof-of-stake (PoS) and the Beacon Chain" />
+                <FormattedMessage defaultMessage="Proof-of-stake (PoS) and the Vanguard Consensus Chain" />
               </UpgradeTitle>
               <Text className="mt20">
                 <FormattedMessage
@@ -109,21 +109,21 @@ export const Upgrades = (): JSX.Element => {
                     secures Ethereum today. It rewards validators for
                     building the chain, but slashes their deposits if they try to
                     attack it, incentivising healthy behaviour. This upgrade is
-                    already live in the form of the Beacon Chain."
+                    already live in the form of the Vanguard Consensus Chain / L15 testnet."
                 />
               </Text>
               <Link
                 className="mt20 mb40"
                 to="https://ethereum.org/eth2/beacon-chain/"
               >
-                <FormattedMessage defaultMessage="More on the Beacon Chain" />
+                <FormattedMessage defaultMessage="More on the Vanguard Consensus Chain" />
               </Link>
               <UpgradeTitle className="mt20">The Merge (docking)</UpgradeTitle>
               <Text className="mt20">
                 <FormattedMessage
-                  defaultMessage="The merge, also known as the docking, will see the Ethereum
-                    mainnet we use today merge with the Beacon Chain. This is when
-                    Ethereum will fully transition to proof-of-stake."
+                  defaultMessage="The merge, also known as the docking, will see the Pandora
+                    mainnet we use today merge with the Vanguard Chain. This is when
+                    LUKSO will fully transition to proof-of-stake."
                 />
               </Text>
               <Link

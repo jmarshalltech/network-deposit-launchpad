@@ -66,9 +66,6 @@
   "/ub26/": {
     "message": "Understand the risks"
   },
-  "/vPNsl": {
-    "message": "The merge, also known as the docking, will see the Ethereum mainnet we use today merge with the Beacon Chain. This is when Ethereum will fully transition to proof-of-stake."
-  },
   "/vkCbT": {
     "message": "Validators get rewarded for proposing and attesting to blocks. The rewards are tied to the overall amount of {TICKER_NAME} staked in the network."
   },
@@ -291,9 +288,6 @@
   "6CK2Nu": {
     "message": "Your wallet is on the wrong network. Switch to {network}"
   },
-  "6HBTTN": {
-    "message": "Proof-of-stake (PoS) and the Beacon Chain"
-  },
   "6UUL73": {
     "message": "More on validators"
   },
@@ -321,6 +315,9 @@
   },
   "793QlI": {
     "message": "{title} is not supported in offline mode."
+  },
+  "7RVokJ": {
+    "message": "More on the Vanguard Consensus Chain"
   },
   "7UOvbT": {
     "message": "Offline"
@@ -607,6 +604,9 @@
   "FSRfSJ": {
     "message": "I understand that this transaction is not reversible."
   },
+  "FYRKlK": {
+    "message": "Proof-of-stake (PoS) and the Vanguard Consensus Chain"
+  },
   "FZa0R+": {
     "message": "This scenario is very extreme and unlikely to happen."
   },
@@ -709,6 +709,9 @@
   },
   "IVyWYt": {
     "message": "Note that in the second (unlikely) scenario, you stand to progressively lose up to 50% (16 ETH) of your stake over 21 days. After 21 days you are ejected out of the validator pool. This ensures that blocks start finalizing again at some point."
+  },
+  "IWHQWi": {
+    "message": "The merge, also known as the docking, will see the Pandora mainnet we use today merge with the Vanguard Chain. This is when LUKSO will fully transition to proof-of-stake."
   },
   "IZFEUg": {
     "message": "Ready"
@@ -1095,6 +1098,9 @@
   "Seanpx": {
     "message": "Required"
   },
+  "ShW01z": {
+    "message": "PoS is a more secure, decentralized, and environmentally-friendly consensus mechanism than the proof-of-work (PoW) that secures Ethereum today. It rewards validators for building the chain, but slashes their deposits if they try to attack it, incentivising healthy behaviour. This upgrade is already live in the form of the Vanguard Consensus Chain / L15 testnet."
+  },
   "SqKNq2": {
     "description": "{homebrew} = 'homebrew' and links to the homebrew package manager website documentation",
     "message": "You can install python3 on your macOS device using {homebrew}"
@@ -1236,9 +1242,6 @@
   "XBEBYR": {
     "message": "More on installing pip"
   },
-  "XL6ITc": {
-    "message": "Dig deeper into how LUKSO upgrades Ethereum."
-  },
   "XVehvN": {
     "description": "{filesPattern} refers to a computer command which will find {keyFile} and\n                {passwordFile} - both files within a computer.",
     "message": "{filesPattern} will expect that the {keyFile} exists, and the file containing the password for it is {passwordFile}."
@@ -1302,6 +1305,9 @@
   },
   "ZK6NmY": {
     "message": "Note: the RTC (Real-Time Clock) time may be set to your local timezone instead of UTC, especially in a VM which has its clock configured on Windows."
+  },
+  "ZN5u17": {
+    "message": "ETH2 Launchpad Github"
   },
   "ZOU+p7": {
     "message": "--http documentation"
@@ -1530,9 +1536,6 @@
   "gVC0Wl": {
     "message": "It uses the assisted password in your secrets folder."
   },
-  "gfLdAQ": {
-    "message": "More on the Beacon Chain"
-  },
   "gjBiyj": {
     "message": "Loading..."
   },
@@ -1629,6 +1632,9 @@
   },
   "iv88b5": {
     "message": "Send all {totalTxCount} deposits"
+  },
+  "j81rpi": {
+    "message": "Dig deeper into how LUKSO moves towards Mainnet."
   },
   "jBFD/q": {
     "message": "More on LYXt"
@@ -1777,9 +1783,6 @@
   },
   "n7yYXG": {
     "message": "Service"
-  },
-  "nHk8Et": {
-    "message": "PoS is a more secure, decentralized, and environmentally-friendly consensus mechanism than the proof-of-work (PoW) that secures Ethereum today. It rewards validators for building the chain, but slashes their deposits if they try to attack it, incentivising healthy behaviour. This upgrade is already live in the form of the Beacon Chain."
   },
   "nIb6XF": {
     "description": "{slashings} shows 'slashings' in bold for emphasis",
