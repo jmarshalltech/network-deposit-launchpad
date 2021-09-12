@@ -1306,9 +1306,6 @@
   "ZK6NmY": {
     "message": "Note: the RTC (Real-Time Clock) time may be set to your local timezone instead of UTC, especially in a VM which has its clock configured on Windows."
   },
-  "ZN5u17": {
-    "message": "ETH2 Launchpad Github"
-  },
   "ZOU+p7": {
     "message": "--http documentation"
   },

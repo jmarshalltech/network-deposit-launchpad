@@ -3401,12 +3401,6 @@
       "value": "Note: the RTC (Real-Time Clock) time may be set to your local timezone instead of UTC, especially in a VM which has its clock configured on Windows."
     }
   ],
-  "ZN5u17": [
-    {
-      "type": 0,
-      "value": "ETH2 Launchpad Github"
-    }
-  ],
   "ZOU+p7": [
     {
       "type": 0,

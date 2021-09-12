@@ -32,8 +32,8 @@ const RainbowBackground = styled(Box)`
 `;
 
 const LuksoLogo = styled.img`
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
 `;
 
 const NetworkText = styled.div`
