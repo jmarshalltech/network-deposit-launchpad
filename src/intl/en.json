@@ -402,6 +402,9 @@
   "9VZ9oy": {
     "message": "How are validators incentivized to stay active and honest?"
   },
+  "9Zv/gc": {
+    "message": "Note: Withdrawing your deposits won't be possible from the Testnet to Mainnet."
+  },
   "9k7tO9": {
     "message": "Wrong network"
   },
@@ -591,9 +594,6 @@
   },
   "EXLB88": {
     "message": "This is a test network ⚠️"
-  },
-  "EzNTpk": {
-    "message": "Note: Withdrawing your deposits won't be possible from the Testnet (L15) to Mainnet (L16)."
   },
   "FEbVwB": {
     "message": "The key concept is the following:"
@@ -1392,6 +1392,9 @@
   },
   "c9DSZ1": {
     "message": "We strongly recommended you complete these steps on the current testnet before mainnet."
+  },
+  "cFG5C+": {
+    "message": "L16 Coming Soon"
   },
   "cHUoV9": {
     "message": "The Geth documentation explains how to download and install the client."

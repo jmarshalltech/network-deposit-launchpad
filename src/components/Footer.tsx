@@ -1,6 +1,7 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import styled from 'styled-components';
+import LuksoLogoPng from '../static/LUKSO-logo.png';
 import { useLocation } from 'react-router-dom';
 import { Heading } from './Heading';
 import { routesEnum } from '../Routes';
@@ -8,8 +9,10 @@ import { Link } from './Link';
 
 import { Button } from './Button';
 
-const Rhino = styled.span`
-  font-size: 20px;
+const LUKSOMiniLogo = styled.img`
+  height: 20px;
+  width: 20px;
+  margin-bottom: -3px;
 `;
 
 const RainbowBackground = styled.div`
@@ -97,14 +100,10 @@ export const Footer = () => {
                 width={400}
                 label={
                   <FormattedMessage
-                    defaultMessage="Become a validator {emoji}"
+                    defaultMessage="Become a validator {emoji}" //change to LUKSO logo
                     values={{
                       emoji: (
-                        <Rhino>
-                          <span role="img" aria-label="rhino">
-                            🦏
-                          </span>
-                        </Rhino>
+                        <LUKSOMiniLogo src={LuksoLogoPng} alt="LUKSO-logo" />
                       ),
                     }}
                   />
