@@ -402,9 +402,6 @@
   "9VZ9oy": {
     "message": "How are validators incentivized to stay active and honest?"
   },
-  "9Zv/gc": {
-    "message": "Note: Withdrawing your deposits won't be possible from the Testnet to Mainnet."
-  },
   "9k7tO9": {
     "message": "Wrong network"
   },
@@ -1481,6 +1478,9 @@
   },
   "ekpN7U": {
     "message": "Validators and LYXt"
+  },
+  "el/dXY": {
+    "message": "Note: Withdrawing your deposits won't currently be possible."
   },
   "elCkOU": {
     "message": "More on the merge"

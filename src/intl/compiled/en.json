@@ -1085,12 +1085,6 @@
       "value": "How are validators incentivized to stay active and honest?"
     }
   ],
-  "9Zv/gc": [
-    {
-      "type": 0,
-      "value": "Note: Withdrawing your deposits won't be possible from the Testnet to Mainnet."
-    }
-  ],
   "9k7tO9": [
     {
       "type": 0,
@@ -3791,6 +3785,12 @@
     {
       "type": 0,
       "value": "Validators and LYXt"
+    }
+  ],
+  "el/dXY": [
+    {
+      "type": 0,
+      "value": "Note: Withdrawing your deposits won't currently be possible."
     }
   ],
   "elCkOU": [

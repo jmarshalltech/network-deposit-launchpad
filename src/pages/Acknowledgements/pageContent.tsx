@@ -79,7 +79,7 @@ export const pageContent = {
           <FormattedMessage defaultMessage="This is a non-reversible transaction." />
         </Text>
         <Text size="medium" className="my20">
-          <FormattedMessage defaultMessage="Note: Withdrawing your deposits won't be possible from the Testnet (L15) to Mainnet (L16)." />
+          <FormattedMessage defaultMessage="Note: Withdrawing your deposits won't currently be possible." />
         </Text>
       </>
     ),
