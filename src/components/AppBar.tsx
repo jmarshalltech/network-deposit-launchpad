@@ -2,7 +2,7 @@ import React from 'react';
 import { RouteComponentProps, withRouter } from 'react-router-dom';
 import styled from 'styled-components';
 import { Box, DropButton } from 'grommet';
-import { Menu, Language, FormDown } from 'grommet-icons';
+import { Menu, FormDown } from 'grommet-icons';
 import { useWeb3React } from '@web3-react/core';
 import { Web3Provider } from '@ethersproject/providers';
 import LuksoLogoPng from '../static/LUKSO-logo.png';
@@ -249,23 +249,6 @@ const _AppBar = ({ location }: RouteComponentProps) => {
         </Link>
       </NavBarLinks>
       <NavLinksRight>
-        {!mobile && (
-          <Link to={routesEnum.languagesPage} className="mx10 secondary-link">
-            <BarLinkText
-              level={4}
-              margin="none"
-              className="bar-link-text"
-              active={pathname === routesEnum.languagesPage}
-            >
-              <FormattedMessage defaultMessage="Languages" />
-            </BarLinkText>
-          </Link>
-        )}
-        {mobile && (
-          <Link to={routesEnum.languagesPage} className="mx10">
-            <Language color="black" />
-          </Link>
-        )}
         {mobile && (
           <ValidatorDropdown
             className="secondary-link"
@@ -285,9 +268,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                   <span>
                     <FormattedMessage defaultMessage="Launchpad network:" />{' '}
                     <b>
-                      {IS_MAINNET
-                        ? `mainnet`
-                        : `${TESTNET_LAUNCHPAD_NAME} testnet`}
+                      {IS_MAINNET ? `L15` : `${TESTNET_LAUNCHPAD_NAME} testnet`}
                     </b>
                   </span>
                   <Link primary to={switchLaunchpadUrl}>
@@ -297,7 +278,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                         network: `${
                           IS_MAINNET
                             ? `${TESTNET_LAUNCHPAD_NAME} testnet`
-                            : `mainnet`
+                            : `L15`
                         }`,
                       }}
                     />
@@ -339,7 +320,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
             className="secondary-link"
             label={
               <NetworkText>
-                {IS_MAINNET ? `Mainnet` : `${LUKSO_NETWORK_NAME}`}
+                {IS_MAINNET ? `L15` : `${LUKSO_NETWORK_NAME}`}
                 <FormDown />
               </NetworkText>
             }
@@ -352,14 +333,14 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                       <FormattedMessage defaultMessage="This is a test network ⚠️" />
                     </Text>
                   )}
-                  <DropdownLink to={switchLaunchpadUrl}>
+                  <DropdownLink to="#">
                     <FormattedMessage
-                      defaultMessage="Switch to {network} launchpad"
+                      defaultMessage="L16 Coming Soon"
                       values={{
                         network: `${
                           IS_MAINNET
                             ? `${TESTNET_LAUNCHPAD_NAME} testnet`
-                            : `mainnet`
+                            : `L15`
                         }`,
                       }}
                     />
