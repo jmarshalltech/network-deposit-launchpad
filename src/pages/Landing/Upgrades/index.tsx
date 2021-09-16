@@ -121,8 +121,8 @@ export const Upgrades = (): JSX.Element => {
               <UpgradeTitle className="mt20">The Merge (docking)</UpgradeTitle>
               <Text className="mt20">
                 <FormattedMessage
-                  defaultMessage="The merge, also known as the docking, will see the Pandora
-                    mainnet we use today merge with the Vanguard Chain. This is when
+                  defaultMessage="The merge, also known as the docking, will see Pandora
+                    merge with the Vanguard Chain. This is when
                     LUKSO will fully transition to proof-of-stake."
                 />
               </Text>

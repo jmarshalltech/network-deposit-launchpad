@@ -1777,12 +1777,6 @@
       "value": "Note that in the second (unlikely) scenario, you stand to progressively lose up to 50% (16 ETH) of your stake over 21 days. After 21 days you are ejected out of the validator pool. This ensures that blocks start finalizing again at some point."
     }
   ],
-  "IWHQWi": [
-    {
-      "type": 0,
-      "value": "The merge, also known as the docking, will see the Pandora mainnet we use today merge with the Vanguard Chain. This is when LUKSO will fully transition to proof-of-stake."
-    }
-  ],
   "IZFEUg": [
     {
       "type": 0,
@@ -4291,6 +4285,12 @@
     {
       "type": 0,
       "value": "Exited"
+    }
+  ],
+  "kw4oyc": [
+    {
+      "type": 0,
+      "value": "The merge, also known as the docking, will see Pandora merge with the Vanguard Chain. This is when LUKSO will fully transition to proof-of-stake."
     }
   ],
   "l/uCcX": [
