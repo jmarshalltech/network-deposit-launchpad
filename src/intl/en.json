@@ -124,6 +124,9 @@
   "19o6KO": {
     "message": "When can I withdraw my funds, and what’s the difference between exiting and withdrawing?"
   },
+  "1CNYN4": {
+    "message": "I understand that keys are my responsibility and that my mnemonic (seed) will be the {onlyWay} to withdraw my funds in the future."
+  },
   "1FdDAV": {
     "message": "JSON RPC endpoint"
   },
@@ -218,9 +221,6 @@
   },
   "3WbcoW": {
     "message": "LYXt validator checklist"
-  },
-  "3XK21U": {
-    "message": "We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until The Merge, you will not create your withdrawal keys now. When it is possible to withdraw your funds, you can derive your withdrawal keys from your mnemonic."
   },
   "3ZyN99": {
     "message": "To become a validator on the LYXt (L15) testnet, you need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME} per validator that you wish to run."
@@ -455,9 +455,6 @@
   "Aw1mMs": {
     "message": "Top up validator"
   },
-  "B2EKj+": {
-    "message": "I understand that I need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME} to become a validator, and that the transfer of {TICKER_NAME} to the Beacon Chain is one-way, and non-reversible."
-  },
   "BCsPjJ": {
     "message": "Start deposit process"
   },
@@ -563,9 +560,6 @@
   "E5Cees": {
     "description": "{lyxtAmount} will generally refer to 32 ETH",
     "message": "Does the site asking you for your {lyxtAmount} deposit have a URL you expect?"
-  },
-  "E8t6ru": {
-    "message": "To become a validator you'll need to know about managing keys and protecting a mnemonic. If you are not yet familiar with keys and mnemomics, please do not proceed. Note that during this process you will not derive the keys needed to withdraw later, so store your mnemonic safely in order to be able to withdraw later."
   },
   "EFjTSf": {
     "message": "Minor penalties are given for inadvertant actions (or inactions) that hinder consensus."
@@ -753,6 +747,9 @@
   },
   "JPT/TK": {
     "message": "4. Avoid phishing"
+  },
+  "JZo/94": {
+    "message": "To become a validator you'll need to know about managing keys and protecting a mnemonic. If you are not yet familiar with keys and mnemomics, please do not proceed. Note that during this process you will not derive the keys needed to withdraw later, when validating on Mainnet you will need to store your mnemonic safely in order to be able to withdraw later."
   },
   "JhUYU3": {
     "message": "Download CLI app"
@@ -1181,9 +1178,6 @@
   },
   "VLDKor": {
     "message": "{PRICE_PER_VALIDATOR} {TICKER_NAME} is the maximum effective validator balance. This means you won't earn more rewards if your validator's balance goes above {PRICE_PER_VALIDATOR}. However you will earn less if it dips below {PRICE_PER_VALIDATOR}."
-  },
-  "VPpHAq": {
-    "message": "I understand that I {cannotTransfer} my stake for a while, and I {cannotWithdraw} until the merge. I understand that if I exit, I will not be able to rejoin until much later. This is a long term commitment."
   },
   "VSSmNp": {
     "message": "In other words: if the total amount of ETH staked is low, the reward (interest rate) is high, but as the total stake rises, the reward (interest) paid out to each validator starts to fall."
@@ -1642,6 +1636,9 @@
   "jDv/zO": {
     "message": "While validating on the testnet, perform these simulations to learn more about your node, and better prepare yourself for mainnet:"
   },
+  "jThhoD": {
+    "message": "We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until Mainnet, you will not create your withdrawal keys now. When it is possible to withdraw funds, you will be able to derive your withdrawal keys from your mnemonic."
+  },
   "jXer8/": {
     "message": "Prysm documentation"
   },
@@ -1748,6 +1745,9 @@
   "lfV1bj": {
     "message": "Importing from Launchpad documentation"
   },
+  "lfnq69": {
+    "message": "I understand that I {cannotTransfer} my stake and I {cannotWithdraw} from the Testnet. I understand that if I exit, I will not be able to rejoin until much later. This is a long term commitment."
+  },
   "ljWKM1": {
     "message": "BLS withdrawal: By default, deposit-cli would generate withdrawal credentials with the {boldWithdrawalKey} derived via mnemonics in {eip2334} format."
   },
@@ -1762,9 +1762,6 @@
   },
   "mArJcj": {
     "message": "Hard drive"
-  },
-  "mJ85+k": {
-    "message": "Transfers between {TICKER_NAME} validators aren't possible yet. You will have to wait until after Pandora (L14) merges with the Vanguard Consensus Engine before you can withdraw or transfer real tokens."
   },
   "mZOXtM": {
     "message": "Validators"
@@ -1893,9 +1890,6 @@
   },
   "qDcbPp": {
     "message": "Your 16 ETH can then be withdrawn – with your withdrawal key – after a delay of around a day."
-  },
-  "qDvaNm": {
-    "message": "I understand that keys are my responsibility and that my mnemonic (seed) will be the {onlyWay} to withdraw my funds."
   },
   "qK4+NQ": {
     "message": "The terminal"
@@ -2075,6 +2069,9 @@
   "uprpgn": {
     "message": "This launchpad will help you become a validator, so you can play an active part in LUKSO's future. Validators are key to the more secure, scalable, and sustainable network we're building together."
   },
+  "v2/6AL": {
+    "message": "I understand that I need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME} to become a validator, and that the transfer of {TICKER_NAME} to the Vanguard Consensus Chain is one-way, and non-reversible."
+  },
   "vBOf5K": {
     "message": "Your balance is updated periodically by the Ethereum network rules as you carry (or fail to carry) out your responsibilities."
   },
@@ -2229,5 +2226,8 @@
   },
   "zicXn7": {
     "message": "Node security"
+  },
+  "zpP16S": {
+    "message": "Transfers between {TICKER_NAME} validators aren't possible yet. You will have to wait until after the Vanguard Consensus Engine mainnet is released before you can deposit, withdraw or transfer real tokens."
   }
 }

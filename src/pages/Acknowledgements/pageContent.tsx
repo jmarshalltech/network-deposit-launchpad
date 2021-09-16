@@ -86,7 +86,7 @@ export const pageContent = {
     acknowledgementText: (
       <FormattedMessage
         defaultMessage="I understand that I need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME}
-          to become a validator, and that the transfer of {TICKER_NAME} to the Beacon Chain is
+          to become a validator, and that the transfer of {TICKER_NAME} to the Vanguard Consensus Chain is
           one-way, and non-reversible."
         values={{ PRICE_PER_VALIDATOR, TICKER_NAME }}
       />
@@ -149,11 +149,11 @@ export const pageContent = {
             defaultMessage="To become a validator you'll need to know about managing keys and
               protecting a mnemonic. If you are not yet familiar with keys and mnemomics, please
               do not proceed. Note that during this process you will not derive the keys needed to
-              withdraw later, so store your mnemonic safely in order to be able to withdraw later."
+              withdraw later, when validating on Mainnet you will need to store your mnemonic safely in order to be able to withdraw later."
           />
         </Text>
         <Text size="medium" className="mt20">
-          <FormattedMessage defaultMessage="We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until The Merge, you will not create your withdrawal keys now. When it is possible to withdraw your funds, you can derive your withdrawal keys from your mnemonic." />
+          <FormattedMessage defaultMessage="We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until Mainnet, you will not create your withdrawal keys now. When it is possible to withdraw funds, you will be able to derive your withdrawal keys from your mnemonic." />
         </Text>
         <Text size="medium" className="mt20">
           <FormattedMessage
@@ -168,7 +168,7 @@ export const pageContent = {
     acknowledgementText: (
       <FormattedMessage
         defaultMessage="I understand that keys are my responsibility and that my mnemonic (seed)
-          will be the {onlyWay} to withdraw my funds."
+          will be the {onlyWay} to withdraw my funds in the future."
         values={{
           onlyWay: (
             <BoldCaps>
@@ -188,7 +188,7 @@ export const pageContent = {
         <Text size="medium" className="my10">
           <FormattedMessage
             defaultMessage={`Transfers between {TICKER_NAME} validators aren't possible yet. You will have to
-              wait until after Pandora (L14) merges with the Vanguard Consensus Engine before you can
+              wait until after the Vanguard Consensus Engine mainnet is released before you can deposit,
               withdraw or transfer real tokens.`}
             values={{ TICKER_NAME }}
           />
@@ -210,8 +210,8 @@ export const pageContent = {
     ),
     acknowledgementText: (
       <FormattedMessage
-        defaultMessage="I understand that I {cannotTransfer} my stake for a while, and I
-          {cannotWithdraw} until the merge. I understand that if I exit, I will not be able
+        defaultMessage="I understand that I {cannotTransfer} my stake and I
+          {cannotWithdraw} from the Testnet. I understand that if I exit, I will not be able
           to rejoin until much later. This is a long term commitment."
         values={{
           cannotTransfer: (

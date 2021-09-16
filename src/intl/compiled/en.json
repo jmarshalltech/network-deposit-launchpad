@@ -333,6 +333,20 @@
       "value": "When can I withdraw my funds, and what’s the difference between exiting and withdrawing?"
     }
   ],
+  "1CNYN4": [
+    {
+      "type": 0,
+      "value": "I understand that keys are my responsibility and that my mnemonic (seed) will be the "
+    },
+    {
+      "type": 1,
+      "value": "onlyWay"
+    },
+    {
+      "type": 0,
+      "value": " to withdraw my funds in the future."
+    }
+  ],
   "1FdDAV": [
     {
       "type": 0,
@@ -593,12 +607,6 @@
     {
       "type": 0,
       "value": "LYXt validator checklist"
-    }
-  ],
-  "3XK21U": [
-    {
-      "type": 0,
-      "value": "We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until The Merge, you will not create your withdrawal keys now. When it is possible to withdraw your funds, you can derive your withdrawal keys from your mnemonic."
     }
   ],
   "3ZyN99": [
@@ -1211,36 +1219,6 @@
       "value": "Top up validator"
     }
   ],
-  "B2EKj+": [
-    {
-      "type": 0,
-      "value": "I understand that I need to deposit "
-    },
-    {
-      "type": 1,
-      "value": "PRICE_PER_VALIDATOR"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "TICKER_NAME"
-    },
-    {
-      "type": 0,
-      "value": " to become a validator, and that the transfer of "
-    },
-    {
-      "type": 1,
-      "value": "TICKER_NAME"
-    },
-    {
-      "type": 0,
-      "value": " to the Beacon Chain is one-way, and non-reversible."
-    }
-  ],
   "BCsPjJ": [
     {
       "type": 0,
@@ -1501,12 +1479,6 @@
     {
       "type": 0,
       "value": " deposit have a URL you expect?"
-    }
-  ],
-  "E8t6ru": [
-    {
-      "type": 0,
-      "value": "To become a validator you'll need to know about managing keys and protecting a mnemonic. If you are not yet familiar with keys and mnemomics, please do not proceed. Note that during this process you will not derive the keys needed to withdraw later, so store your mnemonic safely in order to be able to withdraw later."
     }
   ],
   "EFjTSf": [
@@ -1933,6 +1905,12 @@
     {
       "type": 0,
       "value": "4. Avoid phishing"
+    }
+  ],
+  "JZo/94": [
+    {
+      "type": 0,
+      "value": "To become a validator you'll need to know about managing keys and protecting a mnemonic. If you are not yet familiar with keys and mnemomics, please do not proceed. Note that during this process you will not derive the keys needed to withdraw later, when validating on Mainnet you will need to store your mnemonic safely in order to be able to withdraw later."
     }
   ],
   "JhUYU3": [
@@ -3051,28 +3029,6 @@
     {
       "type": 0,
       "value": "."
-    }
-  ],
-  "VPpHAq": [
-    {
-      "type": 0,
-      "value": "I understand that I "
-    },
-    {
-      "type": 1,
-      "value": "cannotTransfer"
-    },
-    {
-      "type": 0,
-      "value": " my stake for a while, and I "
-    },
-    {
-      "type": 1,
-      "value": "cannotWithdraw"
-    },
-    {
-      "type": 0,
-      "value": " until the merge. I understand that if I exit, I will not be able to rejoin until much later. This is a long term commitment."
     }
   ],
   "VSSmNp": [
@@ -4197,6 +4153,12 @@
       "value": "While validating on the testnet, perform these simulations to learn more about your node, and better prepare yourself for mainnet:"
     }
   ],
+  "jThhoD": [
+    {
+      "type": 0,
+      "value": "We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until Mainnet, you will not create your withdrawal keys now. When it is possible to withdraw funds, you will be able to derive your withdrawal keys from your mnemonic."
+    }
+  ],
   "jXer8/": [
     {
       "type": 0,
@@ -4457,6 +4419,28 @@
       "value": "Importing from Launchpad documentation"
     }
   ],
+  "lfnq69": [
+    {
+      "type": 0,
+      "value": "I understand that I "
+    },
+    {
+      "type": 1,
+      "value": "cannotTransfer"
+    },
+    {
+      "type": 0,
+      "value": " my stake and I "
+    },
+    {
+      "type": 1,
+      "value": "cannotWithdraw"
+    },
+    {
+      "type": 0,
+      "value": " from the Testnet. I understand that if I exit, I will not be able to rejoin until much later. This is a long term commitment."
+    }
+  ],
   "ljWKM1": [
     {
       "type": 0,
@@ -4501,20 +4485,6 @@
     {
       "type": 0,
       "value": "Hard drive"
-    }
-  ],
-  "mJ85+k": [
-    {
-      "type": 0,
-      "value": "Transfers between "
-    },
-    {
-      "type": 1,
-      "value": "TICKER_NAME"
-    },
-    {
-      "type": 0,
-      "value": " validators aren't possible yet. You will have to wait until after Pandora (L14) merges with the Vanguard Consensus Engine before you can withdraw or transfer real tokens."
     }
   ],
   "mZOXtM": [
@@ -4829,20 +4799,6 @@
     {
       "type": 0,
       "value": "Your 16 ETH can then be withdrawn – with your withdrawal key – after a delay of around a day."
-    }
-  ],
-  "qDvaNm": [
-    {
-      "type": 0,
-      "value": "I understand that keys are my responsibility and that my mnemonic (seed) will be the "
-    },
-    {
-      "type": 1,
-      "value": "onlyWay"
-    },
-    {
-      "type": 0,
-      "value": " to withdraw my funds."
     }
   ],
   "qK4+NQ": [
@@ -5301,6 +5257,36 @@
       "value": "This launchpad will help you become a validator, so you can play an active part in LUKSO's future. Validators are key to the more secure, scalable, and sustainable network we're building together."
     }
   ],
+  "v2/6AL": [
+    {
+      "type": 0,
+      "value": "I understand that I need to deposit "
+    },
+    {
+      "type": 1,
+      "value": "PRICE_PER_VALIDATOR"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " to become a validator, and that the transfer of "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " to the Vanguard Consensus Chain is one-way, and non-reversible."
+    }
+  ],
   "vBOf5K": [
     {
       "type": 0,
@@ -5665,6 +5651,20 @@
     {
       "type": 0,
       "value": "Node security"
+    }
+  ],
+  "zpP16S": [
+    {
+      "type": 0,
+      "value": "Transfers between "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " validators aren't possible yet. You will have to wait until after the Vanguard Consensus Engine mainnet is released before you can deposit, withdraw or transfer real tokens."
     }
   ]
 }
