@@ -52,9 +52,9 @@ export type Client = {
 
 // define and shuffle the clients
 const lyxtClients: {
-  [ethVersion: number]: Array<Client>;
+  [luksoVersion: string]: Array<Client>;
 } = {
-  1: _shuffle([
+  Pandora: _shuffle([
     {
       clientId: ClientId.GETH,
       name: 'Pandora',
@@ -62,7 +62,7 @@ const lyxtClients: {
       language: 'Go',
     },
   ]),
-  2: _shuffle([
+  Vanguard: _shuffle([
     {
       clientId: ClientId.PRYSM,
       name: 'Vanguard',
@@ -79,7 +79,9 @@ const _SelectClientPage = ({
   dispatchClientUpdate,
 }: Props): JSX.Element => {
   // set the default the eth version to 1 on initial render
-  const [luksoVersionStep, setLuksoVersionStep] = useState<1 | 2>(1);
+  const [luksoVersionStep, setLuksoVersionStep] = useState<
+    'Pandora' | 'Vanguard'
+  >('Pandora');
 
   const { formatMessage } = useIntl();
 
@@ -91,7 +93,7 @@ const _SelectClientPage = ({
   // memoize the chosen client by step
   const selectedClient: ClientId = React.useMemo(
     () =>
-      luksoVersionStep === 1
+      luksoVersionStep === 'Pandora'
         ? chosenClients.pandoraClient
         : chosenClients.vanguardClient,
     [luksoVersionStep, chosenClients]
@@ -126,7 +128,7 @@ const _SelectClientPage = ({
         '{lyxt} injects Pandora or Vanguard networks depending on step',
     },
     {
-      lyxt: `Eth${luksoVersionStep}`,
+      lyxt: `${luksoVersionStep}`,
     }
   );
 
@@ -135,8 +137,8 @@ const _SelectClientPage = ({
       <SelectClientSection
         title={formatMessage(
           {
-            defaultMessage: `Choose your Eth{luksoVersionStep} client and set up a node`,
-            description: `{luksoVersionStep} is either 1 (Pandora) or 2 (Vanguard), depending on which step user is on`,
+            defaultMessage: `Choose your {luksoVersionStep} client and set up a node`,
+            description: `{luksoVersionStep} is either 'Pandora' or 'Vanguard', depending on which step user is on`,
           },
           { luksoVersionStep }
         )}
@@ -164,8 +166,11 @@ const mapStateToProps = ({ workflow, client }: StoreState): StateProps => ({
 });
 
 const mapDispatchToProps = (dispatch: Dispatch): DispatchProps => ({
-  dispatchClientUpdate: (clientId: ClientId, ethVersion: 1 | 2) => {
-    dispatch(updateClient(clientId, ethVersion));
+  dispatchClientUpdate: (
+    clientId: ClientId,
+    luksoVersion: 'Pandora' | 'Vanguard'
+  ) => {
+    dispatch(updateClient(clientId, luksoVersion));
   },
   dispatchWorkflowUpdate: (step: WorkflowStep) => {
     dispatch(updateWorkflow(step));

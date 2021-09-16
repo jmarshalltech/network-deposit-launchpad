@@ -31,14 +31,14 @@ export const clientReducer = (
   action: Action
 ) => {
   if (action.type === ActionTypes.updateClient) {
-    if (action.payload.ethVersion === 1) {
+    if (action.payload.luksoVersion === 'Pandora') {
       return {
         ...state,
         pandoraClient: action.payload.clientId,
       };
     }
 
-    if (action.payload.ethVersion === 2) {
+    if (action.payload.luksoVersion === 'Vanguard') {
       return {
         ...state,
         vanguardClient: action.payload.clientId,

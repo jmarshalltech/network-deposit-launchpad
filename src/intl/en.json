@@ -285,6 +285,10 @@
     "description": "{variables} are social media platform links to Discord and Reddit (do not translate names)",
     "message": "Visit EthStaker on {discord} or {reddit} at any time during your setup for some friendly help!"
   },
+  "60BCbB": {
+    "description": "{luksoVersionStep} is either 'Pandora' or 'Vanguard', depending on which step user is on",
+    "message": "Choose your {luksoVersionStep} client and set up a node"
+  },
   "6CK2Nu": {
     "message": "Your wallet is on the wrong network. Switch to {network}"
   },
@@ -305,10 +309,6 @@
   },
   "738tqz": {
     "message": "Prysm is written in Go and released under a GPL-3.0 license."
-  },
-  "73x8l/": {
-    "description": "{luksoVersionStep} is either 1 (Pandora) or 2 (Vanguard), depending on which step user is on",
-    "message": "Choose your Eth{luksoVersionStep} client and set up a node"
   },
   "74QdCu": {
     "message": "Transaction started"
@@ -748,9 +748,6 @@
   "JPT/TK": {
     "message": "4. Avoid phishing"
   },
-  "JZo/94": {
-    "message": "To become a validator you'll need to know about managing keys and protecting a mnemonic. If you are not yet familiar with keys and mnemomics, please do not proceed. Note that during this process you will not derive the keys needed to withdraw later, when validating on Mainnet you will need to store your mnemonic safely in order to be able to withdraw later."
-  },
   "JhUYU3": {
     "message": "Download CLI app"
   },
@@ -906,9 +903,6 @@
   "NTWnJC": {
     "message": "Download command line app"
   },
-  "NVQd7i": {
-    "message": "To process incoming validator deposits from mainnet (the Eth1 chain), you'll need to run an Eth1 client in parallel to your Eth2 client. While you can use a third-party service like Infura, we recommend running your own client in order to ensure the network stays as decentralised as possible."
-  },
   "NVljH4": {
     "message": "More on Prysmatic Labs"
   },
@@ -929,6 +923,9 @@
   },
   "O+3LJ1": {
     "message": "This validator's balance is at the effective maximum: {PRICE_PER_VALIDATOR} {TICKER_NAME}."
+  },
+  "OF9qv9": {
+    "message": "To process incoming validator deposits from the Pandora chain, you'll need to run a Pandora client in parallel to your Vanguard client. While you can use a third-party service like Infura, we recommend running your own client in order to ensure the network stays as decentralised as possible."
   },
   "OIvXIO": {
     "message": "Complete remaining {remainingTxCount} deposits"
@@ -1780,6 +1777,9 @@
   },
   "n7yYXG": {
     "message": "Service"
+  },
+  "nGXGJr": {
+    "message": "To become a validator you'll need to know about managing keys and protecting a mnemonic. If you are not yet familiar with keys and mnemomics, please do not proceed. Note that during this process you will not derive the keys needed to withdraw later, when validating on Mainnet you will need to store your mnemonic safely in order to be able to withdraw."
   },
   "nIb6XF": {
     "description": "{slashings} shows 'slashings' in bold for emphasis",

@@ -7,10 +7,10 @@ import { routesEnum } from '../../Routes';
 import { ClientId } from '../../store/actions/clientActions';
 
 type Props = {
-  luksoVersionStep: 1 | 2;
+  luksoVersionStep: 'Pandora' | 'Vanguard';
   currentClient: ClientId;
   handleSubmit: LinkProps['onClick'];
-  updateStep: (nextStep: 1 | 2) => void;
+  updateStep: (nextStep: 'Pandora' | 'Vanguard') => void;
 };
 
 const SelectClientButtons = ({
@@ -21,7 +21,7 @@ const SelectClientButtons = ({
 }: Props) => {
   const { formatMessage } = useIntl();
 
-  if (luksoVersionStep === 1) {
+  if (luksoVersionStep === 'Pandora') {
     return (
       <>
         <Link to={routesEnum.acknowledgementPage}>
@@ -36,7 +36,7 @@ const SelectClientButtons = ({
           rainbow
           disabled={!currentClient}
           label={formatMessage({ defaultMessage: 'Continue' })}
-          onClick={() => updateStep(2)}
+          onClick={() => updateStep('Vanguard')}
         />
       </>
     );
@@ -48,7 +48,7 @@ const SelectClientButtons = ({
         className="mr10"
         width={100}
         label={formatMessage({ defaultMessage: 'Back' })}
-        onClick={() => updateStep(1)}
+        onClick={() => updateStep('Pandora')}
       />
       <Link to={routesEnum.generateKeysPage} onClick={handleSubmit}>
         <Button

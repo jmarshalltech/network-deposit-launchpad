@@ -149,7 +149,7 @@ export const pageContent = {
             defaultMessage="To become a validator you'll need to know about managing keys and
               protecting a mnemonic. If you are not yet familiar with keys and mnemomics, please
               do not proceed. Note that during this process you will not derive the keys needed to
-              withdraw later, when validating on Mainnet you will need to store your mnemonic safely in order to be able to withdraw later."
+              withdraw later, when validating on Mainnet you will need to store your mnemonic safely in order to be able to withdraw."
           />
         </Text>
         <Text size="medium" className="mt20">

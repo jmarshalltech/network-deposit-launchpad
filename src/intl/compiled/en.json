@@ -813,6 +813,20 @@
       "value": " at any time during your setup for some friendly help!"
     }
   ],
+  "60BCbB": [
+    {
+      "type": 0,
+      "value": "Choose your "
+    },
+    {
+      "type": 1,
+      "value": "luksoVersionStep"
+    },
+    {
+      "type": 0,
+      "value": " client and set up a node"
+    }
+  ],
   "6CK2Nu": [
     {
       "type": 0,
@@ -857,20 +871,6 @@
     {
       "type": 0,
       "value": "Prysm is written in Go and released under a GPL-3.0 license."
-    }
-  ],
-  "73x8l/": [
-    {
-      "type": 0,
-      "value": "Choose your Eth"
-    },
-    {
-      "type": 1,
-      "value": "luksoVersionStep"
-    },
-    {
-      "type": 0,
-      "value": " client and set up a node"
     }
   ],
   "74QdCu": [
@@ -1907,12 +1907,6 @@
       "value": "4. Avoid phishing"
     }
   ],
-  "JZo/94": [
-    {
-      "type": 0,
-      "value": "To become a validator you'll need to know about managing keys and protecting a mnemonic. If you are not yet familiar with keys and mnemomics, please do not proceed. Note that during this process you will not derive the keys needed to withdraw later, when validating on Mainnet you will need to store your mnemonic safely in order to be able to withdraw later."
-    }
-  ],
   "JhUYU3": [
     {
       "type": 0,
@@ -2269,12 +2263,6 @@
       "value": "Download command line app"
     }
   ],
-  "NVQd7i": [
-    {
-      "type": 0,
-      "value": "To process incoming validator deposits from mainnet (the Eth1 chain), you'll need to run an Eth1 client in parallel to your Eth2 client. While you can use a third-party service like Infura, we recommend running your own client in order to ensure the network stays as decentralised as possible."
-    }
-  ],
   "NVljH4": [
     {
       "type": 0,
@@ -2339,6 +2327,12 @@
     {
       "type": 0,
       "value": "."
+    }
+  ],
+  "OF9qv9": [
+    {
+      "type": 0,
+      "value": "To process incoming validator deposits from the Pandora chain, you'll need to run a Pandora client in parallel to your Vanguard client. While you can use a third-party service like Infura, we recommend running your own client in order to ensure the network stays as decentralised as possible."
     }
   ],
   "OIvXIO": [
@@ -4529,6 +4523,12 @@
     {
       "type": 0,
       "value": "Service"
+    }
+  ],
+  "nGXGJr": [
+    {
+      "type": 0,
+      "value": "To become a validator you'll need to know about managing keys and protecting a mnemonic. If you are not yet familiar with keys and mnemomics, please do not proceed. Note that during this process you will not derive the keys needed to withdraw later, when validating on Mainnet you will need to store your mnemonic safely in order to be able to withdraw."
     }
   ],
   "nIb6XF": [
