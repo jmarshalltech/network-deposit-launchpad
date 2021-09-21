@@ -8,7 +8,7 @@ export const ENABLE_RPC_FEATURES        = Boolean(INFURA_PROJECT_ID && INFURA_PR
 export const INFURA_URL                 = `https://${IS_MAINNET ? "mainnet" : "goerli"}.infura.io/v3/${INFURA_PROJECT_ID}`;
 
 // public
-export const LUKSO_NETWORK_NAME         = (IS_MAINNET || !process.env.REACT_APP_TESTNET_LAUNCHPAD_NAME) ? 'mainnet' : process.env.REACT_APP_TESTNET_LAUNCHPAD_NAME;
+export const LUKSO_NETWORK_NAME         = (IS_MAINNET || !process.env.REACT_APP_TESTNET_LAUNCHPAD_NAME) ? 'l15' : process.env.REACT_APP_TESTNET_LAUNCHPAD_NAME;
 export const TICKER_NAME                = IS_MAINNET ? 'LYXt' : 'LYXt';
 export const ETHERSCAN_URL              = IS_MAINNET ? 'https://etherscan.io/tx' : 'https://explorer.pandora.l15.lukso.network';
 export const BEACONSCAN_URL             = IS_MAINNET ? 'https://beaconscan.com/validator' : `https://explorer.vanguard.l15.lukso.network`;
