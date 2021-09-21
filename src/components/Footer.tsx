@@ -100,7 +100,7 @@ export const Footer = () => {
                 width={400}
                 label={
                   <FormattedMessage
-                    defaultMessage="Become a validator {emoji}" //change to LUKSO logo
+                    defaultMessage="Become a validator {emoji}"
                     values={{
                       emoji: (
                         <LUKSOMiniLogo src={LuksoLogoPng} alt="LUKSO-logo" />
