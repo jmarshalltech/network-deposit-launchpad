@@ -29,7 +29,7 @@ import { FormattedMessage } from 'react-intl';
 
 const GradientBackground = styled(Box)`
   background-image: ${p =>
-    `linear-gradient(to right, ${p.theme.gradientNavbar})`};
+    `linear-gradient(to right, ${p.theme.gradientBlack})`};
 `;
 
 const LuksoLogo = styled.img`
@@ -129,7 +129,7 @@ const BarLinkText = styled(Heading)`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-weight: ${(p: { active?: boolean }) => (p.active ? 'bold' : 300)};
+  font-weight: ${(p: { active?: boolean }) => (p.active ? 'bold' : 400)};
 `;
 
 const _AppBar = ({ location }: RouteComponentProps) => {
