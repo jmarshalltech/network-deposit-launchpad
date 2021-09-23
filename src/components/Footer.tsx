@@ -69,7 +69,7 @@ export const Footer = () => {
 
   return (
     <RainbowBackground>
-      <FooterStyles>
+      <FooterStyles className="pb30">
         <div className="col">
           <Heading level={4}>
             <FormattedMessage defaultMessage="LUKSO L15 Testnet Launchpad" />
@@ -116,7 +116,7 @@ export const Footer = () => {
           <Heading level={4}>
             <FormattedMessage defaultMessage="More on LYXt" />
           </Heading>
-          <Link to="https://ethereum.org/en/eth2/">
+          <Link to="https://medium.com/lukso">
             <FormattedMessage defaultMessage="The LYXt upgrades" />
           </Link>
           <Link to={routesEnum.phishingPage}>
@@ -133,6 +133,11 @@ export const Footer = () => {
             <FormattedMessage defaultMessage="Formal verification report" />
           </Link>
         </div>
+      </FooterStyles>
+      <FooterStyles className="pt0">
+        <Link to="https://github.com/ethereum/staking-launchpad">
+          <FormattedMessage defaultMessage="🌈 Forked from the Eth2 Launchpad" />
+        </Link>
       </FooterStyles>
     </RainbowBackground>
   );

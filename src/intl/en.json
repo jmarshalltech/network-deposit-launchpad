@@ -1904,6 +1904,9 @@
   "pyWt01": {
     "message": "Deposit summary"
   },
+  "q0rXsF": {
+    "message": "🌈 Forked from the Eth2 Launchpad"
+  },
   "q2XW/k": {
     "message": "If your withdrawal key is stolen, the thief can transfer your validator’s balance, but only once the validator has exited."
   },
