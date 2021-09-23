@@ -8,6 +8,9 @@
   "+V+ZX+": {
     "message": "Validator uptime"
   },
+  "+VetqJ": {
+    "message": "Note that in the second (unlikely) scenario, you stand to progressively lose up to 50% (16 LYXt) of your stake over 21 days. After 21 days you are ejected out of the validator pool. This ensures that blocks start finalizing again at some point."
+  },
   "+Z55zr": {
     "message": "Phishing is a very real risk for LYXt validators and, unfortunately, many people will lose funds due to these attacks."
   },
@@ -148,6 +151,9 @@
   "1Vkpd0": {
     "message": "Check that the password files don’t have trailing new-lines."
   },
+  "1YLlOG": {
+    "message": "You can think of the deposit contract as a transfer of funds between LUKSO accounts and LYXt validators."
+  },
   "1fDfw7": {
     "message": "How does this all happen?"
   },
@@ -173,9 +179,6 @@
   },
   "2CYEJa": {
     "message": "Troubleshooting"
-  },
-  "2M/xo9": {
-    "message": "More on the LYXt vision"
   },
   "2Qn0Hh": {
     "message": "Importantly, as a validator you'll need to post {TICKER_NAME} as collateral - in other words, have some funds at stake (get some at the {faucetLink}). The only way to become a validator is to make a one-way {TICKER_NAME} transaction to the deposit contract on the current LUKSO L15 Testnet."
@@ -241,14 +244,15 @@
   "47svuN": {
     "message": "Installation"
   },
+  "4At0e7": {
+    "description": "{pricePerValidator} represents deposit amount styled in bold",
+    "message": "Before you can run a validator and start to secure the network, you need to stake {pricePerValidator} LYXt. This forms your initial balance."
+  },
   "4FcLja": {
     "message": "Prysm is a Go implementation of Ethereum 2.0 protocol with a focus on usability, security, and reliability."
   },
   "4NvAhl": {
     "message": "Start by setting up your chosen hardware and operating system."
-  },
-  "4QNsja": {
-    "message": "Why a sliding scale? While we won’t get into the gory details here, the basic intution is that there needs to be a minimum number of validators (and hence a minimum amount of ETH staked) for the network to function properly. So, to incentivize more validators to join, it’s important that the interest rate remains high until this minimum number is reached."
   },
   "4TOYsg": {
     "message": "LUKSO L15 Ephemeral Testnet Launchpad"
@@ -331,6 +335,9 @@
   "7YwZPE": {
     "message": "It is high risk to run your LYXt validator in multiple places. It will lead to a slashable event and ejection from the network. {learnMore}"
   },
+  "7bEnm6": {
+    "message": "If you go offline for a number of days under normal conditions you will lose an amount of LYXt roughly equivalent to the amount of LYXt you would have gained in that period. In other words, if you stood to earn ≈0.01 LYXt, you would instead be penalised ≈0.01 LYXt."
+  },
   "7d3Nzd": {
     "description": "{variables} are Beacon Chain block explorers, with links to each (do not translate names)",
     "message": "You can use your validator client's graffiti flag to add a personal touch to your proposed blocks (some text of your choice). You will be able to see it using {beaconchain} or {beaconscan} blockchain explorers."
@@ -378,6 +385,9 @@
   "8boRAk": {
     "message": "slashings"
   },
+  "8sTrb4": {
+    "message": "Your balance is updated periodically by the LUKSO network rules as you carry (or fail to carry) out your responsibilities."
+  },
   "8wd0q5": {
     "message": "An Ethereum client designed to be enterprise-friendly for both public and private, permissioned network use cases."
   },
@@ -393,8 +403,8 @@
   "96pen8": {
     "message": "Sharding will make more data available to the network by introducing 64 parallel chains. Each new chain will be able to handle at least as much data as mainnet today, probably more."
   },
-  "9DZdsc": {
-    "message": "Is there any advantage to having more than {pricePerValidator} ETH at stake?"
+  "9BcSOf": {
+    "message": "Why a sliding scale? While we won’t get into the gory details here, the basic intution is that there needs to be a minimum number of validators (and hence a minimum amount of LYXt staked) for the network to function properly. So, to incentivize more validators to join, it’s important that the interest rate remains high until this minimum number is reached."
   },
   "9JktQX": {
     "message": "There is no easy answer to this question as there are many factors that go into this calculation."
@@ -426,6 +436,12 @@
   "AIEf0K": {
     "description": "This phrase is a sentence ",
     "message": "LUKSO L15 Testnet Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
+  },
+  "AMajpT": {
+    "message": "Block rewards are calculated using a sliding scale based on the total amount of LYXt staked on the network."
+  },
+  "ANsnxE": {
+    "message": "No. There is no advantage to having more than {pricePerValidator} LYXt staked."
   },
   "AYKxmf": {
     "message": "Connect your hardware wallet to Metamask"
@@ -477,6 +493,9 @@
   "Bf2QKg": {
     "message": "Validating is a long-term commitment"
   },
+  "BiP9Gq": {
+    "message": "More on the LUKSO vision"
+  },
   "Bj5yI5": {
     "message": "Effective balance"
   },
@@ -500,13 +519,6 @@
   },
   "CF9vMR": {
     "message": "Proof of stake"
-  },
-  "CVDzDs": {
-    "message": "You should certainly top up if your balance is close to 16 ETH. This is to ensure you don’t get kicked out of the validator set (which automatically happens if your balance falls below 16 ETH)."
-  },
-  "CdKEd/": {
-    "description": "{strongText} is a warning, bolded for emphasis",
-    "message": "The minimum amount that can be slashed is 1 ETH, but {strongText}."
   },
   "CeeJfw": {
     "message": "I've set up a firewall."
@@ -680,6 +692,9 @@
   "H5+NAX": {
     "message": "Balance"
   },
+  "HMpGw2": {
+    "message": "You should certainly top up if your balance is close to 16 LYXt. This is to ensure you don’t get kicked out of the validator set (which automatically happens if your balance falls below 16 LYXt)."
+  },
   "HoahTd": {
     "message": "If you do not supply a password, Nimbus will interactively ask for it on startup."
   },
@@ -697,9 +712,6 @@
   },
   "IJw06E": {
     "message": "Sign transaction with your wallet"
-  },
-  "IVyWYt": {
-    "message": "Note that in the second (unlikely) scenario, you stand to progressively lose up to 50% (16 ETH) of your stake over 21 days. After 21 days you are ejected out of the validator pool. This ensures that blocks start finalizing again at some point."
   },
   "IZFEUg": {
     "message": "Ready"
@@ -778,9 +790,6 @@
   },
   "KN7zKn": {
     "message": "Error"
-  },
-  "KV017i": {
-    "message": "A validator is an entity that participates in the consensus of the Ethereum 2.0 protocol."
   },
   "KdzWz6": {
     "message": "LYXt Beacon Node (BN)"
@@ -1025,9 +1034,6 @@
   "RWqrlk": {
     "message": "congratulations"
   },
-  "RaBZna": {
-    "message": "If you go offline for a number of days under normal conditions you will lose an amount of ETH roughly equivalent to the amount of ETH you would have gained in that period. In other words, if you stood to earn ≈0.01 ETH, you would instead be penalised ≈0.01 ETH."
-  },
   "Rg5ySE": {
     "message": "How many validators would you like to run?"
   },
@@ -1130,6 +1136,10 @@
   "UWv7yD": {
     "message": "Check the deposit contract on your favorite Ethereum block explorer:"
   },
+  "UYxJLB": {
+    "description": "{strongText} is a warning, bolded for emphasis",
+    "message": "The minimum amount that can be slashed is 1 LYXt, but {strongText}."
+  },
   "Utck3E": {
     "message": "Language support"
   },
@@ -1172,9 +1182,6 @@
   },
   "VLDKor": {
     "message": "{PRICE_PER_VALIDATOR} {TICKER_NAME} is the maximum effective validator balance. This means you won't earn more rewards if your validator's balance goes above {PRICE_PER_VALIDATOR}. However you will earn less if it dips below {PRICE_PER_VALIDATOR}."
-  },
-  "VSSmNp": {
-    "message": "In other words: if the total amount of ETH staked is low, the reward (interest rate) is high, but as the total stake rises, the reward (interest) paid out to each validator starts to fall."
   },
   "VUuZsb": {
     "message": "martial arts uniform"
@@ -1234,6 +1241,9 @@
   "XmddSV": {
     "message": "Build from source"
   },
+  "Xwdwnq": {
+    "message": "Limiting the maximum stake to {pricePerValidator} LYXt encourages decentralization of power as it prevents any single validator from having an excessively large vote on the state of the chain."
+  },
   "Y47aYU": {
     "message": "Top up"
   },
@@ -1264,6 +1274,9 @@
   },
   "YZtdY1": {
     "message": "As of {date}, you'll need ~400GB for the Eth1 mainnet chain data alone (growing at ~1GB/day)."
+  },
+  "YbS71f": {
+    "message": "Over time, your balance will decrease as you are punished for not participating in the consensus process. When your balance reaches 16 LYXt, you will be automatically exited from the validator pool."
   },
   "Yganfl": {
     "message": "Type the following lines into the terminal window:"
@@ -1306,6 +1319,9 @@
   "ZTo0Fl": {
     "message": "Why is there a wait?"
   },
+  "ZVn96Y": {
+    "message": "Is there any advantage to having more than {pricePerValidator} LYXt at stake?"
+  },
   "Zi+EED": {
     "message": "PegaSys Teku is a Java-based Ethereum 2.0 client built to meet institutional needs and security requirements."
   },
@@ -1318,11 +1334,11 @@
   "a+xjjV": {
     "message": "Become a validator with Prysm"
   },
+  "aC5KNK": {
+    "message": "The answer to this question very much depends on how much LYXt you have at your disposal."
+  },
   "aEBE6s": {
     "message": "2. Prep nodes"
-  },
-  "aNktdz": {
-    "message": "You can think of the deposit contract as a transfer of funds between Ethereum accounts and LYXt validators."
   },
   "aS6dBe": {
     "message": "Configure Nimbus"
@@ -1341,9 +1357,6 @@
   },
   "azLmaD": {
     "message": "Build deposit-cli from the Python source code"
-  },
-  "b3J7Pw": {
-    "message": "No. There is no advantage to having more than {pricePerValidator} ETH staked."
   },
   "b4csjU": {
     "message": "However, bear in mind that for the foreseeable future, once you’ve exited, there’s no going back."
@@ -1485,9 +1498,6 @@
   "f/N7FO": {
     "message": "What happens if I lose my signing key?"
   },
-  "fHLKXR": {
-    "message": "The answer to this question very much depends on how much ETH you have at your disposal."
-  },
   "fQ5yno": {
     "message": "Arabic"
   },
@@ -1583,6 +1593,9 @@
   },
   "iCpuph": {
     "message": "Clients"
+  },
+  "iHH0gC": {
+    "message": "A validator is an entity that participates in the consensus of LUKSO's Vanguard Chain protocol."
   },
   "iIkLdj": {
     "message": "The LYXt upgrades will only be successful if validators understand the risks and responsibilities."
@@ -1686,9 +1699,6 @@
   "kd/f4u": {
     "message": "Key list"
   },
-  "km7b1A": {
-    "message": "Over time, your balance will decrease as you are punished for not participating in the consensus process. When your balance reaches 16 ETH, you will be automatically exited from the validator pool."
-  },
   "kn7kJd": {
     "message": "More on consensus mechanisms"
   },
@@ -1788,6 +1798,9 @@
   "nRdJct": {
     "message": "Continue without all transactions confirmed"
   },
+  "nYkH/p": {
+    "message": "At the other end of the spectrum, if your balance is closer to 31 LYXt, it’s probably not worth adding the extra LYXt required to get back to 32."
+  },
   "nZTFTz": {
     "message": "I understand that there is no advantage to depositing more than once per validator. Any extra {TICKER_NAME} sent in a duplicate deposit will not be counted in my effective validator balance and I will not be able to withdraw it."
   },
@@ -1813,9 +1826,6 @@
   "oLxfO1": {
     "message": "Now that the keys are imported, all that is left to do (assuming your beacon node is already running) is to run the validator client."
   },
-  "oPdwwC": {
-    "message": "Limiting the maximum stake to {pricePerValidator} ETH encourages decentralization of power as it prevents any single validator from having an excessively large vote on the state of the chain."
-  },
   "oWhj8Q": {
     "message": "How often are rewards/penalties issued?"
   },
@@ -1830,6 +1840,9 @@
   },
   "on8WXn": {
     "message": "I've imported the dashboard config to my Grafana server and double checked that my node is alive."
+  },
+  "opSPEl": {
+    "message": "In other words: if the total amount of LYXt staked is low, the reward (interest rate) is high, but as the total stake rises, the reward (interest) paid out to each validator starts to fall."
   },
   "orM+1T": {
     "message": "Teku will also load validators from keystores (and passwords) from the paths found in the validator keys environment variable."
@@ -1888,9 +1901,6 @@
   "q2XW/k": {
     "message": "If your withdrawal key is stolen, the thief can transfer your validator’s balance, but only once the validator has exited."
   },
-  "qDcbPp": {
-    "message": "Your 16 ETH can then be withdrawn – with your withdrawal key – after a delay of around a day."
-  },
   "qK4+NQ": {
     "message": "The terminal"
   },
@@ -1905,6 +1915,9 @@
   },
   "qQ+Xla": {
     "message": "Korean"
+  },
+  "qROJ5v": {
+    "message": "Your 16 LYXt can then be withdrawn – with your withdrawal key – after a delay of around a day."
   },
   "qZ59xY": {
     "message": "All validators"
@@ -2062,18 +2075,11 @@
   "ukfwum": {
     "message": "Become a validator with Nimbus"
   },
-  "unzIoE": {
-    "description": "{pricePerValidator} represents deposit amount styled in bold",
-    "message": "Before you can run a validator and start to secure the network, you need to stake {pricePerValidator} ETH. This forms your initial balance."
-  },
   "uprpgn": {
     "message": "This launchpad will help you become a validator, so you can play an active part in LUKSO's future. Validators are key to the more secure, scalable, and sustainable network we're building together."
   },
   "v2/6AL": {
     "message": "I understand that I need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME} to become a validator, and that the transfer of {TICKER_NAME} to the Vanguard Consensus Chain is one-way, and non-reversible."
-  },
-  "vBOf5K": {
-    "message": "Your balance is updated periodically by the Ethereum network rules as you carry (or fail to carry) out your responsibilities."
   },
   "vCHTnu": {
     "message": "Withdrawal credentials"
@@ -2158,9 +2164,6 @@
   "xQrU13": {
     "message": "Please review the staking checklist prior to proceeding. Use this as a guide to check off tasks as you complete validator setup."
   },
-  "xSvJIi": {
-    "message": "Block rewards are calculated using a sliding scale based on the total amount of ETH staked on the network."
-  },
   "xYRzZY": {
     "message": "Nimbus is a research project and a client implementation for Ethereum 2.0 designed to perform well on embedded systems and personal mobile devices."
   },
@@ -2213,9 +2216,6 @@
   },
   "zAVb0/": {
     "message": "More on Lighthouse and Sigma Prime"
-  },
-  "zGkAVo": {
-    "message": "At the other end of the spectrum, if your balance is closer to 31 ETH, it’s probably not worth adding the extra ETH required to get back to 32."
   },
   "zO6Kvn": {
     "message": "LYXt economics"

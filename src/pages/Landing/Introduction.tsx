@@ -81,11 +81,8 @@ export const Introduction = (): JSX.Element => {
             <Text className="mt20">
               <FormattedMessage defaultMessage="Currently we are running the L15 Ephemeral Testnet to prepare for L16, and we need your help!" />
             </Text>
-            <Link
-              className="mt20 mb40"
-              to="https://ethereum.org/en/eth2/vision/"
-            >
-              <FormattedMessage defaultMessage="More on the LYXt vision" />
+            <Link className="mt20 mb40" to="https://medium.com/lukso">
+              <FormattedMessage defaultMessage="More on the LUKSO vision" />
             </Link>
             <Text className="mt20">
               <FormattedMessage
@@ -101,12 +98,7 @@ export const Introduction = (): JSX.Element => {
                   mechanism."
               />
             </Text>
-            <Link
-              className="mt20 mb40"
-              to="https://ethereum.org/en/eth2/docking/"
-            >
-              <FormattedMessage defaultMessage="More on the merge" />
-            </Link>
+            <FormattedMessage defaultMessage="More on the merge" />
             <Text className="mt20">
               <FormattedMessage
                 defaultMessage="Validating in LUKSO is not the same as mining. The outcomes are
@@ -117,7 +109,7 @@ export const Introduction = (): JSX.Element => {
             </Text>
             <Link
               className="mt20 mb40"
-              to="https://ethereum.org/en/developers/docs/consensus-mechanisms/"
+              to="https://arxiv.org/pdf/1710.09437.pdf"
             >
               <FormattedMessage defaultMessage="More on consensus mechanisms" />
             </Link>
