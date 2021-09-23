@@ -187,7 +187,7 @@ export const Hero = () => {
                       color="brand"
                       className="my20"
                     >
-                      <FormattedMessage defaultMessage="Become a LYXt validator and help secure the future of LUKSO" />
+                      <FormattedMessage defaultMessage="Become a L15 testnet validator and help secure the future of LUKSO" />
                     </Heading>
                   </ScrollAnimation>
                   <ScrollAnimation animateIn="fadeInUp" delay={750} animateOnce>

@@ -826,9 +826,6 @@
     "description": "{boldCaution} is states 'only stored on one validator machine', a bolded caution statement to users",
     "message": "I've ensured my keystore(s) is/are {boldCaution}."
   },
-  "L6lZMb": {
-    "message": "Become a LYXt validator and help secure the future of LUKSO"
-  },
   "L7fPF+": {
     "message": "Complete your last deposit"
   },
@@ -2015,6 +2012,9 @@
   },
   "szN3Fl": {
     "message": "I understand and agree to the terms-of-service and everything stated in the previous sections."
+  },
+  "tDJxoT": {
+    "message": "Become a L15 testnet validator and help secure the future of LUKSO"
   },
   "tJcyUM": {
     "message": "Your deposit_data.json suggests you wanted to set up more validators. These deposits are still outstanding. If you think you've already made these deposits, wait an hour before trying again to avoid duplicate deposits."
