@@ -17,6 +17,8 @@ const LogoContainer = styled.div`
 `;
 const LuksoLogo = styled.img`
   height: 100px;
+  width: 100px;
+  margin: 0 auto;
 `;
 const LogoText = styled(Text)`
   font-weight: bold;
@@ -49,7 +51,7 @@ export const NotFoundPage = (): JSX.Element => {
         <LogoContainer>
           <LuksoLogo src={LuksoLogoPng} />
           <LogoText className="mt20" center size="large">
-            Eth2 Launchpad
+            LUKSO L15 Testnet Launchpad
           </LogoText>
         </LogoContainer>
         <Text center className="mt20">

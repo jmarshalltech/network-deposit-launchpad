@@ -23,12 +23,6 @@
       "value": "Note that in the second (unlikely) scenario, you stand to progressively lose up to 50% (16 LYXt) of your stake over 21 days. After 21 days you are ejected out of the validator pool. This ensures that blocks start finalizing again at some point."
     }
   ],
-  "+Z55zr": [
-    {
-      "type": 0,
-      "value": "Phishing is a very real risk for LYXt validators and, unfortunately, many people will lose funds due to these attacks."
-    }
-  ],
   "+e8bO+": [
     {
       "type": 0,
@@ -727,6 +721,12 @@
       "value": "Copy"
     }
   ],
+  "4resC0": [
+    {
+      "type": 0,
+      "value": "Check your favorite LYXt block explorer:"
+    }
+  ],
   "52qGy6": [
     {
       "type": 0,
@@ -807,6 +807,12 @@
     {
       "type": 1,
       "value": "network"
+    }
+  ],
+  "6S95Bo": [
+    {
+      "type": 0,
+      "value": "Avoid phishing"
     }
   ],
   "6UUL73": [
@@ -1475,20 +1481,6 @@
       "value": "chain"
     }
   ],
-  "E5Cees": [
-    {
-      "type": 0,
-      "value": "Does the site asking you for your "
-    },
-    {
-      "type": 1,
-      "value": "lyxtAmount"
-    },
-    {
-      "type": 0,
-      "value": " deposit have a URL you expect?"
-    }
-  ],
   "EFjTSf": [
     {
       "type": 0,
@@ -1743,6 +1735,20 @@
     {
       "type": 0,
       "value": "Balance"
+    }
+  ],
+  "HJVEQL": [
+    {
+      "type": 0,
+      "value": "Does the site asking you for your "
+    },
+    {
+      "type": 1,
+      "value": "lyxtAmount"
+    },
+    {
+      "type": 0,
+      "value": " deposit have a URL you expect?"
     }
   ],
   "HMpGw2": [
@@ -2153,6 +2159,16 @@
       "value": "Your initial deposit has already been made for this validator public key. Please wait and check the status of your deposit on the Beaconchain data provider."
     }
   ],
+  "Lx5REW": [
+    {
+      "type": 1,
+      "value": "withdrawalCredentials"
+    },
+    {
+      "type": 0,
+      "value": " is a 32-byte field in the deposit, for verifying the destination of valid withdrawals. By default, deposit-cli would generate withdrawal credentials with the withdrawal key derived via mnemonics in EIP2334 format."
+    }
+  ],
   "LyJqWj": [
     {
       "type": 0,
@@ -2429,16 +2445,6 @@
     {
       "type": 0,
       "value": "Your network has changed"
-    }
-  ],
-  "PAiyvv": [
-    {
-      "type": 1,
-      "value": "withdrawalCredentials"
-    },
-    {
-      "type": 0,
-      "value": " is a 32-byte field in the deposit, for verifying the destination of valid withdrawals. There will be two types of withdrawals: BLS withdrawal and Pandora address withdrawal."
     }
   ],
   "PIQDar": [
@@ -3467,6 +3473,12 @@
       "value": "Continue"
     }
   ],
+  "ap/jla": [
+    {
+      "type": 0,
+      "value": "Phishing is a very real risk for LUKSO validators and, unfortunately, many people will lose funds due to these attacks."
+    }
+  ],
   "azLmaD": [
     {
       "type": 0,
@@ -4141,6 +4153,20 @@
     {
       "type": 0,
       "value": "Documentation"
+    }
+  ],
+  "itLVZL": [
+    {
+      "type": 0,
+      "value": "You need enough upload bandwidth too. As of "
+    },
+    {
+      "type": 1,
+      "value": "date"
+    },
+    {
+      "type": 0,
+      "value": ", for Eth this is ~700-800 MB/hour, and is likely to increase over time."
     }
   ],
   "iv88b5": [
@@ -5163,26 +5189,6 @@
     {
       "type": 0,
       "value": "Uptime"
-    }
-  ],
-  "uCcizI": [
-    {
-      "type": 0,
-      "value": "Check your favorite Lyxt block explorer:"
-    }
-  ],
-  "uCikFk": [
-    {
-      "type": 0,
-      "value": "You need enough upload bandwidth too. As of "
-    },
-    {
-      "type": 1,
-      "value": "date"
-    },
-    {
-      "type": 0,
-      "value": " this is ~700-800 MB/hour, and is likely to increase."
     }
   ],
   "uHaXQZ": [
