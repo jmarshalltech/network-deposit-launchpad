@@ -60,7 +60,7 @@ export const Upgrades = (): JSX.Element => {
       subTitle: formatMessage({
         defaultMessage: 'Dig deeper into how LUKSO moves towards Mainnet.',
       }),
-      linkUrl: 'https://ethereum.org/en/eth2/',
+      linkUrl: 'https://medium.com/lukso',
       link: formatMessage({ defaultMessage: 'How does this all happen?' }),
     },
     {
