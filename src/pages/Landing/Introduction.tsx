@@ -98,7 +98,6 @@ export const Introduction = (): JSX.Element => {
                   mechanism."
               />
             </Text>
-            <FormattedMessage defaultMessage="More on the merge" />
             <Text className="mt20">
               <FormattedMessage
                 defaultMessage="Validating in LUKSO is not the same as mining. The outcomes are

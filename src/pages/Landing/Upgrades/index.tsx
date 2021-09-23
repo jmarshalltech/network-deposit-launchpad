@@ -114,23 +114,9 @@ export const Upgrades = (): JSX.Element => {
               </Text>
               <Link
                 className="mt20 mb40"
-                to="https://ethereum.org/eth2/beacon-chain/"
+                to="https://medium.com/lukso/luksos-mainnet-architecture-casper-beacon-chain-with-evm-execution-f68f9ef7039a"
               >
                 <FormattedMessage defaultMessage="More on the Vanguard Consensus Chain" />
-              </Link>
-              <UpgradeTitle className="mt20">The Merge (docking)</UpgradeTitle>
-              <Text className="mt20">
-                <FormattedMessage
-                  defaultMessage="The merge, also known as the docking, will see Pandora
-                    merge with the Vanguard Chain. This is when
-                    LUKSO will fully transition to proof-of-stake."
-                />
-              </Text>
-              <Link
-                className="mt20 mb40"
-                to="https://ethereum.org/eth2/docking/"
-              >
-                <FormattedMessage defaultMessage="More on the merge" />
               </Link>
               <UpgradeTitle className="mt20">Sharding </UpgradeTitle>
               <Text className="mt20">
