@@ -419,12 +419,6 @@
       "value": "LUKSO validator checklist"
     }
   ],
-  "2+TGmE": [
-    {
-      "type": 0,
-      "value": "To process incoming validator deposits from the Eth1 chain, you'll need to run an Eth1 client as well as your Eth2 client. You can use a third-party service like Infura, but we recommend running your own client to keep the network as decentralised as possible."
-    }
-  ],
   "22EpKq": [
     {
       "type": 0,
@@ -797,20 +791,6 @@
       "value": "Romanian"
     }
   ],
-  "5WTIU/": [
-    {
-      "type": 0,
-      "value": "I've synced my LYXt beacon node on "
-    },
-    {
-      "type": 1,
-      "value": "LUKSO_NETWORK_NAME"
-    },
-    {
-      "type": 0,
-      "value": "."
-    }
-  ],
   "5t8oYl": [
     {
       "type": 0,
@@ -867,6 +847,20 @@
     {
       "type": 0,
       "value": "You can improve the effective balance of this validator by topping up"
+    }
+  ],
+  "6jqENM": [
+    {
+      "type": 0,
+      "value": "You'll need a significant amount of space for the Pandora mainnet chain data alone (For reference; as of "
+    },
+    {
+      "type": 1,
+      "value": "date"
+    },
+    {
+      "type": 0,
+      "value": ", Eth1 is ~400GB and growing at ~1GB/day)."
     }
   ],
   "6nh4de": [
@@ -981,6 +975,12 @@
     {
       "type": 0,
       "value": "Use L15LYX to sync the L15 testnet."
+    }
+  ],
+  "7rVP3x": [
+    {
+      "type": 0,
+      "value": "LYXt Vanguard Node (VN)"
     }
   ],
   "7s6XNV": [
@@ -1261,6 +1261,12 @@
     {
       "type": 0,
       "value": "Top up validator"
+    }
+  ],
+  "AzR2Fq": [
+    {
+      "type": 0,
+      "value": "I've simulated how to manually stop and restart my Vanguard Node (VN) and Validator Client (VC) gracefully."
     }
   ],
   "BCsPjJ": [
@@ -1573,6 +1579,18 @@
       "value": "This is a test network ⚠️"
     }
   ],
+  "EuhIal": [
+    {
+      "type": 0,
+      "value": "Syncing your Pandora client may take a few days in the worst-case scenario."
+    }
+  ],
+  "F7VIgY": [
+    {
+      "type": 0,
+      "value": "Besu on Goerli documentation"
+    }
+  ],
   "FEbVwB": [
     {
       "type": 0,
@@ -1613,12 +1631,6 @@
     {
       "type": 0,
       "value": "Try again"
-    }
-  ],
-  "FdbNS6": [
-    {
-      "type": 0,
-      "value": "Configure your Eth1 Client"
     }
   ],
   "FfLWt5": [
@@ -1807,6 +1819,12 @@
       "value": "Can I change the withdrawal credentials of my validator after the first deposit?"
     }
   ],
+  "IBLsVn": [
+    {
+      "type": 0,
+      "value": "An Eth2/Vanguard client with a heavy focus on speed and security. Built by Sigma Prime, an information security and software engineering firm who have funded Lighthouse along with the Ethereum Foundation, Consensys, and private individuals."
+    }
+  ],
   "IJw06E": [
     {
       "type": 0,
@@ -1863,12 +1881,6 @@
     {
       "type": 0,
       "value": " there are two important scenarios to be aware of:"
-    }
-  ],
-  "J0DclJ": [
-    {
-      "type": 0,
-      "value": "Syncing your Eth1 client may take a few days in the worst-case scenario."
     }
   ],
   "J455S4": [
@@ -2013,6 +2025,24 @@
       "value": "Hardware checklist"
     }
   ],
+  "KFSZ68": [
+    {
+      "type": 1,
+      "value": "warning"
+    },
+    {
+      "type": 0,
+      "value": " Duplicate deposits with the same keyfile public key will be considered as a double deposit. Any extra balance more than "
+    },
+    {
+      "type": 1,
+      "value": "lyxt"
+    },
+    {
+      "type": 0,
+      "value": " will NOT be counted in your effective balance on the Vanguard Chain. Withdrawing your deposits also won't currently be possible."
+    }
+  ],
   "KMyzzI": [
     {
       "type": 0,
@@ -2025,16 +2055,10 @@
       "value": "Error"
     }
   ],
-  "KdzWz6": [
+  "KQHq1w": [
     {
       "type": 0,
-      "value": "LYXt Beacon Node (BN)"
-    }
-  ],
-  "KhEtqB": [
-    {
-      "type": 0,
-      "value": "Besu on Goerli documentation"
+      "value": "I'm able to connect my LYXt vanguard node to my Pandora client via HTTP API(s)."
     }
   ],
   "KjcAm2": [
@@ -2823,20 +2847,6 @@
       "value": "Testnet tokens (LYXt) are non-transferrable to mainnet (LYX) or LYXe. L15 is an ephemeral testnet, meaning the state will not be persistent and the network will be frequently reset."
     }
   ],
-  "TLEziZ": [
-    {
-      "type": 0,
-      "value": "The Beacon Chain had its genesis on "
-    },
-    {
-      "type": 1,
-      "value": "date"
-    },
-    {
-      "type": 0,
-      "value": ". It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
-    }
-  ],
   "TMw9oz": [
     {
       "type": 0,
@@ -2927,6 +2937,12 @@
     {
       "type": 0,
       "value": "Language support"
+    }
+  ],
+  "UuqWUf": [
+    {
+      "type": 0,
+      "value": "Moreover, you can set your Validator Client (VC) and Vanguard Node (VN) on separate machines and IPs so that even if your vanguard node is vulnerable, your keystore is stored on a different machine."
     }
   ],
   "Uxs0RD": [
@@ -3089,24 +3105,6 @@
     {
       "type": 0,
       "value": "FAQ"
-    }
-  ],
-  "WFVzvu": [
-    {
-      "type": 1,
-      "value": "warning"
-    },
-    {
-      "type": 0,
-      "value": " Duplicate deposits with the same keyfile public key will be considered as a double deposit. Any extra balance more than "
-    },
-    {
-      "type": 1,
-      "value": "eth"
-    },
-    {
-      "type": 0,
-      "value": " will NOT be counted in your effective balance on the Beacon Chain. You also won't be able to withdraw it until the Beacon Chain merges with mainnet."
     }
   ],
   "WMLn/w": [
@@ -3295,20 +3293,6 @@
     {
       "type": 0,
       "value": " service."
-    }
-  ],
-  "YZtdY1": [
-    {
-      "type": 0,
-      "value": "As of "
-    },
-    {
-      "type": 1,
-      "value": "date"
-    },
-    {
-      "type": 0,
-      "value": ", you'll need ~400GB for the Eth1 mainnet chain data alone (growing at ~1GB/day)."
     }
   ],
   "YbS71f": [
@@ -3541,6 +3525,12 @@
     {
       "type": 0,
       "value": "The YAML files can have different syntaxes."
+    }
+  ],
+  "bcyLj/": [
+    {
+      "type": 0,
+      "value": "Now that the keys are imported, all that is left to do (assuming your vanguard node is already running) is to run the validator client."
     }
   ],
   "bnuvhg": [
@@ -3867,10 +3857,10 @@
       "value": "impact of effective balance"
     }
   ],
-  "g/DxI7": [
+  "fw/omY": [
     {
       "type": 0,
-      "value": "Moreover, you can set your Validator Client (VC) and Beacon Node (BN) on separate machines and IPs so that even if your beacon node is vulnerable, your keystore is stored on a different machine."
+      "value": "Configure your Pandora Client"
     }
   ],
   "g/lIhF": [
@@ -3999,12 +3989,6 @@
       "value": "Desktop only"
     }
   ],
-  "hMnlaW": [
-    {
-      "type": 0,
-      "value": "I've simulated how to migrate from one LYXt client to another Lyxt client."
-    }
-  ],
   "hPCn9f": [
     {
       "type": 0,
@@ -4129,6 +4113,12 @@
       "value": ", otherwise the deposit will be invalid."
     }
   ],
+  "iYCg1B": [
+    {
+      "type": 0,
+      "value": "I've simulated how to migrate from one LYXt client to another LYXt client."
+    }
+  ],
   "iZuIgB": [
     {
       "type": 0,
@@ -4195,6 +4185,12 @@
     {
       "type": 0,
       "value": "While validating on the testnet, perform these simulations to learn more about your node, and better prepare yourself for mainnet:"
+    }
+  ],
+  "jOwYzp": [
+    {
+      "type": 0,
+      "value": "Make sure you do the following to get your Pandora client working properly."
     }
   ],
   "jThhoD": [
@@ -4409,6 +4405,20 @@
       "value": "num_validators"
     }
   ],
+  "lR5uPQ": [
+    {
+      "type": 0,
+      "value": "I've installed and synced my Pandora node on "
+    },
+    {
+      "type": 1,
+      "value": "network"
+    },
+    {
+      "type": 0,
+      "value": " (do not wait on this as it can take several days)."
+    }
+  ],
   "lS9VhN": [
     {
       "type": 0,
@@ -4549,20 +4559,6 @@
       "value": "Risks and acknowledgements:"
     }
   ],
-  "n6Uub0": [
-    {
-      "type": 0,
-      "value": "I've installed and synced my Eth1 node on "
-    },
-    {
-      "type": 1,
-      "value": "network"
-    },
-    {
-      "type": 0,
-      "value": " (do not wait on this as it can take several days)."
-    }
-  ],
   "n7yYXG": [
     {
       "type": 0,
@@ -4633,6 +4629,12 @@
       "value": "I've started running my validator client."
     }
   ],
+  "nsDU+u": [
+    {
+      "type": 0,
+      "value": "To process incoming validator deposits from the Pandora chain, you'll need to run an Pandora client as well as your Vanguard client. You can use a third-party service like Infura, but we recommend running your own client to keep the network as decentralised as possible."
+    }
+  ],
   "ntG2by": [
     {
       "type": 0,
@@ -4665,12 +4667,6 @@
     {
       "type": 0,
       "value": "Before you start"
-    }
-  ],
-  "oLxfO1": [
-    {
-      "type": 0,
-      "value": "Now that the keys are imported, all that is left to do (assuming your beacon node is already running) is to run the validator client."
     }
   ],
   "oWhj8Q": [
@@ -4785,12 +4781,6 @@
       "value": "More on phishing"
     }
   ],
-  "pfVqm7": [
-    {
-      "type": 0,
-      "value": "I'm able to connect my LYXt beacon node to my Eth1 client via HTTP API(s)."
-    }
-  ],
   "pkgxrV": [
     {
       "type": 0,
@@ -4817,12 +4807,6 @@
     {
       "type": 1,
       "value": "expected"
-    }
-  ],
-  "ptWiT7": [
-    {
-      "type": 0,
-      "value": "I've simulated how to manually stop and restart my Beacon Node (BN) and Validator Client (VC) gracefully."
     }
   ],
   "pyWt01": [
@@ -4895,12 +4879,6 @@
     {
       "type": 0,
       "value": "Save the key files and get the validator file ready"
-    }
-  ],
-  "qpdTjz": [
-    {
-      "type": 0,
-      "value": "An Eth2 client with a heavy focus on speed and security. Built by Sigma Prime, an information security and software engineering firm who have funded Lighthouse along with the Ethereum Foundation, Consensys, and private individuals."
     }
   ],
   "quIMjo": [
@@ -5333,6 +5311,34 @@
     {
       "type": 0,
       "value": "Proceed with caution. Our on-chain data source is down and we are unable to flag any double deposits."
+    }
+  ],
+  "vNopl9": [
+    {
+      "type": 0,
+      "value": "The Vanguard Chain had its genesis on "
+    },
+    {
+      "type": 1,
+      "value": "date"
+    },
+    {
+      "type": 0,
+      "value": ". It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
+    }
+  ],
+  "vPokdY": [
+    {
+      "type": 0,
+      "value": "I've synced my LYXt vanguard node on "
+    },
+    {
+      "type": 1,
+      "value": "LUKSO_NETWORK_NAME"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "vY2wig": [

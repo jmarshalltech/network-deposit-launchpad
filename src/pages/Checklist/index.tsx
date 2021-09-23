@@ -327,9 +327,9 @@ export const Checklist = () => {
             <li className="py5">
               <Text>
                 <FormattedMessage
-                  defaultMessage="To process incoming validator deposits from the Eth1
-                    chain, you'll need to run an Eth1 client as well as your
-                    Eth2 client. You can use a third-party service
+                  defaultMessage="To process incoming validator deposits from the Pandora
+                    chain, you'll need to run an Pandora client as well as your
+                    Vanguard client. You can use a third-party service
                     like Infura, but we recommend running your own client to
                     keep the network as decentralised as possible."
                 />
@@ -338,7 +338,7 @@ export const Checklist = () => {
             <li className="py5">
               <Text>
                 <FormattedMessage
-                  defaultMessage="As of {date}, you'll need ~400GB for the Eth1 mainnet chain data alone (growing at ~1GB/day)."
+                  defaultMessage="You'll need a significant amount of space for the Pandora mainnet chain data alone (For reference; as of {date}, Eth1 is ~400GB and growing at ~1GB/day)."
                   values={{
                     date: (
                       <FormattedDate
@@ -354,7 +354,7 @@ export const Checklist = () => {
             <li className="py5">
               <Text>
                 <FormattedMessage
-                  defaultMessage="The Beacon Chain had its genesis on {date}. It is growing in size over time, and the
+                  defaultMessage="The Vanguard Chain had its genesis on {date}. It is growing in size over time, and the
                     introduction of sharding will also increase storage, memory, and bandwidth requirements."
                   values={{
                     date: (
@@ -444,7 +444,7 @@ export const Checklist = () => {
             </li>
             <li className="py5">
               <Text>
-                <FormattedMessage defaultMessage="Syncing your Eth1 client may take a few days in the worst-case scenario." />
+                <FormattedMessage defaultMessage="Syncing your Pandora client may take a few days in the worst-case scenario." />
               </Text>
             </li>
           </ul>
@@ -661,13 +661,13 @@ export const Checklist = () => {
         </Alert>
         <section>
           <Heading level={3}>
-            <FormattedMessage defaultMessage="Configure your Eth1 Client" />
+            <FormattedMessage defaultMessage="Configure your Pandora Client" />
           </Heading>
           <CheckBox
             label={
               <Text className="checkbox-label">
                 <FormattedMessage
-                  defaultMessage="I've installed and synced my Eth1 node on {network} (do not wait on this as it can take several days)."
+                  defaultMessage="I've installed and synced my Pandora node on {network} (do not wait on this as it can take several days)."
                   values={{
                     network: IS_MAINNET ? 'mainnet' : 'Goerli',
                   }}
@@ -737,7 +737,7 @@ export const Checklist = () => {
         </section>
         <section>
           <Heading level={3}>
-            <FormattedMessage defaultMessage="LYXt Beacon Node (BN)" />
+            <FormattedMessage defaultMessage="LYXt Vanguard Node (VN)" />
           </Heading>
           <Heading level={4} className="mt10">
             <FormattedMessage defaultMessage="Required" />
@@ -745,7 +745,7 @@ export const Checklist = () => {
           <CheckBox
             label={
               <Text className="checkbox-label">
-                <FormattedMessage defaultMessage="I'm able to connect my LYXt beacon node to my Eth1 client via HTTP API(s)." />
+                <FormattedMessage defaultMessage="I'm able to connect my LYXt vanguard node to my Pandora client via HTTP API(s)." />
               </Text>
             }
           />
@@ -765,7 +765,7 @@ export const Checklist = () => {
             label={
               <Text className="checkbox-label">
                 <FormattedMessage
-                  defaultMessage="I've synced my LYXt beacon node on {LUKSO_NETWORK_NAME}."
+                  defaultMessage="I've synced my LYXt vanguard node on {LUKSO_NETWORK_NAME}."
                   values={{ LUKSO_NETWORK_NAME }}
                   description="{LUKSO_NETWORK_NAME} is name of network, do not translate"
                 />
@@ -972,7 +972,7 @@ export const Checklist = () => {
             label={
               <Text className="checkbox-label">
                 <FormattedMessage
-                  defaultMessage="I've simulated how to manually stop and restart my Beacon Node (BN)
+                  defaultMessage="I've simulated how to manually stop and restart my Vanguard Node (VN)
                     and Validator Client (VC) gracefully."
                 />
               </Text>
@@ -988,7 +988,7 @@ export const Checklist = () => {
           <CheckBox
             label={
               <Text className="checkbox-label">
-                <FormattedMessage defaultMessage="I've simulated how to migrate from one LYXt client to another Lyxt client." />
+                <FormattedMessage defaultMessage="I've simulated how to migrate from one LYXt client to another LYXt client." />
               </Text>
             }
           />
@@ -1009,8 +1009,8 @@ export const Checklist = () => {
             <li className="py5">
               <Text>
                 <FormattedMessage
-                  defaultMessage="Moreover, you can set your Validator Client (VC) and Beacon Node (BN)
-                    on separate machines and IPs so that even if your beacon node is vulnerable, your 
+                  defaultMessage="Moreover, you can set your Validator Client (VC) and Vanguard Node (VN)
+                    on separate machines and IPs so that even if your vanguard node is vulnerable, your 
                     keystore is stored on a different machine."
                 />
               </Text>
