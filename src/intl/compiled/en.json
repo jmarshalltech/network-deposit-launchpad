@@ -609,6 +609,12 @@
       "value": "Top-up transaction"
     }
   ],
+  "3UO4hS": [
+    {
+      "type": 0,
+      "value": "There’s no way for you to re-activate your validator, and you won’t be able to transfer or withdraw your funds until this is enabled on the mainnet validator platform."
+    }
+  ],
   "3WbcoW": [
     {
       "type": 0,
@@ -1465,6 +1471,12 @@
       "value": "Don’t just trust the contract address listed on this website."
     }
   ],
+  "DzfqwK": [
+    {
+      "type": 0,
+      "value": "You will need to ensure that you have control over the Pandora address."
+    }
+  ],
   "E+Y27g": [
     {
       "type": 0,
@@ -1929,6 +1941,12 @@
     {
       "type": 0,
       "value": "Download CLI app"
+    }
+  ],
+  "JpZRE1": [
+    {
+      "type": 0,
+      "value": "Can I withdraw my L15 LYXt to LYX or LYXe?"
     }
   ],
   "JqVeL+": [
@@ -2429,6 +2447,16 @@
       "value": "Your network has changed"
     }
   ],
+  "PAiyvv": [
+    {
+      "type": 1,
+      "value": "withdrawalCredentials"
+    },
+    {
+      "type": 0,
+      "value": " is a 32-byte field in the deposit, for verifying the destination of valid withdrawals. There will be two types of withdrawals: BLS withdrawal and Pandora address withdrawal."
+    }
+  ],
   "PIQDar": [
     {
       "type": 0,
@@ -2475,24 +2503,6 @@
     {
       "type": 0,
       "value": "pip documentation"
-    }
-  ],
-  "PyArfT": [
-    {
-      "type": 0,
-      "value": "Eth1 address withdrawal: If you want to withdraw to Eth1 chain after the merge, you can set "
-    },
-    {
-      "type": 1,
-      "value": "eth1AddressWithdraw"
-    },
-    {
-      "type": 0,
-      "value": " when running deposit-cli. "
-    },
-    {
-      "type": 1,
-      "value": "boldWarning"
     }
   ],
   "Q1ZwPT": [
@@ -2811,6 +2821,12 @@
     {
       "type": 0,
       "value": "wrench"
+    }
+  ],
+  "T3rbj1": [
+    {
+      "type": 0,
+      "value": "Testnet tokens (LYXt) are non-transferrable to mainnet (LYX) or LYXe. L15 is an ephemeral testnet, meaning the state will not be persistent and the network will be frequently reset."
     }
   ],
   "TLEziZ": [
@@ -3397,12 +3413,6 @@
       "value": "Again, it depends. Behaving maliciously – for example attesting to invalid or contradicting blocks, will lead to your stake being slashed."
     }
   ],
-  "ZPpZDC": [
-    {
-      "type": 0,
-      "value": "Please ensure that you have control over the Eth1 address."
-    }
-  ],
   "ZTo0Fl": [
     {
       "type": 0,
@@ -3469,12 +3479,6 @@
     {
       "type": 0,
       "value": "Nimbus is Apache 2 licensed and written in Nim, a language with Python-like syntax that compiles to C."
-    }
-  ],
-  "aXWL9X": [
-    {
-      "type": 0,
-      "value": "There’s no way for you to re-activate your validator, and you won’t be able to transfer or withdraw your funds until the merge (which means your funds will remain inaccessible until then)."
     }
   ],
   "aZ7pUj": [
@@ -4033,6 +4037,24 @@
     {
       "type": 0,
       "value": "More on effective balance"
+    }
+  ],
+  "hs9vgh": [
+    {
+      "type": 0,
+      "value": "Pandora address withdrawal: If you want to withdraw to Pandora chain after withdrawals are enabled on Mainnet, you will be able to set "
+    },
+    {
+      "type": 1,
+      "value": "pandoraAddressWithdraw"
+    },
+    {
+      "type": 0,
+      "value": " when running deposit-cli. "
+    },
+    {
+      "type": 1,
+      "value": "boldWarning"
     }
   ],
   "huEFUF": [
@@ -4837,16 +4859,6 @@
     {
       "type": 0,
       "value": "Note"
-    }
-  ],
-  "qPG/YN": [
-    {
-      "type": 1,
-      "value": "withdrawalCredentials"
-    },
-    {
-      "type": 0,
-      "value": " is a 32-byte field in the deposit, for verifying the destination of valid withdrawals. Currently, there are two types of withdrawals: BLS withdrawal and Eth1 address withdrawal."
     }
   ],
   "qQ+Xla": [

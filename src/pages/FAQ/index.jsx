@@ -51,10 +51,7 @@ export const FAQ = () => {
               <FormattedMessage defaultMessage="What exactly is a validator?" />
             </Heading>
             <Text className="mt10">
-              <FormattedMessage
-                defaultMessage="A validator is an entity that participates in the consensus of the
-                  Ethereum 2.0 protocol."
-              />
+              <FormattedMessage defaultMessage="A validator is an entity that participates in the consensus of LUKSO's Vanguard Chain protocol." />
             </Text>
             <Text className="mt10">
               <FormattedMessage
@@ -89,7 +86,7 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="You can think of the deposit contract as a transfer of funds between Ethereum accounts and
+                defaultMessage="You can think of the deposit contract as a transfer of funds between LUKSO accounts and
                   LYXt validators."
               />
             </Text>
@@ -124,7 +121,7 @@ export const FAQ = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="Before you can run a validator and start to secure the network, you
-                  need to stake {pricePerValidator} ETH. This forms your initial balance."
+                  need to stake {pricePerValidator} LYXt. This forms your initial balance."
                 values={{
                   pricePerValidator: <strong>{PRICE_PER_VALIDATOR}</strong>,
                 }}
@@ -135,7 +132,7 @@ export const FAQ = () => {
           <section>
             <Heading level={4}>
               <FormattedMessage
-                defaultMessage="Is there any advantage to having more than {pricePerValidator} ETH at stake?"
+                defaultMessage="Is there any advantage to having more than {pricePerValidator} LYXt at stake?"
                 values={{
                   pricePerValidator: PRICE_PER_VALIDATOR,
                 }}
@@ -143,7 +140,7 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="No. There is no advantage to having more than {pricePerValidator} ETH staked."
+                defaultMessage="No. There is no advantage to having more than {pricePerValidator} LYXt staked."
                 values={{
                   pricePerValidator: PRICE_PER_VALIDATOR,
                 }}
@@ -151,7 +148,7 @@ export const FAQ = () => {
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="Limiting the maximum stake to {pricePerValidator} ETH encourages decentralization of power as it
+                defaultMessage="Limiting the maximum stake to {pricePerValidator} LYXt encourages decentralization of power as it
                   prevents any single validator from having an excessively large vote on the state of the chain."
                 values={{
                   pricePerValidator: PRICE_PER_VALIDATOR,
@@ -170,10 +167,10 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="If you go offline for a number of days under normal conditions you will lose an amount of ETH
-                  roughly equivalent to the amount of ETH you would have gained in
-                  that period. In other words, if you stood to earn ≈0.01 ETH, you
-                  would instead be penalised ≈0.01 ETH."
+                defaultMessage="If you go offline for a number of days under normal conditions you will lose an amount of LYXt
+                  roughly equivalent to the amount of LYXt you would have gained in
+                  that period. In other words, if you stood to earn ≈0.01 LYXt, you
+                  would instead be penalised ≈0.01 LYXt."
               />
             </Text>
           </section>
@@ -183,22 +180,22 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="The answer to this question very much depends on how much ETH you
+                defaultMessage="The answer to this question very much depends on how much LYXt you
                   have at your disposal."
               />
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="You should certainly top up if your balance is close to 16 ETH.
+                defaultMessage="You should certainly top up if your balance is close to 16 LYXt.
                   This is to ensure you don’t get kicked out of the validator
                   set (which automatically happens if your balance falls below 16
-                  ETH)."
+                  LYXt)."
               />
             </Text>
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="At the other end of the spectrum, if your balance is closer to 31
-                  ETH, it’s probably not worth adding the extra ETH required to get back to 32."
+                  LYXt, it’s probably not worth adding the extra LYXt required to get back to 32."
               />
             </Text>
           </section>
@@ -224,13 +221,16 @@ export const FAQ = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="There’s no way for you to re-activate your validator, and
-                  you won’t be able to transfer or withdraw your funds until
-                  the merge (which means your funds will remain inaccessible until
-                  then)."
+                  you won’t be able to transfer or withdraw your funds until this is enabled on the mainnet validator platform."
               />
-              <Link className="mt20" to="https://ethereum.org/en/eth2/docking/">
-                <FormattedMessage defaultMessage="More on the merge" />
-              </Link>
+            </Text>
+          </section>
+          <section>
+            <Heading level={4}>
+              <FormattedMessage defaultMessage="Can I withdraw my L15 LYXt to LYX or LYXe?" />
+            </Heading>
+            <Text className="mt10">
+              <FormattedMessage defaultMessage="Testnet tokens (LYXt) are non-transferrable to mainnet (LYX) or LYXe. L15 is an ephemeral testnet, meaning the state will not be persistent and the network will be frequently reset." />
             </Text>
           </section>
         </section>
@@ -293,7 +293,7 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="Your balance is updated periodically by the Ethereum network rules
+                defaultMessage="Your balance is updated periodically by the LUKSO network rules
                   as you carry (or fail to carry) out your responsibilities."
               />
             </Text>
@@ -388,12 +388,12 @@ export const FAQ = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="Block rewards are calculated using a sliding scale based on the
-                  total amount of ETH staked on the network."
+                  total amount of LYXt staked on the network."
               />
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="In other words: if the total amount of ETH staked is low, the
+                defaultMessage="In other words: if the total amount of LYXt staked is low, the
                   reward (interest rate) is high, but as the total stake rises, the
                   reward (interest) paid out to each validator starts to fall."
               />
@@ -402,7 +402,7 @@ export const FAQ = () => {
               <FormattedMessage
                 defaultMessage="Why a sliding scale? While we won’t get into the gory details
                   here, the basic intution is that there needs to be a minimum
-                  number of validators (and hence a minimum amount of ETH staked)
+                  number of validators (and hence a minimum amount of LYXt staked)
                   for the network to function properly. So, to incentivize more
                   validators to join, it’s important that the interest rate remains
                   high until this minimum number is reached."
@@ -485,7 +485,7 @@ export const FAQ = () => {
               <Text className="mt10">
                 <FormattedMessage
                   defaultMessage="Note that in the second (unlikely) scenario, you stand to
-                    progressively lose up to 50% (16 ETH) of your stake over 21
+                    progressively lose up to 50% (16 LYXt) of your stake over 21
                     days. After 21 days you are ejected out of the validator pool.
                     This ensures that blocks start finalizing again at some point."
                 />
@@ -531,7 +531,7 @@ export const FAQ = () => {
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="The minimum amount that can be slashed is 1 ETH, but {strongText}."
+                defaultMessage="The minimum amount that can be slashed is 1 LYXt, but {strongText}."
                 values={{
                   strongText: (
                     <strong>
@@ -584,8 +584,8 @@ export const FAQ = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="{withdrawalCredentials} is a 32-byte field in the deposit, for verifying the
-                  destination of valid withdrawals. Currently, there are two types of
-                  withdrawals: BLS withdrawal and Eth1 address withdrawal."
+                  destination of valid withdrawals. There will be two types of
+                  withdrawals: BLS withdrawal and Pandora address withdrawal."
                 values={{
                   withdrawalCredentials: (
                     <Link
@@ -628,19 +628,19 @@ export const FAQ = () => {
               <li>
                 <Text className="mt10">
                   <FormattedMessage
-                    defaultMessage="Eth1 address withdrawal: If you want to withdraw to Eth1 chain after the merge, you can set {eth1AddressWithdraw} when running deposit-cli. {boldWarning}"
+                    defaultMessage="Pandora address withdrawal: If you want to withdraw to Pandora chain after withdrawals are enabled on Mainnet, you will be able to set {pandoraAddressWithdraw} when running deposit-cli. {boldWarning}"
                     values={{
-                      eth1AddressWithdraw: (
+                      pandoraAddressWithdraw: (
                         <code>
                           {' '}
-                          {`--eth1_withdrawal_address <YOUR ETH1 ADDRESS>`}{' '}
+                          {`--pandora_withdrawal_address <YOUR PANDORA ADDRESS>`}{' '}
                         </code>
                       ),
                       boldWarning: (
                         <strong>
                           {formatMessage({
                             defaultMessage:
-                              'Please ensure that you have control over the Eth1 address.',
+                              'You will need to ensure that you have control over the Pandora address.',
                           })}
                         </strong>
                       ),
@@ -678,7 +678,7 @@ export const FAQ = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="Over time, your balance will decrease as you are
-                  punished for not participating in the consensus process. When your balance reaches 16 ETH, you will be
+                  punished for not participating in the consensus process. When your balance reaches 16 LYXt, you will be
                   automatically exited from the validator pool."
               />
             </Text>
@@ -712,7 +712,7 @@ export const FAQ = () => {
             </BlockQuote>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="Your 16 ETH can then be withdrawn – with your withdrawal key – after
+                defaultMessage="Your 16 LYXt can then be withdrawn – with your withdrawal key – after
                   a delay of around a day."
               />
             </Text>

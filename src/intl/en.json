@@ -222,6 +222,9 @@
   "3QmqFf": {
     "message": "Top-up transaction"
   },
+  "3UO4hS": {
+    "message": "There’s no way for you to re-activate your validator, and you won’t be able to transfer or withdraw your funds until this is enabled on the mainnet validator platform."
+  },
   "3WbcoW": {
     "message": "LYXt validator checklist"
   },
@@ -559,6 +562,9 @@
   "DsJ/Mk": {
     "message": "Don’t just trust the contract address listed on this website."
   },
+  "DzfqwK": {
+    "message": "You will need to ensure that you have control over the Pandora address."
+  },
   "E+Y27g": {
     "message": "You can check your Python version by typing {terminalCommand} in your terminal."
   },
@@ -759,6 +765,9 @@
   },
   "JhUYU3": {
     "message": "Download CLI app"
+  },
+  "JpZRE1": {
+    "message": "Can I withdraw my L15 LYXt to LYX or LYXe?"
   },
   "JqVeL+": {
     "message": "Resource usage can vary significantly between clients. Research the different clients if you're working with resource constraints."
@@ -961,6 +970,9 @@
   "P9mVZK": {
     "message": "Your network has changed"
   },
+  "PAiyvv": {
+    "message": "{withdrawalCredentials} is a 32-byte field in the deposit, for verifying the destination of valid withdrawals. There will be two types of withdrawals: BLS withdrawal and Pandora address withdrawal."
+  },
   "PIQDar": {
     "message": "We recommend you go through the entire process on a testnet first to get comfortable."
   },
@@ -984,9 +996,6 @@
   },
   "Px7wWb": {
     "message": "pip documentation"
-  },
-  "PyArfT": {
-    "message": "Eth1 address withdrawal: If you want to withdraw to Eth1 chain after the merge, you can set {eth1AddressWithdraw} when running deposit-cli. {boldWarning}"
   },
   "Q1ZwPT": {
     "message": "clipboard"
@@ -1101,6 +1110,9 @@
   },
   "Szwbym": {
     "message": "wrench"
+  },
+  "T3rbj1": {
+    "message": "Testnet tokens (LYXt) are non-transferrable to mainnet (LYX) or LYXe. L15 is an ephemeral testnet, meaning the state will not be persistent and the network will be frequently reset."
   },
   "TLEziZ": {
     "message": "The Beacon Chain had its genesis on {date}. It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
@@ -1313,9 +1325,6 @@
   "ZPRDyW": {
     "message": "Again, it depends. Behaving maliciously – for example attesting to invalid or contradicting blocks, will lead to your stake being slashed."
   },
-  "ZPpZDC": {
-    "message": "Please ensure that you have control over the Eth1 address."
-  },
   "ZTo0Fl": {
     "message": "Why is there a wait?"
   },
@@ -1345,9 +1354,6 @@
   },
   "aXT3iO": {
     "message": "Nimbus is Apache 2 licensed and written in Nim, a language with Python-like syntax that compiles to C."
-  },
-  "aXWL9X": {
-    "message": "There’s no way for you to re-activate your validator, and you won’t be able to transfer or withdraw your funds until the merge (which means your funds will remain inaccessible until then)."
   },
   "aZ7pUj": {
     "message": "Your wallet is on the wrong Ethereum network. To continue, connect to the {networkName} network."
@@ -1583,6 +1589,9 @@
   },
   "hkg3fb": {
     "message": "More on effective balance"
+  },
+  "hs9vgh": {
+    "message": "Pandora address withdrawal: If you want to withdraw to Pandora chain after withdrawals are enabled on Mainnet, you will be able to set {pandoraAddressWithdraw} when running deposit-cli. {boldWarning}"
   },
   "huEFUF": {
     "description": "Singular form, for only one deposit",
@@ -1906,9 +1915,6 @@
   },
   "qMePPG": {
     "message": "Note"
-  },
-  "qPG/YN": {
-    "message": "{withdrawalCredentials} is a 32-byte field in the deposit, for verifying the destination of valid withdrawals. Currently, there are two types of withdrawals: BLS withdrawal and Eth1 address withdrawal."
   },
   "qQ+Xla": {
     "message": "Korean"
