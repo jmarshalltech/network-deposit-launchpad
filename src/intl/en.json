@@ -33,9 +33,6 @@
   "+s8Gac": {
     "message": "Connect {wallet} to {network}"
   },
-  "+uRf8I": {
-    "message": "More on LYXt economics"
-  },
   "/+atl4": {
     "message": "Recommendation disclaimer"
   },
@@ -224,9 +221,6 @@
   },
   "3WbcoW": {
     "message": "LYXt validator checklist"
-  },
-  "3ZyN99": {
-    "message": "To become a validator on the LYXt (L15) testnet, you need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME} per validator that you wish to run."
   },
   "3tR/V9": {
     "message": "Section 2 - During setup"
@@ -491,9 +485,6 @@
   },
   "BUFaRV": {
     "message": "EthStaker community"
-  },
-  "BcbxTV": {
-    "message": "The LYXt upgrades"
   },
   "Bf2QKg": {
     "message": "Validating is a long-term commitment"
@@ -914,9 +905,6 @@
   "NSK+Li": {
     "message": "I've secured the root account."
   },
-  "NT+5WP": {
-    "message": "The LYXt network"
-  },
   "NTWnJC": {
     "message": "Download command line app"
   },
@@ -966,6 +954,9 @@
     "description": "{discord} and {reddit} are links to EthStaker forums on Discord and Reddit respectively",
     "message": "If you have questions, EthStaker community is a good place to get help! You can find support on {discord} or {reddit}."
   },
+  "P7/KZ1": {
+    "message": "The LUKSO Mainnet is the first to bring proof-of-stake consensus based on Ethereum's Beacon Chain Architecture. L15 is the ephemeral testnet prior to L16, and mainnet launch."
+  },
   "P91KmA": {
     "message": "Become a validator {emoji}"
   },
@@ -998,6 +989,9 @@
   },
   "Px7wWb": {
     "message": "pip documentation"
+  },
+  "Q+vr3v": {
+    "message": "To become a validator on the L15 testnet, you need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME} per validator that you wish to run."
   },
   "Q1ZwPT": {
     "message": "clipboard"
@@ -1645,11 +1639,11 @@
   "j81rpi": {
     "message": "Dig deeper into how LUKSO moves towards Mainnet."
   },
-  "jBFD/q": {
-    "message": "More on LYXt"
-  },
   "jDv/zO": {
     "message": "While validating on the testnet, perform these simulations to learn more about your node, and better prepare yourself for mainnet:"
+  },
+  "jG8C6h": {
+    "message": "The LUKSO upgrades"
   },
   "jOwYzp": {
     "message": "Make sure you do the following to get your Pandora client working properly."
@@ -1679,6 +1673,9 @@
   "jpl4/R": {
     "description": "{latestReleased} = 'latest stable software release', being styled in bold",
     "message": "I've installed the {latestRelease} of my LYXt client."
+  },
+  "jsaN7g": {
+    "message": "The L15 ephemeral test network"
   },
   "jse8rl": {
     "message": "How great does my uptime need to be for my validator to be net profitable?"
@@ -1938,9 +1935,6 @@
   },
   "qwh6gM": {
     "message": "I understand the early adopter and slashing risks."
-  },
-  "r+MMQx": {
-    "message": "The LUKSO Mainnet is the first to bring proof-of-stake consensus based on Ethereum's Beacon Chain Architecture. LYXt (L15) is the ephemeral testnet prior to mainnet launch."
   },
   "r2BH1M": {
     "message": "Configure Prysm"
@@ -2226,8 +2220,8 @@
   "zAVb0/": {
     "message": "More on Lighthouse and Sigma Prime"
   },
-  "zO6Kvn": {
-    "message": "LYXt economics"
+  "zPLWB2": {
+    "message": "More on LUKSO"
   },
   "zbEBi9": {
     "description": "{mainnet} shows '--config mainnet' terminal command",

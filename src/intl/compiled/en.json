@@ -85,12 +85,6 @@
       "value": "network"
     }
   ],
-  "+uRf8I": [
-    {
-      "type": 0,
-      "value": "More on LYXt economics"
-    }
-  ],
   "/+atl4": [
     {
       "type": 0,
@@ -613,28 +607,6 @@
     {
       "type": 0,
       "value": "LYXt validator checklist"
-    }
-  ],
-  "3ZyN99": [
-    {
-      "type": 0,
-      "value": "To become a validator on the LYXt (L15) testnet, you need to deposit "
-    },
-    {
-      "type": 1,
-      "value": "PRICE_PER_VALIDATOR"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "TICKER_NAME"
-    },
-    {
-      "type": 0,
-      "value": " per validator that you wish to run."
     }
   ],
   "3tR/V9": [
@@ -1313,12 +1285,6 @@
     {
       "type": 0,
       "value": "EthStaker community"
-    }
-  ],
-  "BcbxTV": [
-    {
-      "type": 0,
-      "value": "The LYXt upgrades"
     }
   ],
   "Bf2QKg": [
@@ -2299,12 +2265,6 @@
       "value": "I've secured the root account."
     }
   ],
-  "NT+5WP": [
-    {
-      "type": 0,
-      "value": "The LYXt network"
-    }
-  ],
   "NTWnJC": [
     {
       "type": 0,
@@ -2449,6 +2409,12 @@
       "value": "."
     }
   ],
+  "P7/KZ1": [
+    {
+      "type": 0,
+      "value": "The LUKSO Mainnet is the first to bring proof-of-stake consensus based on Ethereum's Beacon Chain Architecture. L15 is the ephemeral testnet prior to L16, and mainnet launch."
+    }
+  ],
   "P91KmA": [
     {
       "type": 0,
@@ -2521,6 +2487,28 @@
     {
       "type": 0,
       "value": "pip documentation"
+    }
+  ],
+  "Q+vr3v": [
+    {
+      "type": 0,
+      "value": "To become a validator on the L15 testnet, you need to deposit "
+    },
+    {
+      "type": 1,
+      "value": "PRICE_PER_VALIDATOR"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " per validator that you wish to run."
     }
   ],
   "Q1ZwPT": [
@@ -4175,16 +4163,16 @@
       "value": "Dig deeper into how LUKSO moves towards Mainnet."
     }
   ],
-  "jBFD/q": [
-    {
-      "type": 0,
-      "value": "More on LYXt"
-    }
-  ],
   "jDv/zO": [
     {
       "type": 0,
       "value": "While validating on the testnet, perform these simulations to learn more about your node, and better prepare yourself for mainnet:"
+    }
+  ],
+  "jG8C6h": [
+    {
+      "type": 0,
+      "value": "The LUKSO upgrades"
     }
   ],
   "jOwYzp": [
@@ -4247,6 +4235,12 @@
     {
       "type": 0,
       "value": " of my LYXt client."
+    }
+  ],
+  "jsaN7g": [
+    {
+      "type": 0,
+      "value": "The L15 ephemeral test network"
     }
   ],
   "jse8rl": [
@@ -4891,12 +4885,6 @@
     {
       "type": 0,
       "value": "I understand the early adopter and slashing risks."
-    }
-  ],
-  "r+MMQx": [
-    {
-      "type": 0,
-      "value": "The LUKSO Mainnet is the first to bring proof-of-stake consensus based on Ethereum's Beacon Chain Architecture. LYXt (L15) is the ephemeral testnet prior to mainnet launch."
     }
   ],
   "r2BH1M": [
@@ -5645,10 +5633,10 @@
       "value": "More on Lighthouse and Sigma Prime"
     }
   ],
-  "zO6Kvn": [
+  "zPLWB2": [
     {
       "type": 0,
-      "value": "LYXt economics"
+      "value": "More on LUKSO"
     }
   ],
   "zbEBi9": [

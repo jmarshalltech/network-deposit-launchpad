@@ -100,7 +100,7 @@ export const StakingRewards: React.FC<{ currentStaked?: number }> = ({
             primary
             inline
           >
-            <FormattedMessage defaultMessage="More on LYXt economics" />
+            <FormattedMessage defaultMessage="More on LUKSO economics" />
           </Link>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeIn" animateOnce delay={450}>

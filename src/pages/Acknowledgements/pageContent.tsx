@@ -22,7 +22,7 @@ export const pageContent = {
     content: (
       <>
         <Text size="medium" className="my10">
-          <FormattedMessage defaultMessage="The LUKSO Mainnet is the first to bring proof-of-stake consensus based on Ethereum's Beacon Chain Architecture. LYXt (L15) is the ephemeral testnet prior to mainnet launch." />
+          <FormattedMessage defaultMessage="The LUKSO Mainnet is the first to bring proof-of-stake consensus based on Ethereum's Beacon Chain Architecture. L15 is the ephemeral testnet prior to L16, and mainnet launch." />
         </Text>
         <Text size="medium" className="my10">
           <FormattedMessage
@@ -70,7 +70,7 @@ export const pageContent = {
       <>
         <Text size="medium" className="my10">
           <FormattedMessage
-            defaultMessage="To become a validator on the LYXt (L15) testnet, you need to deposit
+            defaultMessage="To become a validator on the L15 testnet, you need to deposit
               {PRICE_PER_VALIDATOR} {TICKER_NAME} per validator that you wish to run."
             values={{ PRICE_PER_VALIDATOR, TICKER_NAME }}
           />
