@@ -29,7 +29,7 @@ import { FormattedMessage } from 'react-intl';
 
 const GradientBackground = styled(Box)`
   background-image: ${p =>
-    `linear-gradient(to right, ${p.theme.gradientBlack})`};
+    `linear-gradient(177deg, ${p.theme.gradientNavbar})`};
 `;
 
 const LuksoLogo = styled.img`
@@ -50,7 +50,7 @@ const NetworkText = styled.div`
   &:hover {
     border-radius: 4px;
     box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.15);
-    background-image: ${p => `linear-gradient(to right, ${p.theme.gradient})`};
+    background: rgba(255, 255, 255, 0.6);
     transition: transform 0.1s;
     transform: scale(1.02);
     color: #000;

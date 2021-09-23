@@ -128,6 +128,15 @@ const ButtonContainer = styled.div`
   }
 `;
 
+const HeroButton = styled(Button)`
+  background: #915d9b;
+  border-color: #915d9b;
+  :hover {
+    background: ${p => p.theme.gray.light};
+    color: ${p => p.theme.gray.dark};
+  }
+`;
+
 //
 // Sub-components
 
@@ -205,7 +214,7 @@ export const Hero = () => {
                     <ButtonRow>
                       <ButtonContainer>
                         <Link to={routesEnum.acknowledgementPage}>
-                          <Button
+                          <HeroButton
                             fullWidth={m || isSmallScreen}
                             gradient
                             label={

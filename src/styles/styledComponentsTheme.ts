@@ -72,7 +72,7 @@ export const gradientLightColors = [
 ];
 
 export const gradientBlackColors = ['#000000', '#0a0a0a', '#1f1f1f', '#151515'];
-export const gradientNavbarColors = ['#2f2f2f', '#444444'];
+export const gradientNavbarColors = ['#7043b0', '#b47983'];
 
 export const gradient = gradientColors.join(', ');
 export const gradientLight = gradientLightColors.join(', ');
