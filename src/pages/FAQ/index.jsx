@@ -584,8 +584,7 @@ export const FAQ = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="{withdrawalCredentials} is a 32-byte field in the deposit, for verifying the
-                  destination of valid withdrawals. By default, deposit-cli would generate withdrawal 
-                  credentials with the withdrawal key derived via mnemonics in EIP2334 format."
+                  destination of valid withdrawals."
                 values={{
                   withdrawalCredentials: (
                     <Link
@@ -599,56 +598,29 @@ export const FAQ = () => {
                 }}
               />
             </Text>
-            <ol>
-              <li>
-                <Text className="mt10">
-                  <FormattedMessage
-                    defaultMessage="BLS withdrawal: By default, deposit-cli would generate withdrawal credentials with the {boldWithdrawalKey} derived via mnemonics in {eip2334} format."
-                    values={{
-                      boldWithdrawalKey: (
-                        <strong>
-                          {formatMessage({
-                            defaultMessage: 'withdrawal key',
-                          })}
-                        </strong>
-                      ),
-                      eip2334: (
-                        <Link
-                          primary
-                          inline
-                          to="https://eips.ethereum.org/EIPS/eip-2334"
-                        >
-                          EIP2334
-                        </Link>
-                      ),
-                    }}
-                  />
-                </Text>
-              </li>
-              <li>
-                <Text className="mt10">
-                  <FormattedMessage
-                    defaultMessage="Pandora address withdrawal: If you want to withdraw to Pandora chain after withdrawals are enabled on Mainnet, you will be able to set {pandoraAddressWithdraw} when running deposit-cli. {boldWarning}"
-                    values={{
-                      pandoraAddressWithdraw: (
-                        <code>
-                          {' '}
-                          {`--pandora_withdrawal_address <YOUR PANDORA ADDRESS>`}{' '}
-                        </code>
-                      ),
-                      boldWarning: (
-                        <strong>
-                          {formatMessage({
-                            defaultMessage:
-                              'You will need to ensure that you have control over the Pandora address.',
-                          })}
-                        </strong>
-                      ),
-                    }}
-                  />
-                </Text>
-              </li>
-            </ol>
+            <Text className="mt10">
+              <FormattedMessage
+                defaultMessage="By default, deposit-cli would generate withdrawal credentials with the {boldWithdrawalKey} derived via mnemonics in {eip2334} format."
+                values={{
+                  boldWithdrawalKey: (
+                    <strong>
+                      {formatMessage({
+                        defaultMessage: 'withdrawal key',
+                      })}
+                    </strong>
+                  ),
+                  eip2334: (
+                    <Link
+                      primary
+                      inline
+                      to="https://eips.ethereum.org/EIPS/eip-2334"
+                    >
+                      EIP2334
+                    </Link>
+                  ),
+                }}
+              />
+            </Text>
             <section>
               <Heading level={4}>
                 <FormattedMessage defaultMessage="Can I change the withdrawal credentials of my validator after the first deposit?" />

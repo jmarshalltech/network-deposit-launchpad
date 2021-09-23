@@ -1,4 +1,7 @@
 {
+  "+Cieba": {
+    "message": "{withdrawalCredentials} is a 32-byte field in the deposit, for verifying the destination of valid withdrawals."
+  },
   "+L0IkF": {
     "message": "Step 2: Generate deposit keys using the Ethereum Foundation deposit tool"
   },
@@ -286,9 +289,6 @@
   "6CK2Nu": {
     "message": "Your wallet is on the wrong network. Switch to {network}"
   },
-  "6S95Bo": {
-    "message": "Avoid phishing"
-  },
   "6UUL73": {
     "message": "More on validators"
   },
@@ -557,9 +557,6 @@
   },
   "DsJ/Mk": {
     "message": "Don’t just trust the contract address listed on this website."
-  },
-  "DzfqwK": {
-    "message": "You will need to ensure that you have control over the Pandora address."
   },
   "E+Y27g": {
     "message": "You can check your Python version by typing {terminalCommand} in your terminal."
@@ -853,9 +850,6 @@
   },
   "Lv3Pmp": {
     "message": "Your initial deposit has already been made for this validator public key. Please wait and check the status of your deposit on the Beaconchain data provider."
-  },
-  "Lx5REW": {
-    "message": "{withdrawalCredentials} is a 32-byte field in the deposit, for verifying the destination of valid withdrawals. By default, deposit-cli would generate withdrawal credentials with the withdrawal key derived via mnemonics in EIP2334 format."
   },
   "LyJqWj": {
     "message": "More on validator roles and responsibilities"
@@ -1488,9 +1482,6 @@
   "el/dXY": {
     "message": "Note: Withdrawing your deposits won't currently be possible."
   },
-  "elCkOU": {
-    "message": "More on the merge"
-  },
   "erZJkZ": {
     "message": "When launching Teku, keystores and passwords can be provided in different ways."
   },
@@ -1585,9 +1576,6 @@
   },
   "hkg3fb": {
     "message": "More on effective balance"
-  },
-  "hs9vgh": {
-    "message": "Pandora address withdrawal: If you want to withdraw to Pandora chain after withdrawals are enabled on Mainnet, you will be able to set {pandoraAddressWithdraw} when running deposit-cli. {boldWarning}"
   },
   "huEFUF": {
     "description": "Singular form, for only one deposit",
@@ -1772,9 +1760,6 @@
   "lfnq69": {
     "message": "I understand that I {cannotTransfer} my stake and I {cannotWithdraw} from the Testnet. I understand that if I exit, I will not be able to rejoin until much later. This is a long term commitment."
   },
-  "ljWKM1": {
-    "message": "BLS withdrawal: By default, deposit-cli would generate withdrawal credentials with the {boldWithdrawalKey} derived via mnemonics in {eip2334} format."
-  },
   "ll/zMW": {
     "message": "This is a non-reversible transaction."
   },
@@ -1783,6 +1768,9 @@
   },
   "lrdlY6": {
     "message": "File uploaded"
+  },
+  "lxfupg": {
+    "message": "By default, deposit-cli would generate withdrawal credentials with the {boldWithdrawalKey} derived via mnemonics in {eip2334} format."
   },
   "mArJcj": {
     "message": "Hard drive"
