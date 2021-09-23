@@ -584,8 +584,8 @@ export const FAQ = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="{withdrawalCredentials} is a 32-byte field in the deposit, for verifying the
-                  destination of valid withdrawals. There will be two types of
-                  withdrawals: BLS withdrawal and Pandora address withdrawal."
+                  destination of valid withdrawals. By default, deposit-cli would generate withdrawal 
+                  credentials with the withdrawal key derived via mnemonics in EIP2334 format."
                 values={{
                   withdrawalCredentials: (
                     <Link

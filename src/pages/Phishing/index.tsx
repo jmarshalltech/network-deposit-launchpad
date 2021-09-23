@@ -21,7 +21,7 @@ export const Phishing = () => {
     >
       <Text className="mt10">
         <FormattedMessage
-          defaultMessage="Phishing is a very real risk for LYXt validators and, unfortunately,
+          defaultMessage="Phishing is a very real risk for LUKSO validators and, unfortunately,
         many people will lose funds due to these attacks."
         />
       </Text>
@@ -36,9 +36,9 @@ export const Phishing = () => {
                 defaultMessage="Does the site asking you for your {lyxtAmount} deposit have a URL you
                 expect?"
                 values={{
-                  lyxtAmount: `${PRICE_PER_VALIDATOR} ETH`,
+                  lyxtAmount: `${PRICE_PER_VALIDATOR} LYXt`,
                 }}
-                description="{lyxtAmount} will generally refer to 32 ETH"
+                description="{lyxtAmount} will generally refer to 32 LYXt"
               />
             </Text>
           </li>
@@ -91,7 +91,7 @@ export const Phishing = () => {
                   <FormattedMessage
                     defaultMessage="Are there recent {lyxtAmount} deposits?"
                     values={{
-                      lyxtAmount: `${PRICE_PER_VALIDATOR} ETH`,
+                      lyxtAmount: `${PRICE_PER_VALIDATOR} LYXt`,
                     }}
                     description="Asks users to check deposit contract address against a block explorer and confirm 32 ETH deposits are present"
                   />
@@ -116,7 +116,7 @@ export const Phishing = () => {
           </li>
           <li>
             <Text className="mt10">
-              <FormattedMessage defaultMessage="Check your favorite Lyxt block explorer:" />
+              <FormattedMessage defaultMessage="Check your favorite LYXt block explorer:" />
             </Text>
             <ul>
               <li>

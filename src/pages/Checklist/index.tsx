@@ -416,7 +416,7 @@ export const Checklist = () => {
             <li className="py5">
               <Text>
                 <FormattedMessage
-                  defaultMessage="You need enough upload bandwidth too. As of {date} this is ~700-800 MB/hour, and is likely to increase."
+                  defaultMessage="You need enough upload bandwidth too. As of {date}, for Eth this is ~700-800 MB/hour, and is likely to increase over time."
                   values={{
                     date: (
                       <FormattedDate
