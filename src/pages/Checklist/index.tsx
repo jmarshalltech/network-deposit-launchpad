@@ -333,7 +333,7 @@ export const Checklist = () => {
             <li className="py5">
               <Text>
                 <FormattedMessage
-                  defaultMessage="You'll need a significant amount of space for the Pandora mainnet chain data alone (For reference; as of {date}, Eth1 is ~400GB and growing at ~1GB/day)."
+                  defaultMessage="You'll need a significant amount of space for the Pandora chain data alone (For reference; as of {date}, Eth1 is ~400GB and growing at ~1GB/day)."
                   values={{
                     date: (
                       <FormattedDate

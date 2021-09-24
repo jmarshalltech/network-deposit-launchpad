@@ -349,6 +349,20 @@
       "value": "Earn continuous rewards for providing a public good to the community."
     }
   ],
+  "0zaPZK": [
+    {
+      "type": 0,
+      "value": "You'll need a significant amount of space for the Pandora chain data alone (For reference; as of "
+    },
+    {
+      "type": 1,
+      "value": "date"
+    },
+    {
+      "type": 0,
+      "value": ", Eth1 is ~400GB and growing at ~1GB/day)."
+    }
+  ],
   "122+yR": [
     {
       "type": 0,
@@ -825,20 +839,6 @@
     {
       "type": 0,
       "value": "You can improve the effective balance of this validator by topping up"
-    }
-  ],
-  "6jqENM": [
-    {
-      "type": 0,
-      "value": "You'll need a significant amount of space for the Pandora mainnet chain data alone (For reference; as of "
-    },
-    {
-      "type": 1,
-      "value": "date"
-    },
-    {
-      "type": 0,
-      "value": ", Eth1 is ~400GB and growing at ~1GB/day)."
     }
   ],
   "6nh4de": [
