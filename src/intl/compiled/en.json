@@ -1,4 +1,14 @@
 {
+  "+Cieba": [
+    {
+      "type": 1,
+      "value": "withdrawalCredentials"
+    },
+    {
+      "type": 0,
+      "value": " is a 32-byte field in the deposit, for verifying the destination of valid withdrawals."
+    }
+  ],
   "+L0IkF": [
     {
       "type": 0,
@@ -1451,12 +1461,6 @@
       "value": "Don’t just trust the contract address listed on this website."
     }
   ],
-  "DzfqwK": [
-    {
-      "type": 0,
-      "value": "You will need to ensure that you have control over the Pandora address."
-    }
-  ],
   "E+Y27g": [
     {
       "type": 0,
@@ -2185,16 +2189,6 @@
     {
       "type": 0,
       "value": "Testnet tokens (LYXt) are non-transferrable to other testnets, mainnet (LYX) or LYXe. L15 is an ephemeral testnet, meaning the state will not be persistent and the network will be frequently reset."
-    }
-  ],
-  "Lx5REW": [
-    {
-      "type": 1,
-      "value": "withdrawalCredentials"
-    },
-    {
-      "type": 0,
-      "value": " is a 32-byte field in the deposit, for verifying the destination of valid withdrawals. By default, deposit-cli would generate withdrawal credentials with the withdrawal key derived via mnemonics in EIP2334 format."
     }
   ],
   "LyJqWj": [
@@ -4033,24 +4027,6 @@
       "value": "More on effective balance"
     }
   ],
-  "hs9vgh": [
-    {
-      "type": 0,
-      "value": "Pandora address withdrawal: If you want to withdraw to Pandora chain after withdrawals are enabled on Mainnet, you will be able to set "
-    },
-    {
-      "type": 1,
-      "value": "pandoraAddressWithdraw"
-    },
-    {
-      "type": 0,
-      "value": " when running deposit-cli. "
-    },
-    {
-      "type": 1,
-      "value": "boldWarning"
-    }
-  ],
   "huEFUF": [
     {
       "type": 0,
@@ -4499,28 +4475,6 @@
       "value": " from the Testnet. I understand that if I exit, I will not be able to rejoin until much later. This is a long term commitment."
     }
   ],
-  "ljWKM1": [
-    {
-      "type": 0,
-      "value": "BLS withdrawal: By default, deposit-cli would generate withdrawal credentials with the "
-    },
-    {
-      "type": 1,
-      "value": "boldWithdrawalKey"
-    },
-    {
-      "type": 0,
-      "value": " derived via mnemonics in "
-    },
-    {
-      "type": 1,
-      "value": "eip2334"
-    },
-    {
-      "type": 0,
-      "value": " format."
-    }
-  ],
   "ll/zMW": [
     {
       "type": 0,
@@ -4537,6 +4491,28 @@
     {
       "type": 0,
       "value": "File uploaded"
+    }
+  ],
+  "lxfupg": [
+    {
+      "type": 0,
+      "value": "By default, deposit-cli would generate withdrawal credentials with the "
+    },
+    {
+      "type": 1,
+      "value": "boldWithdrawalKey"
+    },
+    {
+      "type": 0,
+      "value": " derived via mnemonics in "
+    },
+    {
+      "type": 1,
+      "value": "eip2334"
+    },
+    {
+      "type": 0,
+      "value": " format."
     }
   ],
   "mArJcj": [
