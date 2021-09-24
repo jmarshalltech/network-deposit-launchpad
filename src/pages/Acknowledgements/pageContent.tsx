@@ -192,13 +192,6 @@ export const pageContent = {
               withdraw or transfer real tokens.`}
           />
         </Text>
-        <Link
-          to="https://ethereum.org/en/eth2/docking"
-          className="my10"
-          primary
-        >
-          <FormattedMessage defaultMessage="More on the merge" />
-        </Link>
         <Text size="medium" className="my10">
           <FormattedMessage
             defaultMessage="With transfers disabled for now, you won't be able to voluntarily exit

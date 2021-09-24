@@ -1495,9 +1495,6 @@
   "el/dXY": {
     "message": "Note: Withdrawing your deposits won't currently be possible."
   },
-  "elCkOU": {
-    "message": "More on the merge"
-  },
   "erZJkZ": {
     "message": "When launching Teku, keystores and passwords can be provided in different ways."
   },
