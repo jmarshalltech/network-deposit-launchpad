@@ -79,7 +79,7 @@ export const Upgrades = (): JSX.Element => {
       title: formatMessage({ defaultMessage: 'Validators FAQ' }),
       subTitle: formatMessage({
         defaultMessage:
-          'Learn more about the roles and responsibilities of LYXt validators.',
+          'Learn more about the roles and responsibilities of L15 validators.',
       }),
       linkUrl: '/faq',
       link: formatMessage({ defaultMessage: 'More on validators' }),

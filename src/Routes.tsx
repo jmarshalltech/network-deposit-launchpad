@@ -172,7 +172,7 @@ const _Routes = () => {
   });
   const description = formatMessage({
     defaultMessage:
-      'Become a LYXt validator and help secure the future of LUKSO.',
+      'Become a L15 testnet validator and help secure the future of LUKSO.',
   });
   return (
     <>

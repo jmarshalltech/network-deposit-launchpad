@@ -116,7 +116,7 @@ export const Phishing = () => {
           </li>
           <li>
             <Text className="mt10">
-              <FormattedMessage defaultMessage="Check your favorite LYXt block explorer:" />
+              <FormattedMessage defaultMessage="Check your favorite L15 block explorer:" />
             </Text>
             <ul>
               <li>

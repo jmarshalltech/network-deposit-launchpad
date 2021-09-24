@@ -233,7 +233,7 @@ export const Checklist = () => {
 
   return (
     <PageTemplate
-      title={formatMessage({ defaultMessage: 'LYXt validator checklist' })}
+      title={formatMessage({ defaultMessage: 'L15 validator checklist' })}
     >
       <div id="top" />
       <Subtitle>
@@ -678,7 +678,7 @@ export const Checklist = () => {
         </section>
         <section>
           <Heading level={3}>
-            <FormattedMessage defaultMessage="Configure your LYXt client" />
+            <FormattedMessage defaultMessage="Configure your L15 client" />
           </Heading>
           <Link className="mt10" to="/faq" primary>
             <FormattedMessage defaultMessage="More on validator roles and responsibilities" />
@@ -702,7 +702,7 @@ export const Checklist = () => {
             </Heading>
             <Text className="mt20">
               <FormattedMessage
-                defaultMessage="It is high risk to run your LYXt validator in multiple places. It will lead to a slashable event and ejection from the network. {learnMore}"
+                defaultMessage="It is high risk to run your L15 validator in multiple places. It will lead to a slashable event and ejection from the network. {learnMore}"
                 values={{
                   learnMore: (
                     <Link primary inline to="/faq#responsibilities">
@@ -719,7 +719,7 @@ export const Checklist = () => {
             label={
               <Text className="checkbox-label">
                 <FormattedMessage
-                  defaultMessage="I've installed the {latestRelease} of my LYXt client."
+                  defaultMessage="I've installed the {latestRelease} of my L15 client."
                   values={{
                     latestRelease: (
                       <strong>
@@ -737,7 +737,7 @@ export const Checklist = () => {
         </section>
         <section>
           <Heading level={3}>
-            <FormattedMessage defaultMessage="LYXt Vanguard Node (VN)" />
+            <FormattedMessage defaultMessage="L15 Vanguard Node (VN)" />
           </Heading>
           <Heading level={4} className="mt10">
             <FormattedMessage defaultMessage="Required" />
@@ -745,7 +745,7 @@ export const Checklist = () => {
           <CheckBox
             label={
               <Text className="checkbox-label">
-                <FormattedMessage defaultMessage="I'm able to connect my LYXt vanguard node to my Pandora client via HTTP API(s)." />
+                <FormattedMessage defaultMessage="I'm able to connect my L15 vanguard node to my Pandora client via HTTP API(s)." />
               </Text>
             }
           />
@@ -765,7 +765,7 @@ export const Checklist = () => {
             label={
               <Text className="checkbox-label">
                 <FormattedMessage
-                  defaultMessage="I've synced my LYXt vanguard node on {LUKSO_NETWORK_NAME}."
+                  defaultMessage="I've synced my L15 vanguard node on {LUKSO_NETWORK_NAME}."
                   values={{ LUKSO_NETWORK_NAME }}
                   description="{LUKSO_NETWORK_NAME} is name of network, do not translate"
                 />
@@ -809,7 +809,7 @@ export const Checklist = () => {
         </section>
         <section>
           <Heading level={3}>
-            <FormattedMessage defaultMessage="LYXt Validator Client (VC)" />
+            <FormattedMessage defaultMessage="L15 Validator Client (VC)" />
           </Heading>
           <Heading level={4} className="mt10">
             <FormattedMessage defaultMessage="Required" />
@@ -817,7 +817,7 @@ export const Checklist = () => {
           <CheckBox
             label={
               <Text className="checkbox-label">
-                <FormattedMessage defaultMessage="I've imported my keystore(s) into my LYXt validator client." />
+                <FormattedMessage defaultMessage="I've imported my keystore(s) into my L15 validator client." />
               </Text>
             }
           />
@@ -869,7 +869,7 @@ export const Checklist = () => {
           </Heading>
           <Text>
             <FormattedMessage
-              defaultMessage="The LYXt clients support Prometheus and Grafana to help you
+              defaultMessage="The L15 clients support Prometheus and Grafana to help you
                 visualise important real-time metrics about your validator. You can
                 find client-specific instructions here: {lighthouse} | {nimbus} | {prysm} | {teku}"
               values={{
@@ -988,7 +988,7 @@ export const Checklist = () => {
           <CheckBox
             label={
               <Text className="checkbox-label">
-                <FormattedMessage defaultMessage="I've simulated how to migrate from one LYXt client to another LYXt client." />
+                <FormattedMessage defaultMessage="I've simulated how to migrate from one L15 client to another L15 client." />
               </Text>
             }
           />

@@ -51,7 +51,7 @@ export type Client = {
 };
 
 // define and shuffle the clients
-const lyxtClients: {
+const luksoClients: {
   [luksoVersion: string]: Array<Client>;
 } = {
   Pandora: _shuffle([
@@ -86,7 +86,7 @@ const _SelectClientPage = ({
   const { formatMessage } = useIntl();
 
   // filter the options based on the eth version the user is on
-  const clientOptions = React.useMemo(() => lyxtClients[luksoVersionStep], [
+  const clientOptions = React.useMemo(() => luksoClients[luksoVersionStep], [
     luksoVersionStep,
   ]);
 
