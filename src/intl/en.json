@@ -61,10 +61,6 @@
   "/WenEu": {
     "message": "You are responsible for the transaction. Fraudulent websites might try and lure you into sending the {pricePerValidator} to them, instead of the official deposit contract. Make sure that the address you are sending the transaction to is the correct address."
   },
-  "/eRYIP": {
-    "description": "{discord} is a link to the LUKSO Discord (do not translate names)",
-    "message": "Visit the #validators channel on {discord} at any time during your setup for some friendly help!"
-  },
   "/jJLYy": {
     "message": "Transactions"
   },
@@ -1525,6 +1521,10 @@
   },
   "fbiteI": {
     "message": "only stored on one validator machine"
+  },
+  "fhvkT2": {
+    "description": "{discord} is a link to the LUKSO Discord (do not translate names)",
+    "message": "Visit the LUKSO #validators channel on {discord} at any time during your setup for some friendly help!"
   },
   "fnMHGO": {
     "message": "Waiting for wallet confirmation"

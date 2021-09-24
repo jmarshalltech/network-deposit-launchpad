@@ -240,7 +240,7 @@ export const Checklist = () => {
         <FormattedMessage defaultMessage="This checklist will help you understand the role of a validator and prepare you for the role." />
         <Text className="mt10">
           <FormattedMessage
-            defaultMessage="Visit the #validators channel on {discord} at any time during your setup for some friendly help!"
+            defaultMessage="Visit the LUKSO #validators channel on {discord} at any time during your setup for some friendly help!"
             values={{
               discord: (
                 <Link primary inline to="https://discord.gg/E2rJPP4">
