@@ -167,6 +167,20 @@
       "value": " to them, instead of the official deposit contract. Make sure that the address you are sending the transaction to is the correct address."
     }
   ],
+  "/eRYIP": [
+    {
+      "type": 0,
+      "value": "Visit the #validators channel on "
+    },
+    {
+      "type": 1,
+      "value": "discord"
+    },
+    {
+      "type": 0,
+      "value": " at any time during your setup for some friendly help!"
+    }
+  ],
   "/jJLYy": [
     {
       "type": 0,
@@ -759,28 +773,6 @@
       "value": "Romanian"
     }
   ],
-  "5t8oYl": [
-    {
-      "type": 0,
-      "value": "Visit EthStaker on "
-    },
-    {
-      "type": 1,
-      "value": "discord"
-    },
-    {
-      "type": 0,
-      "value": " or "
-    },
-    {
-      "type": 1,
-      "value": "reddit"
-    },
-    {
-      "type": 0,
-      "value": " at any time during your setup for some friendly help!"
-    }
-  ],
   "60BCbB": [
     {
       "type": 0,
@@ -933,6 +925,12 @@
     {
       "type": 0,
       "value": " blockchain explorers."
+    }
+  ],
+  "7gmpID": [
+    {
+      "type": 0,
+      "value": "LUKSO validators community"
     }
   ],
   "7iEYck": [
@@ -1279,12 +1277,6 @@
       "value": "Download MetaMask"
     }
   ],
-  "BUFaRV": [
-    {
-      "type": 0,
-      "value": "EthStaker community"
-    }
-  ],
   "Bf2QKg": [
     {
       "type": 0,
@@ -1349,6 +1341,20 @@
     {
       "type": 0,
       "value": "Proof of stake"
+    }
+  ],
+  "CcuTCU": [
+    {
+      "type": 0,
+      "value": "Be sure to complete the "
+    },
+    {
+      "type": 1,
+      "value": "stakerChecklist"
+    },
+    {
+      "type": 0,
+      "value": " as soon as possible. And join the LUKSO Discord community (#validators channel) for support and discussion with fellow validators."
     }
   ],
   "CeeJfw": [
@@ -2663,20 +2669,6 @@
       "value": "congratulations"
     }
   ],
-  "Rf2ZKf": [
-    {
-      "type": 0,
-      "value": "If you have questions, the LUKSO community is a good place to get help! You can find support on "
-    },
-    {
-      "type": 1,
-      "value": "discord"
-    },
-    {
-      "type": 0,
-      "value": ". Join the #validators channel."
-    }
-  ],
   "Rg5ySE": [
     {
       "type": 0,
@@ -3799,6 +3791,20 @@
       "value": " (the minimum allowed by the deposit contract) will max out your effective balance."
     }
   ],
+  "evn4VC": [
+    {
+      "type": 0,
+      "value": "If you have questions, the LUKSO community is a good place to get help! You can find support on the "
+    },
+    {
+      "type": 1,
+      "value": "discord"
+    },
+    {
+      "type": 0,
+      "value": " #validators channel."
+    }
+  ],
   "eyK2E3": [
     {
       "type": 0,
@@ -4653,28 +4659,6 @@
       "value": "Advanced system architecture"
     }
   ],
-  "nz27+c": [
-    {
-      "type": 0,
-      "value": "If you have questions, EthStaker community is a good place to get help! You can find support on "
-    },
-    {
-      "type": 1,
-      "value": "discord"
-    },
-    {
-      "type": 0,
-      "value": " or "
-    },
-    {
-      "type": 1,
-      "value": "reddit"
-    },
-    {
-      "type": 0,
-      "value": "."
-    }
-  ],
   "o9QvTP": [
     {
       "type": 0,
@@ -5365,20 +5349,6 @@
     {
       "type": 0,
       "value": "I've forwarded the necessary ports to the correct machine(s) from my router (only open the ports that apply to your installation)."
-    }
-  ],
-  "vbVsqW": [
-    {
-      "type": 0,
-      "value": "Be sure to complete the "
-    },
-    {
-      "type": 1,
-      "value": "stakerChecklist"
-    },
-    {
-      "type": 0,
-      "value": " as soon as possible. And join the EthStaker community for support and discussion with fellow validators."
     }
   ],
   "vg1dVR": [

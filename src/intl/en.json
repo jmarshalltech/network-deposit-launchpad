@@ -61,6 +61,10 @@
   "/WenEu": {
     "message": "You are responsible for the transaction. Fraudulent websites might try and lure you into sending the {pricePerValidator} to them, instead of the official deposit contract. Make sure that the address you are sending the transaction to is the correct address."
   },
+  "/eRYIP": {
+    "description": "{discord} is a link to the LUKSO Discord (do not translate names)",
+    "message": "Visit the #validators channel on {discord} at any time during your setup for some friendly help!"
+  },
   "/jJLYy": {
     "message": "Transactions"
   },
@@ -276,10 +280,6 @@
   "5UH1sh": {
     "message": "Romanian"
   },
-  "5t8oYl": {
-    "description": "{variables} are social media platform links to Discord and Reddit (do not translate names)",
-    "message": "Visit EthStaker on {discord} or {reddit} at any time during your setup for some friendly help!"
-  },
   "60BCbB": {
     "description": "{luksoVersionStep} is either 'Pandora' or 'Vanguard', depending on which step user is on",
     "message": "Choose your {luksoVersionStep} client and set up a node"
@@ -338,6 +338,9 @@
   "7d3Nzd": {
     "description": "{variables} are Beacon Chain block explorers, with links to each (do not translate names)",
     "message": "You can use your validator client's graffiti flag to add a personal touch to your proposed blocks (some text of your choice). You will be able to see it using {beaconchain} or {beaconscan} blockchain explorers."
+  },
+  "7gmpID": {
+    "message": "LUKSO validators community"
   },
   "7iEYck": {
     "message": "More on LUKSO economics"
@@ -487,9 +490,6 @@
   "BPpnlJ": {
     "message": "Download MetaMask"
   },
-  "BUFaRV": {
-    "message": "EthStaker community"
-  },
   "Bf2QKg": {
     "message": "Validating is a long-term commitment"
   },
@@ -522,6 +522,10 @@
   },
   "CF9vMR": {
     "message": "Proof of stake"
+  },
+  "CcuTCU": {
+    "description": "{stakerChecklist} = 'Staker Checklist' bolded to draw attention",
+    "message": "Be sure to complete the {stakerChecklist} as soon as possible. And join the LUKSO Discord community (#validators channel) for support and discussion with fellow validators."
   },
   "CeeJfw": {
     "message": "I've set up a firewall."
@@ -1054,10 +1058,6 @@
   "RWqrlk": {
     "message": "congratulations"
   },
-  "Rf2ZKf": {
-    "description": "{discord} is a link to the LUKSO Discord channel",
-    "message": "If you have questions, the LUKSO community is a good place to get help! You can find support on {discord}. Join the #validators channel."
-  },
   "Rg5ySE": {
     "message": "How many validators would you like to run?"
   },
@@ -1504,6 +1504,10 @@
   "esDvdR": {
     "message": "Validator balance is over {PRICE_PER_VALIDATOR}, but effective balance is low ({effectiveBalance}). Adding {minTopupValue} {TICKER_NAME} (the minimum allowed by the deposit contract) will max out your effective balance."
   },
+  "evn4VC": {
+    "description": "{discord} is a link to the LUKSO Discord (do not translate names)",
+    "message": "If you have questions, the LUKSO community is a good place to get help! You can find support on the {discord} #validators channel."
+  },
   "eyK2E3": {
     "message": "Complete checklist"
   },
@@ -1840,10 +1844,6 @@
   "ntG2by": {
     "message": "Advanced system architecture"
   },
-  "nz27+c": {
-    "description": "{variables} social media platform links to Discord and Reddit (do not translate names)",
-    "message": "If you have questions, EthStaker community is a good place to get help! You can find support on {discord} or {reddit}."
-  },
   "o9QvTP": {
     "message": "Before you start"
   },
@@ -2113,10 +2113,6 @@
   },
   "va96SS": {
     "message": "I've forwarded the necessary ports to the correct machine(s) from my router (only open the ports that apply to your installation)."
-  },
-  "vbVsqW": {
-    "description": "{stakerChecklist} = 'Staker Checklist' bolded to draw attention",
-    "message": "Be sure to complete the {stakerChecklist} as soon as possible. And join the EthStaker community for support and discussion with fellow validators."
   },
   "vg1dVR": {
     "message": "With your signing key, you could attempt to quickly exit the validator and then transfer the funds – with the withdrawal key – before the thief."

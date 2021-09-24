@@ -794,7 +794,7 @@ export const FAQ = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="If you have questions, the LUKSO community is a good place to get
-                  help! You can find support on {discord}. Join the #validators channel."
+                  help! You can find support on the {discord} #validators channel."
                 values={{
                   discord: (
                     <Link inline to="https://discord.gg/E2rJPP4">
@@ -802,7 +802,7 @@ export const FAQ = () => {
                     </Link>
                   ),
                 }}
-                description="{discord} is a link to the LUKSO Discord channel"
+                description="{discord} is a link to the LUKSO Discord (do not translate names)"
               />
             </Text>
           </section>

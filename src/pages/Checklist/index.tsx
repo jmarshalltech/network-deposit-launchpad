@@ -240,20 +240,15 @@ export const Checklist = () => {
         <FormattedMessage defaultMessage="This checklist will help you understand the role of a validator and prepare you for the role." />
         <Text className="mt10">
           <FormattedMessage
-            defaultMessage="Visit EthStaker on {discord} or {reddit} at any time during your setup for some friendly help!"
+            defaultMessage="Visit the #validators channel on {discord} at any time during your setup for some friendly help!"
             values={{
               discord: (
-                <Link primary inline to="https://invite.gg/ethstaker">
+                <Link primary inline to="https://discord.gg/E2rJPP4">
                   Discord
                 </Link>
               ),
-              reddit: (
-                <Link primary inline to="https://reddit.com/r/ethstaker">
-                  Reddit
-                </Link>
-              ),
             }}
-            description="{variables} are social media platform links to Discord and Reddit (do not translate names)"
+            description="{discord} is a link to the LUKSO Discord (do not translate names)"
           />
         </Text>
       </Subtitle>
@@ -1051,21 +1046,16 @@ export const Checklist = () => {
         </section>
         <RainbowHeader>
           <FormattedMessage
-            defaultMessage="If you have questions, EthStaker community is a good place to get help!
-                You can find support on {discord} or {reddit}."
+            defaultMessage="If you have questions, the LUKSO community is a good place to get
+                  help! You can find support on the {discord} #validators channel."
             values={{
               discord: (
-                <Link primary inline to="https://invite.gg/ethstaker">
+                <Link primary inline to="https://discord.gg/E2rJPP4">
                   Discord
                 </Link>
               ),
-              reddit: (
-                <Link primary inline to="https://reddit.com/r/ethstaker">
-                  Reddit
-                </Link>
-              ),
             }}
-            description="{variables} social media platform links to Discord and Reddit (do not translate names)"
+            description="{discord} is a link to the LUKSO Discord (do not translate names)"
           />
         </RainbowHeader>
       </ChecklistPageStyles>

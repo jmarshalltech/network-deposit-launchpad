@@ -493,7 +493,7 @@ const _CongratulationsPage = ({
                 </Heading>
                 <Text color="white" className="mt10">
                   <FormattedMessage
-                    defaultMessage="Be sure to complete the {stakerChecklist} as soon as possible. And join the EthStaker community for support and discussion with fellow validators."
+                    defaultMessage="Be sure to complete the {stakerChecklist} as soon as possible. And join the LUKSO Discord community (#validators channel) for support and discussion with fellow validators."
                     values={{
                       stakerChecklist: (
                         <strong>
@@ -516,13 +516,13 @@ const _CongratulationsPage = ({
                   </Link>
                   <Link
                     isTextLink={false}
-                    to="https://invite.gg/ethstaker"
+                    to="https://discord.gg/E2rJPP4"
                     className="mt20"
                   >
                     <Button
                       fullWidth
                       label={formatMessage({
-                        defaultMessage: 'EthStaker community',
+                        defaultMessage: 'LUKSO validators community',
                       })}
                     />
                   </Link>
