@@ -323,7 +323,7 @@ export const Checklist = () => {
               <Text>
                 <FormattedMessage
                   defaultMessage="To process incoming validator deposits from the Pandora
-                    chain, you'll need to run an Pandora client as well as your
+                    chain, you'll need to run a Pandora client as well as your
                     Vanguard client. You can use a third-party service
                     like Infura, but we recommend running your own client to
                     keep the network as decentralised as possible."

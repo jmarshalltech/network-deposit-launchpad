@@ -3075,6 +3075,12 @@
       "value": " to connect your L15 node to the JSON RPC endpoint. This will enable the JSON RPC services on the default 8545 port."
     }
   ],
+  "WDszx6": [
+    {
+      "type": 0,
+      "value": "To process incoming validator deposits from the Pandora chain, you'll need to run a Pandora client as well as your Vanguard client. You can use a third-party service like Infura, but we recommend running your own client to keep the network as decentralised as possible."
+    }
+  ],
   "WMLn/w": [
     {
       "type": 1,
@@ -4627,12 +4633,6 @@
     {
       "type": 0,
       "value": "I've started running my validator client."
-    }
-  ],
-  "nsDU+u": [
-    {
-      "type": 0,
-      "value": "To process incoming validator deposits from the Pandora chain, you'll need to run an Pandora client as well as your Vanguard client. You can use a third-party service like Infura, but we recommend running your own client to keep the network as decentralised as possible."
     }
   ],
   "ntG2by": [
