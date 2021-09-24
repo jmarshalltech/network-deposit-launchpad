@@ -68,6 +68,9 @@
   "/jJLYy": {
     "message": "Transactions"
   },
+  "/mj2YE": {
+    "message": "Cross check the deposit contract address against other websites – for example: Reddit, Twitter, and GitHub."
+  },
   "/ub26/": {
     "message": "Understand the risks"
   },
@@ -437,6 +440,9 @@
     "description": "This phrase is a sentence ",
     "message": "LUKSO L15 Testnet Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
   },
+  "ALg2MW": {
+    "message": "Check the deposit contract on your favorite block explorer:"
+  },
   "AMajpT": {
     "message": "Block rewards are calculated using a sliding scale based on the total amount of LYXt staked on the network."
   },
@@ -516,6 +522,10 @@
   },
   "CACPC+": {
     "message": "Czech"
+  },
+  "CALy1/": {
+    "description": "Asks users to check deposit contract address against a block explorer and confirm 32 LYXt deposits are present",
+    "message": "Are there recent {lyxtAmount} deposits?"
   },
   "CBbRux": {
     "message": "OpenEthereum is written in Rust and licensed under the GPLv3."
@@ -655,10 +665,6 @@
   },
   "G8tAKU": {
     "message": "Choose client"
-  },
-  "GAV10x": {
-    "description": "Asks users to check deposit contract address against a block explorer and confirm 32 ETH deposits are present",
-    "message": "Are there recent {lyxtAmount} deposits?"
   },
   "GBXzeJ": {
     "message": "Arguably the most impactful factor on rewards earned for validating transactions is the total amount of stake in the network. In other words, the total amount of validators. Depending on this figure the max annual return rate for a validator can be anywhere between 2 and 20%."
@@ -1149,12 +1155,12 @@
   "UHbYCa": {
     "message": "Your validator has its own balance – with the initial balance outlined in the deposit contract. Your rewards and penalties are reflected in your validator's balance over time."
   },
+  "UJFSst": {
+    "message": "The current URLs are: https://explorer.pandora.l15.lukso.network/ and https://explorer.vanguard.l15.lukso.network/"
+  },
   "UJMct0": {
     "description": "{etherscan} is a share link to this transaction on etherscan.io, labeled 'Etherscan'",
     "message": "Check {etherscan} for more details"
-  },
-  "UWv7yD": {
-    "message": "Check the deposit contract on your favorite Ethereum block explorer:"
   },
   "UYxJLB": {
     "description": "{strongText} is a warning, bolded for emphasis",
@@ -2148,10 +2154,6 @@
   },
   "x+fF+M": {
     "message": "Testnet simulations"
-  },
-  "xDyl3T": {
-    "description": "{ethereumorg} is a link to deposit contract page on ethereum.org",
-    "message": "Cross check the deposit contract address against other websites – for example: Reddit, Twitter, and GitHub. There's also a list of trusted sources on {ethereumorg}"
   },
   "xH5GKj": {
     "message": "I am an early adopter, and I accept that software and design bugs may result in me being slashed."
