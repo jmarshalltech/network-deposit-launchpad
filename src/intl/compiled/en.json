@@ -1285,6 +1285,12 @@
       "value": "Download MetaMask"
     }
   ],
+  "BWbrLK": [
+    {
+      "type": 0,
+      "value": "Once you're comfortable, you'll go through generating your keys and depositing your LYXt."
+    }
+  ],
   "Bf2QKg": [
     {
       "type": 0,
@@ -4611,12 +4617,6 @@
       "value": " sent in a duplicate deposit will not be counted in my effective validator balance and I will not be able to withdraw it."
     }
   ],
-  "ndhFef": [
-    {
-      "type": 0,
-      "value": "Once you're comfortable, you'll go through generating your keys and depositing your ETH."
-    }
-  ],
   "njAU72": [
     {
       "type": 0,
@@ -4857,12 +4857,6 @@
     {
       "type": 0,
       "value": "Save the key files and get the validator file ready"
-    }
-  ],
-  "quIMjo": [
-    {
-      "type": 0,
-      "value": "Make sure you do the following to get your Eth1 client working properly."
     }
   ],
   "qwh6gM": [

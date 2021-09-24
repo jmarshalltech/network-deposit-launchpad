@@ -495,6 +495,9 @@
   "BPpnlJ": {
     "message": "Download MetaMask"
   },
+  "BWbrLK": {
+    "message": "Once you're comfortable, you'll go through generating your keys and depositing your LYXt."
+  },
   "Bf2QKg": {
     "message": "Validating is a long-term commitment"
   },
@@ -1826,9 +1829,6 @@
   "nZTFTz": {
     "message": "I understand that there is no advantage to depositing more than once per validator. Any extra {TICKER_NAME} sent in a duplicate deposit will not be counted in my effective validator balance and I will not be able to withdraw it."
   },
-  "ndhFef": {
-    "message": "Once you're comfortable, you'll go through generating your keys and depositing your ETH."
-  },
   "njAU72": {
     "message": "French"
   },
@@ -1942,9 +1942,6 @@
   },
   "qkhah0": {
     "message": "Save the key files and get the validator file ready"
-  },
-  "quIMjo": {
-    "message": "Make sure you do the following to get your Eth1 client working properly."
   },
   "qwh6gM": {
     "message": "I understand the early adopter and slashing risks."
