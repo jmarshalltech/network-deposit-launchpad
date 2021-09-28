@@ -89,6 +89,20 @@
       "value": "network"
     }
   ],
+  "+sCvYi": [
+    {
+      "type": 0,
+      "value": "Use "
+    },
+    {
+      "type": 1,
+      "value": "http"
+    },
+    {
+      "type": 0,
+      "value": " to connect your L15 node to the JSON RPC endpoint. This will enable the JSON RPC services on the default 8545 port."
+    }
+  ],
   "/+atl4": [
     {
       "type": 0,
@@ -167,6 +181,12 @@
     {
       "type": 0,
       "value": "Transactions"
+    }
+  ],
+  "/mj2YE": [
+    {
+      "type": 0,
+      "value": "Cross check the deposit contract address against other websites – for example: Reddit, Twitter, and GitHub."
     }
   ],
   "/ub26/": [
@@ -325,6 +345,20 @@
       "value": "Earn continuous rewards for providing a public good to the community."
     }
   ],
+  "0zaPZK": [
+    {
+      "type": 0,
+      "value": "You'll need a significant amount of space for the Pandora chain data alone (For reference; as of "
+    },
+    {
+      "type": 1,
+      "value": "date"
+    },
+    {
+      "type": 0,
+      "value": ", Eth1 is ~400GB and growing at ~1GB/day)."
+    }
+  ],
   "122+yR": [
     {
       "type": 0,
@@ -393,12 +427,6 @@
       "value": "Check that the password files don’t have trailing new-lines."
     }
   ],
-  "1YLlOG": [
-    {
-      "type": 0,
-      "value": "You can think of the deposit contract as a transfer of funds between LUKSO accounts and LYXt validators."
-    }
-  ],
   "1fDfw7": [
     {
       "type": 0,
@@ -459,10 +487,26 @@
       "value": "There was an error loading your validator information from Beaconcha.in"
     }
   ],
+  "2Avb9j": [
+    {
+      "type": 0,
+      "value": "Thank you for supporting the LUKSO L15 ephemeral testnet!"
+    }
+  ],
   "2CYEJa": [
     {
       "type": 0,
       "value": "Troubleshooting"
+    }
+  ],
+  "2PgclB": [
+    {
+      "type": 0,
+      "value": "It is high risk to run your L15 validator in multiple places. It will lead to a slashable event and ejection from the network. "
+    },
+    {
+      "type": 1,
+      "value": "learnMore"
     }
   ],
   "2Qn0Hh": [
@@ -607,12 +651,6 @@
       "value": "There’s no way for you to re-activate your validator, and you won’t be able to transfer or withdraw your funds until this is enabled on the mainnet validator platform."
     }
   ],
-  "3WbcoW": [
-    {
-      "type": 0,
-      "value": "LYXt validator checklist"
-    }
-  ],
   "3tR/V9": [
     {
       "type": 0,
@@ -657,28 +695,6 @@
     {
       "type": 1,
       "value": "mainnet"
-    }
-  ],
-  "4/2UCN": [
-    {
-      "type": 0,
-      "value": "The LYXt deposit contract requires a minimum of "
-    },
-    {
-      "type": 1,
-      "value": "minTopupValue"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "TICKER_NAME"
-    },
-    {
-      "type": 0,
-      "value": " to be sent at one time to be accepted."
     }
   ],
   "47svuN": [
@@ -731,16 +747,16 @@
       "value": "Copy"
     }
   ],
-  "4resC0": [
-    {
-      "type": 0,
-      "value": "Check your favorite LYXt block explorer:"
-    }
-  ],
   "52qGy6": [
     {
       "type": 0,
       "value": "CURRENT"
+    }
+  ],
+  "53xzcb": [
+    {
+      "type": 0,
+      "value": "Configure your L15 client"
     }
   ],
   "54J/qs": [
@@ -773,28 +789,6 @@
       "value": "Romanian"
     }
   ],
-  "5t8oYl": [
-    {
-      "type": 0,
-      "value": "Visit EthStaker on "
-    },
-    {
-      "type": 1,
-      "value": "discord"
-    },
-    {
-      "type": 0,
-      "value": " or "
-    },
-    {
-      "type": 1,
-      "value": "reddit"
-    },
-    {
-      "type": 0,
-      "value": " at any time during your setup for some friendly help!"
-    }
-  ],
   "60BCbB": [
     {
       "type": 0,
@@ -819,6 +813,18 @@
       "value": "network"
     }
   ],
+  "6RJOKW": [
+    {
+      "type": 0,
+      "value": "I've simulated how to migrate from one L15 client to another L15 client."
+    }
+  ],
+  "6S95Bo": [
+    {
+      "type": 0,
+      "value": "Avoid phishing"
+    }
+  ],
   "6UUL73": [
     {
       "type": 0,
@@ -829,20 +835,6 @@
     {
       "type": 0,
       "value": "You can improve the effective balance of this validator by topping up"
-    }
-  ],
-  "6jqENM": [
-    {
-      "type": 0,
-      "value": "You'll need a significant amount of space for the Pandora mainnet chain data alone (For reference; as of "
-    },
-    {
-      "type": 1,
-      "value": "date"
-    },
-    {
-      "type": 0,
-      "value": ", Eth1 is ~400GB and growing at ~1GB/day)."
     }
   ],
   "6nh4de": [
@@ -909,16 +901,6 @@
       "value": "Slashed?"
     }
   ],
-  "7YwZPE": [
-    {
-      "type": 0,
-      "value": "It is high risk to run your LYXt validator in multiple places. It will lead to a slashable event and ejection from the network. "
-    },
-    {
-      "type": 1,
-      "value": "learnMore"
-    }
-  ],
   "7bEnm6": [
     {
       "type": 0,
@@ -947,6 +929,12 @@
       "value": " blockchain explorers."
     }
   ],
+  "7gmpID": [
+    {
+      "type": 0,
+      "value": "LUKSO validators community"
+    }
+  ],
   "7iEYck": [
     {
       "type": 0,
@@ -957,12 +945,6 @@
     {
       "type": 0,
       "value": "Use L15LYX to sync the L15 testnet."
-    }
-  ],
-  "7rVP3x": [
-    {
-      "type": 0,
-      "value": "LYXt Vanguard Node (VN)"
     }
   ],
   "7s6XNV": [
@@ -1167,6 +1149,12 @@
       "value": " testnet"
     }
   ],
+  "ALg2MW": [
+    {
+      "type": 0,
+      "value": "Check the deposit contract on your favorite block explorer:"
+    }
+  ],
   "AMajpT": [
     {
       "type": 0,
@@ -1203,6 +1191,12 @@
     {
       "type": 0,
       "value": "understanding validator effective balance"
+    }
+  ],
+  "AbTYBZ": [
+    {
+      "type": 0,
+      "value": "Transfers between validators aren't possible yet. You will have to wait until after the Vanguard Consensus Engine mainnet is released before you can deposit, withdraw or transfer real tokens."
     }
   ],
   "Ad61gz": [
@@ -1291,10 +1285,10 @@
       "value": "Download MetaMask"
     }
   ],
-  "BUFaRV": [
+  "BWbrLK": [
     {
       "type": 0,
-      "value": "EthStaker community"
+      "value": "Once you're comfortable, you'll go through generating your keys and depositing your LYXt."
     }
   ],
   "Bf2QKg": [
@@ -1333,6 +1327,12 @@
       "value": "Configure Lighthouse"
     }
   ],
+  "C9dXhY": [
+    {
+      "type": 0,
+      "value": "The L15 clients"
+    }
+  ],
   "C9fTX1": [
     {
       "type": 0,
@@ -1343,6 +1343,20 @@
     {
       "type": 0,
       "value": "Czech"
+    }
+  ],
+  "CALy1/": [
+    {
+      "type": 0,
+      "value": "Are there recent "
+    },
+    {
+      "type": 1,
+      "value": "lyxtAmount"
+    },
+    {
+      "type": 0,
+      "value": " deposits?"
     }
   ],
   "CBbRux": [
@@ -1357,24 +1371,24 @@
       "value": "Proof of stake"
     }
   ],
+  "CcuTCU": [
+    {
+      "type": 0,
+      "value": "Be sure to complete the "
+    },
+    {
+      "type": 1,
+      "value": "stakerChecklist"
+    },
+    {
+      "type": 0,
+      "value": " as soon as possible. And join the LUKSO Discord community (#validators channel) for support and discussion with fellow validators."
+    }
+  ],
   "CeeJfw": [
     {
       "type": 0,
       "value": "I've set up a firewall."
-    }
-  ],
-  "CgsDtD": [
-    {
-      "type": 0,
-      "value": "Use "
-    },
-    {
-      "type": 1,
-      "value": "http"
-    },
-    {
-      "type": 0,
-      "value": " to connect your LYXt node to the JSON RPC endpoint. This will enable the JSON RPC services on the default 8545 port."
     }
   ],
   "D0Rigq": [
@@ -1535,6 +1549,20 @@
       "value": "This is a test network ⚠️"
     }
   ],
+  "EoeAcv": [
+    {
+      "type": 0,
+      "value": "I've synced my L15 vanguard node on "
+    },
+    {
+      "type": 1,
+      "value": "LUKSO_NETWORK_NAME"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
   "EuhIal": [
     {
       "type": 0,
@@ -1637,20 +1665,6 @@
       "value": "Choose client"
     }
   ],
-  "GAV10x": [
-    {
-      "type": 0,
-      "value": "Are there recent "
-    },
-    {
-      "type": 1,
-      "value": "lyxtAmount"
-    },
-    {
-      "type": 0,
-      "value": " deposits?"
-    }
-  ],
   "GBXzeJ": [
     {
       "type": 0,
@@ -1709,6 +1723,12 @@
     {
       "type": 0,
       "value": "When should I top up my validator’s balance?"
+    }
+  ],
+  "GxQors": [
+    {
+      "type": 0,
+      "value": "You'll need to run a L15 node to become a validator. Take a look at the checklist to prepare yourself and your equipment."
     }
   ],
   "H+Wcch": [
@@ -1995,6 +2015,12 @@
       "value": "Hardware checklist"
     }
   ],
+  "KCBqlo": [
+    {
+      "type": 0,
+      "value": "Check your favorite L15 block explorer:"
+    }
+  ],
   "KFSZ68": [
     {
       "type": 1,
@@ -2013,6 +2039,20 @@
       "value": " will NOT be counted in your effective balance on the Vanguard Chain. Withdrawing your deposits also won't currently be possible."
     }
   ],
+  "KLfakO": [
+    {
+      "type": 0,
+      "value": "I've installed the "
+    },
+    {
+      "type": 1,
+      "value": "latestRelease"
+    },
+    {
+      "type": 0,
+      "value": " of my L15 client."
+    }
+  ],
   "KMyzzI": [
     {
       "type": 0,
@@ -2023,12 +2063,6 @@
     {
       "type": 0,
       "value": "Error"
-    }
-  ],
-  "KQHq1w": [
-    {
-      "type": 0,
-      "value": "I'm able to connect my LYXt vanguard node to my Pandora client via HTTP API(s)."
     }
   ],
   "KjcAm2": [
@@ -2157,6 +2191,12 @@
       "value": "Your initial deposit has already been made for this validator public key. Please wait and check the status of your deposit on the Beaconchain data provider."
     }
   ],
+  "Lva1dX": [
+    {
+      "type": 0,
+      "value": "Testnet tokens (LYXt) are non-transferrable to other testnets, mainnet (LYX) or LYXe. L15 is an ephemeral testnet, meaning the state will not be persistent and the network will be frequently reset."
+    }
+  ],
   "LyJqWj": [
     {
       "type": 0,
@@ -2233,12 +2273,6 @@
       "value": " isn't a valid deposit_data JSON file. Try again."
     }
   ],
-  "N57jlm": [
-    {
-      "type": 0,
-      "value": "Configure your LYXt client"
-    }
-  ],
   "NEmnAV": [
     {
       "type": 0,
@@ -2313,6 +2347,12 @@
       "value": "Become a validator with Teku"
     }
   ],
+  "NmiAuT": [
+    {
+      "type": 0,
+      "value": "Learn more about the roles and responsibilities of L15 validators."
+    }
+  ],
   "NwzcYT": [
     {
       "type": 0,
@@ -2367,6 +2407,12 @@
       "value": "The Nethermind documentation explains how to download and install the client."
     }
   ],
+  "OQ0r3H": [
+    {
+      "type": 0,
+      "value": "I'm able to connect my L15 vanguard node to my Pandora client via HTTP API(s)."
+    }
+  ],
   "OdYQYh": [
     {
       "type": 0,
@@ -2389,28 +2435,6 @@
     {
       "type": 0,
       "value": "As a validator, you'll need to have funds at stake so you can be penalized for behaving dishonestly."
-    }
-  ],
-  "P1QerV": [
-    {
-      "type": 0,
-      "value": "If you have questions, EthStaker community is a good place to get help! You can find support on "
-    },
-    {
-      "type": 1,
-      "value": "discord"
-    },
-    {
-      "type": 0,
-      "value": " or "
-    },
-    {
-      "type": 1,
-      "value": "reddit"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "P7/KZ1": [
@@ -2549,6 +2573,12 @@
       "value": " to max out your effective balance."
     }
   ],
+  "QBAX97": [
+    {
+      "type": 0,
+      "value": "L15 Vanguard Node (VN)"
+    }
+  ],
   "QKFeMq": [
     {
       "type": 0,
@@ -2605,40 +2635,6 @@
     {
       "type": 0,
       "value": " deposit that was accepted but is being validated on chain. It will be available here when beaconcha.in has confirmed 2048 blocks."
-    }
-  ],
-  "R1TrkZ": [
-    {
-      "type": 0,
-      "value": "The LYXt clients support Prometheus and Grafana to help you visualise important real-time metrics about your validator. You can find client-specific instructions here: "
-    },
-    {
-      "type": 1,
-      "value": "lighthouse"
-    },
-    {
-      "type": 0,
-      "value": " | "
-    },
-    {
-      "type": 1,
-      "value": "nimbus"
-    },
-    {
-      "type": 0,
-      "value": " | "
-    },
-    {
-      "type": 1,
-      "value": "prysm"
-    },
-    {
-      "type": 0,
-      "value": " | "
-    },
-    {
-      "type": 1,
-      "value": "teku"
     }
   ],
   "R8eePn": [
@@ -2721,20 +2717,6 @@
       "value": "How do you want to run the CLI?"
     }
   ],
-  "S1fvby": [
-    {
-      "type": 0,
-      "value": "Use "
-    },
-    {
-      "type": 1,
-      "value": "http"
-    },
-    {
-      "type": 0,
-      "value": " to connect your LYXt node to the JSON RPC endpoint. This will enable the JSON RPC services on the default 8545 port."
-    }
-  ],
   "S943uU": [
     {
       "type": 0,
@@ -2807,6 +2789,12 @@
       "value": "PoS is a more secure, decentralized, and environmentally-friendly consensus mechanism than the proof-of-work (PoW) that secures Ethereum today. It rewards validators for building the chain, but slashes their deposits if they try to attack it, incentivising healthy behaviour. This upgrade is already live in the form of the Vanguard Consensus Chain / L15 testnet."
     }
   ],
+  "Skc8c/": [
+    {
+      "type": 0,
+      "value": "I've imported my keystore(s) into my L15 validator client."
+    }
+  ],
   "SqKNq2": [
     {
       "type": 0,
@@ -2821,12 +2809,6 @@
     {
       "type": 0,
       "value": "wrench"
-    }
-  ],
-  "T3rbj1": [
-    {
-      "type": 0,
-      "value": "Testnet tokens (LYXt) are non-transferrable to mainnet (LYX) or LYXe. L15 is an ephemeral testnet, meaning the state will not be persistent and the network will be frequently reset."
     }
   ],
   "TMw9oz": [
@@ -2859,26 +2841,28 @@
       "value": "View extensive client comparison"
     }
   ],
+  "U3D1AX": [
+    {
+      "type": 0,
+      "value": "You can think of the deposit contract as a transfer of funds between LUKSO accounts and L15 validators."
+    }
+  ],
   "U7AOxj": [
     {
       "type": 0,
       "value": "greater than 50%"
     }
   ],
-  "U7NW30": [
-    {
-      "type": 0,
-      "value": "LYXt Clients: "
-    },
-    {
-      "type": 1,
-      "value": "clientName"
-    }
-  ],
   "UHbYCa": [
     {
       "type": 0,
       "value": "Your validator has its own balance – with the initial balance outlined in the deposit contract. Your rewards and penalties are reflected in your validator's balance over time."
+    }
+  ],
+  "UJFSst": [
+    {
+      "type": 0,
+      "value": "The current URLs are: https://explorer.pandora.l15.lukso.network/ and https://explorer.vanguard.l15.lukso.network/"
     }
   ],
   "UJMct0": [
@@ -2893,12 +2877,6 @@
     {
       "type": 0,
       "value": " for more details"
-    }
-  ],
-  "UWv7yD": [
-    {
-      "type": 0,
-      "value": "Check the deposit contract on your favorite Ethereum block explorer:"
     }
   ],
   "UYxJLB": [
@@ -2965,12 +2943,6 @@
     {
       "type": 0,
       "value": "How much LYXt do I need to stake to become a validator?"
-    }
-  ],
-  "V8WNUC": [
-    {
-      "type": 0,
-      "value": "Learn more about the roles and responsibilities of LYXt validators."
     }
   ],
   "VASo1/": [
@@ -3089,6 +3061,26 @@
       "value": "FAQ"
     }
   ],
+  "WDkfhR": [
+    {
+      "type": 0,
+      "value": "Use "
+    },
+    {
+      "type": 1,
+      "value": "http"
+    },
+    {
+      "type": 0,
+      "value": " to connect your L15 node to the JSON RPC endpoint. This will enable the JSON RPC services on the default 8545 port."
+    }
+  ],
+  "WDszx6": [
+    {
+      "type": 0,
+      "value": "To process incoming validator deposits from the Pandora chain, you'll need to run a Pandora client as well as your Vanguard client. You can use a third-party service like Infura, but we recommend running your own client to keep the network as decentralised as possible."
+    }
+  ],
   "WMLn/w": [
     {
       "type": 1,
@@ -3103,12 +3095,6 @@
     {
       "type": 0,
       "value": "These steps are optional but are recommended to optimize your node."
-    }
-  ],
-  "WgyNrB": [
-    {
-      "type": 0,
-      "value": "Thank you for supporting the LUKSO LYXt ephemeral testnet!"
     }
   ],
   "WkrNSk": [
@@ -3441,20 +3427,6 @@
       "value": "Nimbus is Apache 2 licensed and written in Nim, a language with Python-like syntax that compiles to C."
     }
   ],
-  "aZ7pUj": [
-    {
-      "type": 0,
-      "value": "Your wallet is on the wrong Ethereum network. To continue, connect to the "
-    },
-    {
-      "type": 1,
-      "value": "networkName"
-    },
-    {
-      "type": 0,
-      "value": " network."
-    }
-  ],
   "acrOoz": [
     {
       "type": 0,
@@ -3473,16 +3445,32 @@
       "value": "Build deposit-cli from the Python source code"
     }
   ],
+  "b4Fwl0": [
+    {
+      "type": 0,
+      "value": "The L15 deposit contract requires a minimum of "
+    },
+    {
+      "type": 1,
+      "value": "minTopupValue"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " to be sent at one time to be accepted."
+    }
+  ],
   "b4csjU": [
     {
       "type": 0,
       "value": "However, bear in mind that for the foreseeable future, once you’ve exited, there’s no going back."
-    }
-  ],
-  "bLVw7X": [
-    {
-      "type": 0,
-      "value": "The LYXt clients"
     }
   ],
   "bNFkSo": [
@@ -3525,6 +3513,16 @@
     {
       "type": 0,
       "value": "Lighthouse is built in Rust and offered under an Apache 2.0 License."
+    }
+  ],
+  "bt03u4": [
+    {
+      "type": 0,
+      "value": "L15 Clients: "
+    },
+    {
+      "type": 1,
+      "value": "clientName"
     }
   ],
   "bxU6sX": [
@@ -3591,12 +3589,6 @@
     {
       "type": 0,
       "value": "How much will I be penalized for acting maliciously?"
-    }
-  ],
-  "co3LRG": [
-    {
-      "type": 0,
-      "value": "I've imported my keystore(s) into my LYXt validator client."
     }
   ],
   "cpxfOR": [
@@ -3729,6 +3721,12 @@
       "value": "It specifies who is staking, who is validating, how much is being staked, and who can withdraw the funds."
     }
   ],
+  "eRntau": [
+    {
+      "type": 0,
+      "value": "The L15 upgrades will only be successful if validators understand the risks and responsibilities."
+    }
+  ],
   "eaU/aL": [
     {
       "type": 0,
@@ -3739,12 +3737,6 @@
     {
       "type": 0,
       "value": "More on shard chains"
-    }
-  ],
-  "ekpN7U": [
-    {
-      "type": 0,
-      "value": "Validators and LYXt"
     }
   ],
   "el/dXY": [
@@ -3797,6 +3789,20 @@
       "value": " (the minimum allowed by the deposit contract) will max out your effective balance."
     }
   ],
+  "evn4VC": [
+    {
+      "type": 0,
+      "value": "If you have questions, the LUKSO community is a good place to get help! You can find support on the "
+    },
+    {
+      "type": 1,
+      "value": "discord"
+    },
+    {
+      "type": 0,
+      "value": " #validators channel."
+    }
+  ],
   "eyK2E3": [
     {
       "type": 0,
@@ -3827,6 +3833,20 @@
       "value": "only stored on one validator machine"
     }
   ],
+  "fhvkT2": [
+    {
+      "type": 0,
+      "value": "Visit the LUKSO #validators channel on "
+    },
+    {
+      "type": 1,
+      "value": "discord"
+    },
+    {
+      "type": 0,
+      "value": " at any time during your setup for some friendly help!"
+    }
+  ],
   "fnMHGO": [
     {
       "type": 0,
@@ -3845,12 +3865,6 @@
       "value": "Configure your Pandora Client"
     }
   ],
-  "g/lIhF": [
-    {
-      "type": 0,
-      "value": "Slashing has two purposes: (1) to make it prohibitively expensive to attack LYXt, and (2) to stop validators from being lazy by checking that they actually perform their duties. If you're slashed because you've acted in a provably destructive manner, a portion of your stake will be destroyed."
-    }
-  ],
   "g0zIUd": [
     {
       "type": 0,
@@ -3861,6 +3875,26 @@
     {
       "type": 0,
       "value": "More on virtualenv"
+    }
+  ],
+  "g6zrLr": [
+    {
+      "type": 0,
+      "value": "Become a L15 testnet validator and help secure the future of LUKSO."
+    }
+  ],
+  "gFkou2": [
+    {
+      "type": 0,
+      "value": "Your wallet is on the wrong network. To continue, connect to the "
+    },
+    {
+      "type": 1,
+      "value": "networkName"
+    },
+    {
+      "type": 0,
+      "value": " network."
     }
   ],
   "gIauNz": [
@@ -3941,12 +3975,6 @@
       "value": "clock"
     }
   ],
-  "h+pDxO": [
-    {
-      "type": 0,
-      "value": "Become a LYXt validator and help secure the future of LUKSO."
-    }
-  ],
   "h1nTWx": [
     {
       "type": 0,
@@ -3993,6 +4021,18 @@
       "value": "In other words, you maximize your rewards by providing the greatest benefit to the network as a whole."
     }
   ],
+  "hat13W": [
+    {
+      "type": 0,
+      "value": "Validators and L15"
+    }
+  ],
+  "hjjX06": [
+    {
+      "type": 0,
+      "value": "L15 Validator Client (VC)"
+    }
+  ],
   "hkg3fb": [
     {
       "type": 0,
@@ -4029,12 +4069,6 @@
     {
       "type": 0,
       "value": "A validator is an entity that participates in the consensus of LUKSO's Vanguard Chain protocol."
-    }
-  ],
-  "iIkLdj": [
-    {
-      "type": 0,
-      "value": "The LYXt upgrades will only be successful if validators understand the risks and responsibilities."
     }
   ],
   "iMvXLd": [
@@ -4077,12 +4111,6 @@
       "value": ", otherwise the deposit will be invalid."
     }
   ],
-  "iYCg1B": [
-    {
-      "type": 0,
-      "value": "I've simulated how to migrate from one LYXt client to another LYXt client."
-    }
-  ],
   "iZuIgB": [
     {
       "type": 0,
@@ -4095,16 +4123,16 @@
       "value": "Thinking about staking?"
     }
   ],
-  "igA+2L": [
-    {
-      "type": 0,
-      "value": "You'll need to run a LYXt node to become a validator. Take a look at the checklist to prepare yourself and your equipment."
-    }
-  ],
   "igGcu9": [
     {
       "type": 0,
       "value": "Validating in LUKSO is not the same as mining. The outcomes are similar: the work you do will extend and secure the chain. But the process is completely different because they use different consensus mechanisms."
+    }
+  ],
+  "ijbdN4": [
+    {
+      "type": 0,
+      "value": "L15 validator checklist"
     }
   ],
   "irRdC0": [
@@ -4211,20 +4239,6 @@
     {
       "type": 0,
       "value": "Warning: Do not store keys on multiple (backup) validators at once"
-    }
-  ],
-  "jpl4/R": [
-    {
-      "type": 0,
-      "value": "I've installed the "
-    },
-    {
-      "type": 1,
-      "value": "latestRelease"
-    },
-    {
-      "type": 0,
-      "value": " of my LYXt client."
     }
   ],
   "jsaN7g": [
@@ -4537,6 +4551,20 @@
       "value": "No pending deposits"
     }
   ],
+  "mqhL5p": [
+    {
+      "type": 0,
+      "value": "Use "
+    },
+    {
+      "type": 1,
+      "value": "http"
+    },
+    {
+      "type": 0,
+      "value": " to connect your L15 node to the JSON RPC endpoint. This will enable the JSON RPC services on the default 8545 port."
+    }
+  ],
   "mr1BWl": [
     {
       "type": 0,
@@ -4595,12 +4623,6 @@
       "value": " sent in a duplicate deposit will not be counted in my effective validator balance and I will not be able to withdraw it."
     }
   ],
-  "ndhFef": [
-    {
-      "type": 0,
-      "value": "Once you're comfortable, you'll go through generating your keys and depositing your ETH."
-    }
-  ],
   "njAU72": [
     {
       "type": 0,
@@ -4613,38 +4635,10 @@
       "value": "I've started running my validator client."
     }
   ],
-  "nsDU+u": [
-    {
-      "type": 0,
-      "value": "To process incoming validator deposits from the Pandora chain, you'll need to run an Pandora client as well as your Vanguard client. You can use a third-party service like Infura, but we recommend running your own client to keep the network as decentralised as possible."
-    }
-  ],
   "ntG2by": [
     {
       "type": 0,
       "value": "Advanced system architecture"
-    }
-  ],
-  "nz27+c": [
-    {
-      "type": 0,
-      "value": "If you have questions, EthStaker community is a good place to get help! You can find support on "
-    },
-    {
-      "type": 1,
-      "value": "discord"
-    },
-    {
-      "type": 0,
-      "value": " or "
-    },
-    {
-      "type": 1,
-      "value": "reddit"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "o9QvTP": [
@@ -4865,12 +4859,6 @@
       "value": "Save the key files and get the validator file ready"
     }
   ],
-  "quIMjo": [
-    {
-      "type": 0,
-      "value": "Make sure you do the following to get your Eth1 client working properly."
-    }
-  ],
   "qwh6gM": [
     {
       "type": 0,
@@ -5061,6 +5049,40 @@
       "value": "Your deposit_data.json suggests you wanted to set up more validators. These deposits are still outstanding. If you think you've already made these deposits, wait an hour before trying again to avoid duplicate deposits."
     }
   ],
+  "tYu+4O": [
+    {
+      "type": 0,
+      "value": "The L15 clients support Prometheus and Grafana to help you visualise important real-time metrics about your validator. You can find client-specific instructions here: "
+    },
+    {
+      "type": 1,
+      "value": "lighthouse"
+    },
+    {
+      "type": 0,
+      "value": " | "
+    },
+    {
+      "type": 1,
+      "value": "nimbus"
+    },
+    {
+      "type": 0,
+      "value": " | "
+    },
+    {
+      "type": 1,
+      "value": "prysm"
+    },
+    {
+      "type": 0,
+      "value": " | "
+    },
+    {
+      "type": 1,
+      "value": "teku"
+    }
+  ],
   "teyxVk": [
     {
       "type": 0,
@@ -5135,20 +5157,6 @@
       "value": "Portuguese (Brazilian)"
     }
   ],
-  "u6A+vO": [
-    {
-      "type": 0,
-      "value": "Use "
-    },
-    {
-      "type": 1,
-      "value": "http"
-    },
-    {
-      "type": 0,
-      "value": " to connect your LYXt node to the JSON RPC endpoint. This will enable the JSON RPC services on the default 8545 port."
-    }
-  ],
   "u81G9+": [
     {
       "type": 0,
@@ -5215,6 +5223,12 @@
     {
       "type": 0,
       "value": "Become a validator with Nimbus"
+    }
+  ],
+  "ulXbuO": [
+    {
+      "type": 0,
+      "value": "Slashing has two purposes: (1) to make it prohibitively expensive to attack L15, and (2) to stop validators from being lazy by checking that they actually perform their duties. If you're slashed because you've acted in a provably destructive manner, a portion of your stake will be destroyed."
     }
   ],
   "uprpgn": [
@@ -5285,20 +5299,6 @@
       "value": ". It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
     }
   ],
-  "vPokdY": [
-    {
-      "type": 0,
-      "value": "I've synced my LYXt vanguard node on "
-    },
-    {
-      "type": 1,
-      "value": "LUKSO_NETWORK_NAME"
-    },
-    {
-      "type": 0,
-      "value": "."
-    }
-  ],
   "vY2wig": [
     {
       "type": 0,
@@ -5325,20 +5325,6 @@
     {
       "type": 0,
       "value": "I've forwarded the necessary ports to the correct machine(s) from my router (only open the ports that apply to your installation)."
-    }
-  ],
-  "vbVsqW": [
-    {
-      "type": 0,
-      "value": "Be sure to complete the "
-    },
-    {
-      "type": 1,
-      "value": "stakerChecklist"
-    },
-    {
-      "type": 0,
-      "value": " as soon as possible. And join the EthStaker community for support and discussion with fellow validators."
     }
   ],
   "vg1dVR": [
@@ -5381,12 +5367,6 @@
     {
       "type": 0,
       "value": "Initial setup"
-    }
-  ],
-  "wNX0sz": [
-    {
-      "type": 0,
-      "value": "LYXt Validator Client (VC)"
     }
   ],
   "wawegX": [
@@ -5433,16 +5413,6 @@
     {
       "type": 0,
       "value": "Testnet simulations"
-    }
-  ],
-  "xDyl3T": [
-    {
-      "type": 0,
-      "value": "Cross check the deposit contract address against other websites – for example: Reddit, Twitter, and GitHub. There's also a list of trusted sources on "
-    },
-    {
-      "type": 1,
-      "value": "ethereumorg"
     }
   ],
   "xH5GKj": [
@@ -5627,20 +5597,6 @@
     {
       "type": 0,
       "value": "Node security"
-    }
-  ],
-  "zpP16S": [
-    {
-      "type": 0,
-      "value": "Transfers between "
-    },
-    {
-      "type": 1,
-      "value": "TICKER_NAME"
-    },
-    {
-      "type": 0,
-      "value": " validators aren't possible yet. You will have to wait until after the Vanguard Consensus Engine mainnet is released before you can deposit, withdraw or transfer real tokens."
     }
   ]
 }

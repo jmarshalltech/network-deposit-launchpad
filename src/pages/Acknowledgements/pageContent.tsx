@@ -187,10 +187,9 @@ export const pageContent = {
       <>
         <Text size="medium" className="my10">
           <FormattedMessage
-            defaultMessage={`Transfers between {TICKER_NAME} validators aren't possible yet. You will have to
+            defaultMessage={`Transfers between validators aren't possible yet. You will have to
               wait until after the Vanguard Consensus Engine mainnet is released before you can deposit,
               withdraw or transfer real tokens.`}
-            values={{ TICKER_NAME }}
           />
         </Text>
         <Text size="medium" className="my10">

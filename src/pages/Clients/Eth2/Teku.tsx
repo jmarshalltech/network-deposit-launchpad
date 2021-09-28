@@ -226,7 +226,7 @@ export const Teku = () => {
   return (
     <PageTemplate
       title={formatMessage(
-        { defaultMessage: 'LYXt Clients: {clientName}' },
+        { defaultMessage: 'L15 Clients: {clientName}' },
         { clientName: 'Teku' }
       )}
     >

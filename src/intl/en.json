@@ -33,6 +33,10 @@
   "+s8Gac": {
     "message": "Connect {wallet} to {network}"
   },
+  "+sCvYi": {
+    "description": "{http} shows '--http' terminal command",
+    "message": "Use {http} to connect your L15 node to the JSON RPC endpoint. This will enable the JSON RPC services on the default 8545 port."
+  },
   "/+atl4": {
     "message": "Recommendation disclaimer"
   },
@@ -62,6 +66,9 @@
   },
   "/jJLYy": {
     "message": "Transactions"
+  },
+  "/mj2YE": {
+    "message": "Cross check the deposit contract address against other websites – for example: Reddit, Twitter, and GitHub."
   },
   "/ub26/": {
     "message": "Understand the risks"
@@ -118,6 +125,9 @@
   "0uqjBl": {
     "message": "Earn continuous rewards for providing a public good to the community."
   },
+  "0zaPZK": {
+    "message": "You'll need a significant amount of space for the Pandora chain data alone (For reference; as of {date}, Eth1 is ~400GB and growing at ~1GB/day)."
+  },
   "122+yR": {
     "message": "withdrawal key"
   },
@@ -148,9 +158,6 @@
   "1Vkpd0": {
     "message": "Check that the password files don’t have trailing new-lines."
   },
-  "1YLlOG": {
-    "message": "You can think of the deposit contract as a transfer of funds between LUKSO accounts and LYXt validators."
-  },
   "1fDfw7": {
     "message": "How does this all happen?"
   },
@@ -171,8 +178,14 @@
   "2AHkym": {
     "message": "There was an error loading your validator information from Beaconcha.in"
   },
+  "2Avb9j": {
+    "message": "Thank you for supporting the LUKSO L15 ephemeral testnet!"
+  },
   "2CYEJa": {
     "message": "Troubleshooting"
+  },
+  "2PgclB": {
+    "message": "It is high risk to run your L15 validator in multiple places. It will lead to a slashable event and ejection from the network. {learnMore}"
   },
   "2Qn0Hh": {
     "message": "Importantly, as a validator you'll need to post {TICKER_NAME} as collateral - in other words, have some funds at stake (get some at the {faucetLink}). The only way to become a validator is to make a one-way {TICKER_NAME} transaction to the deposit contract on the current LUKSO L15 Testnet."
@@ -219,9 +232,6 @@
   "3UO4hS": {
     "message": "There’s no way for you to re-activate your validator, and you won’t be able to transfer or withdraw your funds until this is enabled on the mainnet validator platform."
   },
-  "3WbcoW": {
-    "message": "LYXt validator checklist"
-  },
   "3tR/V9": {
     "message": "Section 2 - During setup"
   },
@@ -231,9 +241,6 @@
   },
   "4+3cIr": {
     "message": "You've successfully set up a testnet validator! We recommend you complete the checklist before validating on {mainnet}"
-  },
-  "4/2UCN": {
-    "message": "The LYXt deposit contract requires a minimum of {minTopupValue} {TICKER_NAME} to be sent at one time to be accepted."
   },
   "47svuN": {
     "message": "Installation"
@@ -257,11 +264,11 @@
   "4l6vz1": {
     "message": "Copy"
   },
-  "4resC0": {
-    "message": "Check your favorite LYXt block explorer:"
-  },
   "52qGy6": {
     "message": "CURRENT"
+  },
+  "53xzcb": {
+    "message": "Configure your L15 client"
   },
   "54J/qs": {
     "message": "What happens if I use BLS withdrawal and I lose my withdrawal key?"
@@ -278,10 +285,6 @@
   "5UH1sh": {
     "message": "Romanian"
   },
-  "5t8oYl": {
-    "description": "{variables} are social media platform links to Discord and Reddit (do not translate names)",
-    "message": "Visit EthStaker on {discord} or {reddit} at any time during your setup for some friendly help!"
-  },
   "60BCbB": {
     "description": "{luksoVersionStep} is either 'Pandora' or 'Vanguard', depending on which step user is on",
     "message": "Choose your {luksoVersionStep} client and set up a node"
@@ -289,14 +292,17 @@
   "6CK2Nu": {
     "message": "Your wallet is on the wrong network. Switch to {network}"
   },
+  "6RJOKW": {
+    "message": "I've simulated how to migrate from one L15 client to another L15 client."
+  },
+  "6S95Bo": {
+    "message": "Avoid phishing"
+  },
   "6UUL73": {
     "message": "More on validators"
   },
   "6VIBSR": {
     "message": "You can improve the effective balance of this validator by topping up"
-  },
-  "6jqENM": {
-    "message": "You'll need a significant amount of space for the Pandora mainnet chain data alone (For reference; as of {date}, Eth1 is ~400GB and growing at ~1GB/day)."
   },
   "6nh4de": {
     "message": "You're joining a network in its early stages. As with any new piece of software, there is the potential for software bugs. While unlikely, potential bugs may result in slashing."
@@ -328,9 +334,6 @@
   "7XiYRi": {
     "message": "Slashed?"
   },
-  "7YwZPE": {
-    "message": "It is high risk to run your LYXt validator in multiple places. It will lead to a slashable event and ejection from the network. {learnMore}"
-  },
   "7bEnm6": {
     "message": "If you go offline for a number of days under normal conditions you will lose an amount of LYXt roughly equivalent to the amount of LYXt you would have gained in that period. In other words, if you stood to earn ≈0.01 LYXt, you would instead be penalised ≈0.01 LYXt."
   },
@@ -338,14 +341,14 @@
     "description": "{variables} are Beacon Chain block explorers, with links to each (do not translate names)",
     "message": "You can use your validator client's graffiti flag to add a personal touch to your proposed blocks (some text of your choice). You will be able to see it using {beaconchain} or {beaconscan} blockchain explorers."
   },
+  "7gmpID": {
+    "message": "LUKSO validators community"
+  },
   "7iEYck": {
     "message": "More on LUKSO economics"
   },
   "7lhBkq": {
     "message": "Use L15LYX to sync the L15 testnet."
-  },
-  "7rVP3x": {
-    "message": "LYXt Vanguard Node (VN)"
   },
   "7s6XNV": {
     "message": "Staking and rewards"
@@ -436,6 +439,9 @@
     "description": "This phrase is a sentence ",
     "message": "LUKSO L15 Testnet Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
   },
+  "ALg2MW": {
+    "message": "Check the deposit contract on your favorite block explorer:"
+  },
   "AMajpT": {
     "message": "Block rewards are calculated using a sliding scale based on the total amount of LYXt staked on the network."
   },
@@ -450,6 +456,9 @@
   },
   "AbBgEs": {
     "message": "understanding validator effective balance"
+  },
+  "AbTYBZ": {
+    "message": "Transfers between validators aren't possible yet. You will have to wait until after the Vanguard Consensus Engine mainnet is released before you can deposit, withdraw or transfer real tokens."
   },
   "Ad61gz": {
     "description": "{url} is link to GitHub CLI release, made bold for emphasis",
@@ -486,8 +495,8 @@
   "BPpnlJ": {
     "message": "Download MetaMask"
   },
-  "BUFaRV": {
-    "message": "EthStaker community"
+  "BWbrLK": {
+    "message": "Once you're comfortable, you'll go through generating your keys and depositing your LYXt."
   },
   "Bf2QKg": {
     "message": "Validating is a long-term commitment"
@@ -507,11 +516,18 @@
   "C/gb74": {
     "message": "Configure Lighthouse"
   },
+  "C9dXhY": {
+    "message": "The L15 clients"
+  },
   "C9fTX1": {
     "message": "Answers to common questions on becoming a validator."
   },
   "CACPC+": {
     "message": "Czech"
+  },
+  "CALy1/": {
+    "description": "Asks users to check deposit contract address against a block explorer and confirm 32 LYXt deposits are present",
+    "message": "Are there recent {lyxtAmount} deposits?"
   },
   "CBbRux": {
     "message": "OpenEthereum is written in Rust and licensed under the GPLv3."
@@ -519,12 +535,12 @@
   "CF9vMR": {
     "message": "Proof of stake"
   },
+  "CcuTCU": {
+    "description": "{stakerChecklist} = 'Staker Checklist' bolded to draw attention",
+    "message": "Be sure to complete the {stakerChecklist} as soon as possible. And join the LUKSO Discord community (#validators channel) for support and discussion with fellow validators."
+  },
   "CeeJfw": {
     "message": "I've set up a firewall."
-  },
-  "CgsDtD": {
-    "description": "{http} shows '--JsonRpc.Enabled true' terminal command",
-    "message": "Use {http} to connect your LYXt node to the JSON RPC endpoint. This will enable the JSON RPC services on the default 8545 port."
   },
   "D0Rigq": {
     "message": "NO"
@@ -593,6 +609,10 @@
   "EXLB88": {
     "message": "This is a test network ⚠️"
   },
+  "EoeAcv": {
+    "description": "{LUKSO_NETWORK_NAME} is name of network, do not translate",
+    "message": "I've synced my L15 vanguard node on {LUKSO_NETWORK_NAME}."
+  },
   "EuhIal": {
     "message": "Syncing your Pandora client may take a few days in the worst-case scenario."
   },
@@ -645,10 +665,6 @@
   "G8tAKU": {
     "message": "Choose client"
   },
-  "GAV10x": {
-    "description": "Asks users to check deposit contract address against a block explorer and confirm 32 ETH deposits are present",
-    "message": "Are there recent {lyxtAmount} deposits?"
-  },
   "GBXzeJ": {
     "message": "Arguably the most impactful factor on rewards earned for validating transactions is the total amount of stake in the network. In other words, the total amount of validators. Depending on this figure the max annual return rate for a validator can be anywhere between 2 and 20%."
   },
@@ -678,6 +694,9 @@
   },
   "GuIwY6": {
     "message": "When should I top up my validator’s balance?"
+  },
+  "GxQors": {
+    "message": "You'll need to run a L15 node to become a validator. Take a look at the checklist to prepare yourself and your equipment."
   },
   "H+Wcch": {
     "message": "Section 2"
@@ -791,17 +810,21 @@
   "KC9jbz": {
     "message": "Hardware checklist"
   },
+  "KCBqlo": {
+    "message": "Check your favorite L15 block explorer:"
+  },
   "KFSZ68": {
     "message": "{warning} Duplicate deposits with the same keyfile public key will be considered as a double deposit. Any extra balance more than {lyxt} will NOT be counted in your effective balance on the Vanguard Chain. Withdrawing your deposits also won't currently be possible."
+  },
+  "KLfakO": {
+    "description": "{latestReleased} = 'latest stable software release', being styled in bold",
+    "message": "I've installed the {latestRelease} of my L15 client."
   },
   "KMyzzI": {
     "message": "How LUKSO moves towards Mainnet?"
   },
   "KN7zKn": {
     "message": "Error"
-  },
-  "KQHq1w": {
-    "message": "I'm able to connect my LYXt vanguard node to my Pandora client via HTTP API(s)."
   },
   "KjcAm2": {
     "message": "Rewards and penalties are issued roughly every six and a half minutes – a period of time known as an epoch."
@@ -851,6 +874,9 @@
   "Lv3Pmp": {
     "message": "Your initial deposit has already been made for this validator public key. Please wait and check the status of your deposit on the Beaconchain data provider."
   },
+  "Lva1dX": {
+    "message": "Testnet tokens (LYXt) are non-transferrable to other testnets, mainnet (LYX) or LYXe. L15 is an ephemeral testnet, meaning the state will not be persistent and the network will be frequently reset."
+  },
   "LyJqWj": {
     "message": "More on validator roles and responsibilities"
   },
@@ -887,9 +913,6 @@
   "N0rwnt": {
     "message": "{depositFileName} isn't a valid deposit_data JSON file. Try again."
   },
-  "N57jlm": {
-    "message": "Configure your LYXt client"
-  },
   "NEmnAV": {
     "message": "Italian"
   },
@@ -923,6 +946,9 @@
   "Nb5DNK": {
     "message": "Become a validator with Teku"
   },
+  "NmiAuT": {
+    "message": "Learn more about the roles and responsibilities of L15 validators."
+  },
   "NwzcYT": {
     "message": "Teku needs to be pointed at files containing keystores and their associated passwords at startup. There are 3 methods for doing so."
   },
@@ -938,6 +964,9 @@
   "ON2tXT": {
     "message": "The Nethermind documentation explains how to download and install the client."
   },
+  "OQ0r3H": {
+    "message": "I'm able to connect my L15 vanguard node to my Pandora client via HTTP API(s)."
+  },
   "OdYQYh": {
     "message": "More on ConsenSys"
   },
@@ -949,10 +978,6 @@
   },
   "P+nziG": {
     "message": "As a validator, you'll need to have funds at stake so you can be penalized for behaving dishonestly."
-  },
-  "P1QerV": {
-    "description": "{discord} and {reddit} are links to EthStaker forums on Discord and Reddit respectively",
-    "message": "If you have questions, EthStaker community is a good place to get help! You can find support on {discord} or {reddit}."
   },
   "P7/KZ1": {
     "message": "The LUKSO Mainnet is the first to bring proof-of-stake consensus based on Ethereum's Beacon Chain Architecture. L15 is the ephemeral testnet prior to L16, and mainnet launch."
@@ -996,6 +1021,9 @@
   "Q8P0rZ": {
     "message": "Validators have a maximum effective balance of {PRICE_PER_VALIDATOR} {TICKER_NAME}. You only need to top up {maxTopupValue} {TICKER_NAME} to max out your effective balance."
   },
+  "QBAX97": {
+    "message": "L15 Vanguard Node (VN)"
+  },
   "QKFeMq": {
     "message": "Internet"
   },
@@ -1016,10 +1044,6 @@
   },
   "Qs/oj3": {
     "message": "You may have an {TICKER_NAME} deposit that was accepted but is being validated on chain. It will be available here when beaconcha.in has confirmed 2048 blocks."
-  },
-  "R1TrkZ": {
-    "description": "{variables} are client names, each linking to documentation (do not translate names)",
-    "message": "The LYXt clients support Prometheus and Grafana to help you visualise important real-time metrics about your validator. You can find client-specific instructions here: {lighthouse} | {nimbus} | {prysm} | {teku}"
   },
   "R8eePn": {
     "message": "If you're slashed you're prevented from participating in the protocol further and are forcibly exited."
@@ -1057,10 +1081,6 @@
   "S0e/cN": {
     "message": "How do you want to run the CLI?"
   },
-  "S1fvby": {
-    "description": "{http} shows '-rpc-http-enabled' terminal command",
-    "message": "Use {http} to connect your LYXt node to the JSON RPC endpoint. This will enable the JSON RPC services on the default 8545 port."
-  },
   "S943uU": {
     "message": "Double check the URL"
   },
@@ -1097,15 +1117,15 @@
   "ShW01z": {
     "message": "PoS is a more secure, decentralized, and environmentally-friendly consensus mechanism than the proof-of-work (PoW) that secures Ethereum today. It rewards validators for building the chain, but slashes their deposits if they try to attack it, incentivising healthy behaviour. This upgrade is already live in the form of the Vanguard Consensus Chain / L15 testnet."
   },
+  "Skc8c/": {
+    "message": "I've imported my keystore(s) into my L15 validator client."
+  },
   "SqKNq2": {
     "description": "{homebrew} = 'homebrew' and links to the homebrew package manager website documentation",
     "message": "You can install python3 on your macOS device using {homebrew}"
   },
   "Szwbym": {
     "message": "wrench"
-  },
-  "T3rbj1": {
-    "message": "Testnet tokens (LYXt) are non-transferrable to mainnet (LYX) or LYXe. L15 is an ephemeral testnet, meaning the state will not be persistent and the network will be frequently reset."
   },
   "TMw9oz": {
     "message": "Visit this site on desktop to become a validator."
@@ -1122,21 +1142,21 @@
   "U0yY/A": {
     "message": "View extensive client comparison"
   },
+  "U3D1AX": {
+    "message": "You can think of the deposit contract as a transfer of funds between LUKSO accounts and L15 validators."
+  },
   "U7AOxj": {
     "message": "greater than 50%"
-  },
-  "U7NW30": {
-    "message": "LYXt Clients: {clientName}"
   },
   "UHbYCa": {
     "message": "Your validator has its own balance – with the initial balance outlined in the deposit contract. Your rewards and penalties are reflected in your validator's balance over time."
   },
+  "UJFSst": {
+    "message": "The current URLs are: https://explorer.pandora.l15.lukso.network/ and https://explorer.vanguard.l15.lukso.network/"
+  },
   "UJMct0": {
     "description": "{etherscan} is a share link to this transaction on etherscan.io, labeled 'Etherscan'",
     "message": "Check {etherscan} for more details"
-  },
-  "UWv7yD": {
-    "message": "Check the deposit contract on your favorite Ethereum block explorer:"
   },
   "UYxJLB": {
     "description": "{strongText} is a warning, bolded for emphasis",
@@ -1166,9 +1186,6 @@
   },
   "V1O8Ob": {
     "message": "How much LYXt do I need to stake to become a validator?"
-  },
-  "V8WNUC": {
-    "message": "Learn more about the roles and responsibilities of LYXt validators."
   },
   "VASo1/": {
     "message": "Connect wallet"
@@ -1206,14 +1223,18 @@
   "W8nHSd": {
     "message": "FAQ"
   },
+  "WDkfhR": {
+    "description": "{http} shows '--JsonRpc.Enabled true' terminal command",
+    "message": "Use {http} to connect your L15 node to the JSON RPC endpoint. This will enable the JSON RPC services on the default 8545 port."
+  },
+  "WDszx6": {
+    "message": "To process incoming validator deposits from the Pandora chain, you'll need to run a Pandora client as well as your Vanguard client. You can use a third-party service like Infura, but we recommend running your own client to keep the network as decentralised as possible."
+  },
   "WMLn/w": {
     "message": "{totalTxCount} validators"
   },
   "WTPUDZ": {
     "message": "These steps are optional but are recommended to optimize your node."
-  },
-  "WgyNrB": {
-    "message": "Thank you for supporting the LUKSO LYXt ephemeral testnet!"
   },
   "WkrNSk": {
     "message": "English"
@@ -1342,9 +1363,6 @@
   "aXT3iO": {
     "message": "Nimbus is Apache 2 licensed and written in Nim, a language with Python-like syntax that compiles to C."
   },
-  "aZ7pUj": {
-    "message": "Your wallet is on the wrong Ethereum network. To continue, connect to the {networkName} network."
-  },
   "acrOoz": {
     "message": "Continue"
   },
@@ -1354,11 +1372,11 @@
   "azLmaD": {
     "message": "Build deposit-cli from the Python source code"
   },
+  "b4Fwl0": {
+    "message": "The L15 deposit contract requires a minimum of {minTopupValue} {TICKER_NAME} to be sent at one time to be accepted."
+  },
   "b4csjU": {
     "message": "However, bear in mind that for the foreseeable future, once you’ve exited, there’s no going back."
-  },
-  "bLVw7X": {
-    "message": "The LYXt clients"
   },
   "bNFkSo": {
     "message": "Now follow the instructions presented to you in the terminal window to generate your keys."
@@ -1380,6 +1398,9 @@
   },
   "bnuvhg": {
     "message": "Lighthouse is built in Rust and offered under an Apache 2.0 License."
+  },
+  "bt03u4": {
+    "message": "L15 Clients: {clientName}"
   },
   "bxU6sX": {
     "message": "Python installation instructions"
@@ -1413,9 +1434,6 @@
   },
   "clxIWO": {
     "message": "How much will I be penalized for acting maliciously?"
-  },
-  "co3LRG": {
-    "message": "I've imported my keystore(s) into my LYXt validator client."
   },
   "cpxfOR": {
     "message": "What are withdrawal credentials?"
@@ -1470,14 +1488,14 @@
   "eOpZjd": {
     "message": "It specifies who is staking, who is validating, how much is being staked, and who can withdraw the funds."
   },
+  "eRntau": {
+    "message": "The L15 upgrades will only be successful if validators understand the risks and responsibilities."
+  },
   "eaU/aL": {
     "message": "To maximize security and efficiency of your node, use dedicated hardware to run your clients. This reduces risk of malware exposure and minimizes competition for computing resources, ensuring your node handles the network load and its validator responsibilities at all times."
   },
   "egVO5r": {
     "message": "More on shard chains"
-  },
-  "ekpN7U": {
-    "message": "Validators and LYXt"
   },
   "el/dXY": {
     "message": "Note: Withdrawing your deposits won't currently be possible."
@@ -1487,6 +1505,10 @@
   },
   "esDvdR": {
     "message": "Validator balance is over {PRICE_PER_VALIDATOR}, but effective balance is low ({effectiveBalance}). Adding {minTopupValue} {TICKER_NAME} (the minimum allowed by the deposit contract) will max out your effective balance."
+  },
+  "evn4VC": {
+    "description": "{discord} is a link to the LUKSO Discord (do not translate names)",
+    "message": "If you have questions, the LUKSO community is a good place to get help! You can find support on the {discord} #validators channel."
   },
   "eyK2E3": {
     "message": "Complete checklist"
@@ -1503,6 +1525,10 @@
   "fbiteI": {
     "message": "only stored on one validator machine"
   },
+  "fhvkT2": {
+    "description": "{discord} is a link to the LUKSO Discord (do not translate names)",
+    "message": "Visit the LUKSO #validators channel on {discord} at any time during your setup for some friendly help!"
+  },
   "fnMHGO": {
     "message": "Waiting for wallet confirmation"
   },
@@ -1512,14 +1538,17 @@
   "fw/omY": {
     "message": "Configure your Pandora Client"
   },
-  "g/lIhF": {
-    "message": "Slashing has two purposes: (1) to make it prohibitively expensive to attack LYXt, and (2) to stop validators from being lazy by checking that they actually perform their duties. If you're slashed because you've acted in a provably destructive manner, a portion of your stake will be destroyed."
-  },
   "g0zIUd": {
     "message": "cannot withdraw"
   },
   "g37XKP": {
     "message": "More on virtualenv"
+  },
+  "g6zrLr": {
+    "message": "Become a L15 testnet validator and help secure the future of LUKSO."
+  },
+  "gFkou2": {
+    "message": "Your wallet is on the wrong network. To continue, connect to the {networkName} network."
   },
   "gIauNz": {
     "message": "You should see that you have one keystore per validator. This keystore contains your signing key, encrypted with your password. You can use your mnemonic to generate your withdrawal key when you wish to withdraw."
@@ -1549,9 +1578,6 @@
   "gx6frf": {
     "message": "clock"
   },
-  "h+pDxO": {
-    "message": "Become a LYXt validator and help secure the future of LUKSO."
-  },
   "h1nTWx": {
     "message": "If you try to cheat the system, you will be liable to incur a penalty, known as slashing. Running your validator keys simultaneously on two or more machines will result in slashing."
   },
@@ -1574,6 +1600,12 @@
   "hZrkPB": {
     "message": "In other words, you maximize your rewards by providing the greatest benefit to the network as a whole."
   },
+  "hat13W": {
+    "message": "Validators and L15"
+  },
+  "hjjX06": {
+    "message": "L15 Validator Client (VC)"
+  },
   "hkg3fb": {
     "message": "More on effective balance"
   },
@@ -1590,9 +1622,6 @@
   "iHH0gC": {
     "message": "A validator is an entity that participates in the consensus of LUKSO's Vanguard Chain protocol."
   },
-  "iIkLdj": {
-    "message": "The LYXt upgrades will only be successful if validators understand the risks and responsibilities."
-  },
   "iMvXLd": {
     "message": "Running the validator client"
   },
@@ -1606,20 +1635,17 @@
     "description": "{flag} and {network} are terminal commands styled as code.",
     "message": "Please make sure you have set {flag} for {network}, otherwise the deposit will be invalid."
   },
-  "iYCg1B": {
-    "message": "I've simulated how to migrate from one LYXt client to another LYXt client."
-  },
   "iZuIgB": {
     "message": "Decompress the file you just downloaded"
   },
   "idDbou": {
     "message": "Thinking about staking?"
   },
-  "igA+2L": {
-    "message": "You'll need to run a LYXt node to become a validator. Take a look at the checklist to prepare yourself and your equipment."
-  },
   "igGcu9": {
     "message": "Validating in LUKSO is not the same as mining. The outcomes are similar: the work you do will extend and secure the chain. But the process is completely different because they use different consensus mechanisms."
+  },
+  "ijbdN4": {
+    "message": "L15 validator checklist"
   },
   "irRdC0": {
     "message": "Hardware suggestions are an ever-evolving target. Current minimum requirements are likely to increase by an order of magnitude after the merge and introduction of shard chains. Do your own research before depositing funds."
@@ -1666,10 +1692,6 @@
   "jm79h1": {
     "description": "Warns users to not run backup validators that have a live copy of their signing keys. Keys should only be on one validator machine at once.",
     "message": "Warning: Do not store keys on multiple (backup) validators at once"
-  },
-  "jpl4/R": {
-    "description": "{latestReleased} = 'latest stable software release', being styled in bold",
-    "message": "I've installed the {latestRelease} of my LYXt client."
   },
   "jsaN7g": {
     "message": "The L15 ephemeral test network"
@@ -1784,6 +1806,10 @@
   "mpmFDY": {
     "message": "No pending deposits"
   },
+  "mqhL5p": {
+    "description": "{http} shows '-rpc-http-enabled' terminal command",
+    "message": "Use {http} to connect your L15 node to the JSON RPC endpoint. This will enable the JSON RPC services on the default 8545 port."
+  },
   "mr1BWl": {
     "message": "Risks and acknowledgements:"
   },
@@ -1806,24 +1832,14 @@
   "nZTFTz": {
     "message": "I understand that there is no advantage to depositing more than once per validator. Any extra {TICKER_NAME} sent in a duplicate deposit will not be counted in my effective validator balance and I will not be able to withdraw it."
   },
-  "ndhFef": {
-    "message": "Once you're comfortable, you'll go through generating your keys and depositing your ETH."
-  },
   "njAU72": {
     "message": "French"
   },
   "njnn9P": {
     "message": "I've started running my validator client."
   },
-  "nsDU+u": {
-    "message": "To process incoming validator deposits from the Pandora chain, you'll need to run an Pandora client as well as your Vanguard client. You can use a third-party service like Infura, but we recommend running your own client to keep the network as decentralised as possible."
-  },
   "ntG2by": {
     "message": "Advanced system architecture"
-  },
-  "nz27+c": {
-    "description": "{variables} social media platform links to Discord and Reddit (do not translate names)",
-    "message": "If you have questions, EthStaker community is a good place to get help! You can find support on {discord} or {reddit}."
   },
   "o9QvTP": {
     "message": "Before you start"
@@ -1927,9 +1943,6 @@
   "qkhah0": {
     "message": "Save the key files and get the validator file ready"
   },
-  "quIMjo": {
-    "message": "Make sure you do the following to get your Eth1 client working properly."
-  },
   "qwh6gM": {
     "message": "I understand the early adopter and slashing risks."
   },
@@ -2006,6 +2019,10 @@
   "tJcyUM": {
     "message": "Your deposit_data.json suggests you wanted to set up more validators. These deposits are still outstanding. If you think you've already made these deposits, wait an hour before trying again to avoid duplicate deposits."
   },
+  "tYu+4O": {
+    "description": "{variables} are client names, each linking to documentation (do not translate names)",
+    "message": "The L15 clients support Prometheus and Grafana to help you visualise important real-time metrics about your validator. You can find client-specific instructions here: {lighthouse} | {nimbus} | {prysm} | {teku}"
+  },
   "teyxVk": {
     "message": "What should the address be?"
   },
@@ -2034,10 +2051,6 @@
   "u564LK": {
     "message": "Portuguese (Brazilian)"
   },
-  "u6A+vO": {
-    "description": "{http} shows '--http' terminal command",
-    "message": "Use {http} to connect your LYXt node to the JSON RPC endpoint. This will enable the JSON RPC services on the default 8545 port."
-  },
   "u81G9+": {
     "message": "Uptime"
   },
@@ -2062,6 +2075,9 @@
   "ukfwum": {
     "message": "Become a validator with Nimbus"
   },
+  "ulXbuO": {
+    "message": "Slashing has two purposes: (1) to make it prohibitively expensive to attack L15, and (2) to stop validators from being lazy by checking that they actually perform their duties. If you're slashed because you've acted in a provably destructive manner, a portion of your stake will be destroyed."
+  },
   "uprpgn": {
     "message": "This launchpad will help you become a validator, so you can play an active part in LUKSO's future. Validators are key to the more secure, scalable, and sustainable network we're building together."
   },
@@ -2080,10 +2096,6 @@
   "vNopl9": {
     "message": "The Vanguard Chain had its genesis on {date}. It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
   },
-  "vPokdY": {
-    "description": "{LUKSO_NETWORK_NAME} is name of network, do not translate",
-    "message": "I've synced my LYXt vanguard node on {LUKSO_NETWORK_NAME}."
-  },
   "vY2wig": {
     "message": "Loading error"
   },
@@ -2095,10 +2107,6 @@
   },
   "va96SS": {
     "message": "I've forwarded the necessary ports to the correct machine(s) from my router (only open the ports that apply to your installation)."
-  },
-  "vbVsqW": {
-    "description": "{stakerChecklist} = 'Staker Checklist' bolded to draw attention",
-    "message": "Be sure to complete the {stakerChecklist} as soon as possible. And join the EthStaker community for support and discussion with fellow validators."
   },
   "vg1dVR": {
     "message": "With your signing key, you could attempt to quickly exit the validator and then transfer the funds – with the withdrawal key – before the thief."
@@ -2115,9 +2123,6 @@
   },
   "wJy3tO": {
     "message": "Initial setup"
-  },
-  "wNX0sz": {
-    "message": "LYXt Validator Client (VC)"
   },
   "wawegX": {
     "message": "fishing rod"
@@ -2140,10 +2145,6 @@
   },
   "x+fF+M": {
     "message": "Testnet simulations"
-  },
-  "xDyl3T": {
-    "description": "{ethereumorg} is a link to deposit contract page on ethereum.org",
-    "message": "Cross check the deposit contract address against other websites – for example: Reddit, Twitter, and GitHub. There's also a list of trusted sources on {ethereumorg}"
   },
   "xH5GKj": {
     "message": "I am an early adopter, and I accept that software and design bugs may result in me being slashed."
@@ -2220,8 +2221,5 @@
   },
   "zicXn7": {
     "message": "Node security"
-  },
-  "zpP16S": {
-    "message": "Transfers between {TICKER_NAME} validators aren't possible yet. You will have to wait until after the Vanguard Consensus Engine mainnet is released before you can deposit, withdraw or transfer real tokens."
   }
 }

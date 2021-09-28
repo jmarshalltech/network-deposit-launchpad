@@ -301,7 +301,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                   </DropdownLink>
                   <Text className="my20">
                     <b>
-                      <FormattedMessage defaultMessage="The LYXt clients" />
+                      <FormattedMessage defaultMessage="The L15 clients" />
                     </b>
                   </Text>
                   <DropdownLink to={routesEnum.lighthouse}>

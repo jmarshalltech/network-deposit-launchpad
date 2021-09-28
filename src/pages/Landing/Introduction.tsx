@@ -66,7 +66,7 @@ export const Introduction = (): JSX.Element => {
         <ContentContainer>
           <ScrollAnimation animateIn="fadeIn" animateOnce>
             <Heading level={2} size="medium" color="blueDark" margin="none">
-              <FormattedMessage defaultMessage="Validators and LYXt" />
+              <FormattedMessage defaultMessage="Validators and L15" />
             </Heading>
           </ScrollAnimation>
           <ScrollAnimation animateIn="fadeInUp" animateOnce>

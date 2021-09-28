@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { PageTemplate } from '../../components/PageTemplate';
 import { Heading } from '../../components/Heading';
 import { Text } from '../../components/Text';
-import { Link } from '../../components/Link';
 import { FormattedMessage, useIntl } from 'react-intl';
 import { PRICE_PER_VALIDATOR } from '../../utils/envVars';
 
@@ -66,24 +65,13 @@ export const Phishing = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="Cross check the deposit contract address against other websites – for example: Reddit,
-                Twitter, and GitHub. There's also a list of trusted sources on {ethereumorg}"
-                values={{
-                  ethereumorg: (
-                    <Link
-                      inline
-                      to="https://ethereum.org/eth2/deposit-contract/"
-                    >
-                      ethereum.org
-                    </Link>
-                  ),
-                }}
-                description="{ethereumorg} is a link to deposit contract page on ethereum.org"
+                Twitter, and GitHub."
               />
             </Text>
           </li>
           <li>
             <Text className="mt10">
-              <FormattedMessage defaultMessage="Check the deposit contract on your favorite Ethereum block explorer:" />
+              <FormattedMessage defaultMessage="Check the deposit contract on your favorite block explorer:" />
             </Text>
             <ul>
               <li>
@@ -93,7 +81,7 @@ export const Phishing = () => {
                     values={{
                       lyxtAmount: `${PRICE_PER_VALIDATOR} LYXt`,
                     }}
-                    description="Asks users to check deposit contract address against a block explorer and confirm 32 ETH deposits are present"
+                    description="Asks users to check deposit contract address against a block explorer and confirm 32 LYXt deposits are present"
                   />
                 </Text>
               </li>
@@ -116,12 +104,17 @@ export const Phishing = () => {
           </li>
           <li>
             <Text className="mt10">
-              <FormattedMessage defaultMessage="Check your favorite LYXt block explorer:" />
+              <FormattedMessage defaultMessage="Check your favorite L15 block explorer:" />
             </Text>
             <ul>
               <li>
                 <Text className="mt10">
                   <FormattedMessage defaultMessage="Does the contract address listed on the website match?" />
+                </Text>
+              </li>
+              <li>
+                <Text className="mt10">
+                  <FormattedMessage defaultMessage="The current URLs are: https://explorer.pandora.l15.lukso.network/ and https://explorer.vanguard.l15.lukso.network/" />
                 </Text>
               </li>
             </ul>

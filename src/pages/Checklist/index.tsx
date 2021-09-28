@@ -233,27 +233,22 @@ export const Checklist = () => {
 
   return (
     <PageTemplate
-      title={formatMessage({ defaultMessage: 'LYXt validator checklist' })}
+      title={formatMessage({ defaultMessage: 'L15 validator checklist' })}
     >
       <div id="top" />
       <Subtitle>
         <FormattedMessage defaultMessage="This checklist will help you understand the role of a validator and prepare you for the role." />
         <Text className="mt10">
           <FormattedMessage
-            defaultMessage="Visit EthStaker on {discord} or {reddit} at any time during your setup for some friendly help!"
+            defaultMessage="Visit the LUKSO #validators channel on {discord} at any time during your setup for some friendly help!"
             values={{
               discord: (
-                <Link primary inline to="https://invite.gg/ethstaker">
+                <Link primary inline to="https://discord.gg/E2rJPP4">
                   Discord
                 </Link>
               ),
-              reddit: (
-                <Link primary inline to="https://reddit.com/r/ethstaker">
-                  Reddit
-                </Link>
-              ),
             }}
-            description="{variables} are social media platform links to Discord and Reddit (do not translate names)"
+            description="{discord} is a link to the LUKSO Discord (do not translate names)"
           />
         </Text>
       </Subtitle>
@@ -328,7 +323,7 @@ export const Checklist = () => {
               <Text>
                 <FormattedMessage
                   defaultMessage="To process incoming validator deposits from the Pandora
-                    chain, you'll need to run an Pandora client as well as your
+                    chain, you'll need to run a Pandora client as well as your
                     Vanguard client. You can use a third-party service
                     like Infura, but we recommend running your own client to
                     keep the network as decentralised as possible."
@@ -338,7 +333,7 @@ export const Checklist = () => {
             <li className="py5">
               <Text>
                 <FormattedMessage
-                  defaultMessage="You'll need a significant amount of space for the Pandora mainnet chain data alone (For reference; as of {date}, Eth1 is ~400GB and growing at ~1GB/day)."
+                  defaultMessage="You'll need a significant amount of space for the Pandora chain data alone (For reference; as of {date}, Eth1 is ~400GB and growing at ~1GB/day)."
                   values={{
                     date: (
                       <FormattedDate
@@ -678,7 +673,7 @@ export const Checklist = () => {
         </section>
         <section>
           <Heading level={3}>
-            <FormattedMessage defaultMessage="Configure your LYXt client" />
+            <FormattedMessage defaultMessage="Configure your L15 client" />
           </Heading>
           <Link className="mt10" to="/faq" primary>
             <FormattedMessage defaultMessage="More on validator roles and responsibilities" />
@@ -702,7 +697,7 @@ export const Checklist = () => {
             </Heading>
             <Text className="mt20">
               <FormattedMessage
-                defaultMessage="It is high risk to run your LYXt validator in multiple places. It will lead to a slashable event and ejection from the network. {learnMore}"
+                defaultMessage="It is high risk to run your L15 validator in multiple places. It will lead to a slashable event and ejection from the network. {learnMore}"
                 values={{
                   learnMore: (
                     <Link primary inline to="/faq#responsibilities">
@@ -719,7 +714,7 @@ export const Checklist = () => {
             label={
               <Text className="checkbox-label">
                 <FormattedMessage
-                  defaultMessage="I've installed the {latestRelease} of my LYXt client."
+                  defaultMessage="I've installed the {latestRelease} of my L15 client."
                   values={{
                     latestRelease: (
                       <strong>
@@ -737,7 +732,7 @@ export const Checklist = () => {
         </section>
         <section>
           <Heading level={3}>
-            <FormattedMessage defaultMessage="LYXt Vanguard Node (VN)" />
+            <FormattedMessage defaultMessage="L15 Vanguard Node (VN)" />
           </Heading>
           <Heading level={4} className="mt10">
             <FormattedMessage defaultMessage="Required" />
@@ -745,7 +740,7 @@ export const Checklist = () => {
           <CheckBox
             label={
               <Text className="checkbox-label">
-                <FormattedMessage defaultMessage="I'm able to connect my LYXt vanguard node to my Pandora client via HTTP API(s)." />
+                <FormattedMessage defaultMessage="I'm able to connect my L15 vanguard node to my Pandora client via HTTP API(s)." />
               </Text>
             }
           />
@@ -765,7 +760,7 @@ export const Checklist = () => {
             label={
               <Text className="checkbox-label">
                 <FormattedMessage
-                  defaultMessage="I've synced my LYXt vanguard node on {LUKSO_NETWORK_NAME}."
+                  defaultMessage="I've synced my L15 vanguard node on {LUKSO_NETWORK_NAME}."
                   values={{ LUKSO_NETWORK_NAME }}
                   description="{LUKSO_NETWORK_NAME} is name of network, do not translate"
                 />
@@ -809,7 +804,7 @@ export const Checklist = () => {
         </section>
         <section>
           <Heading level={3}>
-            <FormattedMessage defaultMessage="LYXt Validator Client (VC)" />
+            <FormattedMessage defaultMessage="L15 Validator Client (VC)" />
           </Heading>
           <Heading level={4} className="mt10">
             <FormattedMessage defaultMessage="Required" />
@@ -817,7 +812,7 @@ export const Checklist = () => {
           <CheckBox
             label={
               <Text className="checkbox-label">
-                <FormattedMessage defaultMessage="I've imported my keystore(s) into my LYXt validator client." />
+                <FormattedMessage defaultMessage="I've imported my keystore(s) into my L15 validator client." />
               </Text>
             }
           />
@@ -869,7 +864,7 @@ export const Checklist = () => {
           </Heading>
           <Text>
             <FormattedMessage
-              defaultMessage="The LYXt clients support Prometheus and Grafana to help you
+              defaultMessage="The L15 clients support Prometheus and Grafana to help you
                 visualise important real-time metrics about your validator. You can
                 find client-specific instructions here: {lighthouse} | {nimbus} | {prysm} | {teku}"
               values={{
@@ -988,7 +983,7 @@ export const Checklist = () => {
           <CheckBox
             label={
               <Text className="checkbox-label">
-                <FormattedMessage defaultMessage="I've simulated how to migrate from one LYXt client to another LYXt client." />
+                <FormattedMessage defaultMessage="I've simulated how to migrate from one L15 client to another L15 client." />
               </Text>
             }
           />
@@ -1051,21 +1046,16 @@ export const Checklist = () => {
         </section>
         <RainbowHeader>
           <FormattedMessage
-            defaultMessage="If you have questions, EthStaker community is a good place to get help!
-                You can find support on {discord} or {reddit}."
+            defaultMessage="If you have questions, the LUKSO community is a good place to get
+                  help! You can find support on the {discord} #validators channel."
             values={{
               discord: (
-                <Link primary inline to="https://invite.gg/ethstaker">
+                <Link primary inline to="https://discord.gg/E2rJPP4">
                   Discord
                 </Link>
               ),
-              reddit: (
-                <Link primary inline to="https://reddit.com/r/ethstaker">
-                  Reddit
-                </Link>
-              ),
             }}
-            description="{variables} social media platform links to Discord and Reddit (do not translate names)"
+            description="{discord} is a link to the LUKSO Discord (do not translate names)"
           />
         </RainbowHeader>
       </ChecklistPageStyles>
