@@ -18,11 +18,11 @@ interface mobile {
   isMobile: boolean;
 }
 
-const RainbowBackground = styled.div`
+const GradientBackground = styled.div`
   min-width: 100%;
   overflow: hidden;
   background-image: ${p =>
-    `radial-gradient(circle at 100% -80%, ${p.theme.rainbowLight})`};
+    `radial-gradient(circle at 100% -80%, ${p.theme.gradientLight})`};
   min-height: ${(p: mobile) => p.isMobile && 'calc(100vh - 20px)'};
 `;
 const MainContainer = styled.div`
@@ -93,6 +93,7 @@ const LogoText = styled(Text)`
     line-height: 24px;
   }
 `;
+
 const StyledLuksoArtImgNode = styled.img`
   max-width: 100%;
   margin: 3rem 0 5rem;
@@ -128,6 +129,15 @@ const ButtonContainer = styled.div`
   }
 `;
 
+const HeroButton = styled(Button)`
+  background: #915d9b;
+  border-color: #915d9b;
+  :hover {
+    background: ${p => p.theme.gray.light};
+    color: ${p => p.theme.gray.dark};
+  }
+`;
+
 //
 // Sub-components
 
@@ -154,7 +164,7 @@ export const Hero = () => {
   const isMediumScreen = useMobileCheck('1080px');
   const m: boolean = (window as any).mobileCheck();
   return (
-    <RainbowBackground isMobile={m}>
+    <GradientBackground isMobile={m}>
       <MainContainer isMobile={m}>
         <ResponsiveContainer isMobile={m}>
           <div className={`flex ${m ? 'flex-column is-mobile' : ''}`}>
@@ -205,9 +215,9 @@ export const Hero = () => {
                     <ButtonRow>
                       <ButtonContainer>
                         <Link to={routesEnum.acknowledgementPage}>
-                          <Button
+                          <HeroButton
                             fullWidth={m || isSmallScreen}
-                            rainbow
+                            gradient
                             label={
                               m
                                 ? formatMessage({
@@ -242,6 +252,6 @@ export const Hero = () => {
           </div>
         </ResponsiveContainer>
       </MainContainer>
-    </RainbowBackground>
+    </GradientBackground>
   );
 };

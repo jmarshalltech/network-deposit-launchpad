@@ -71,7 +71,7 @@ export const AcknowledgementSection = ({
             }}
           >
             <Button
-              rainbow
+              gradient
               width={300}
               disabled={!allAgreedTo}
               label={formatMessage({ defaultMessage: 'Continue' })}
@@ -92,7 +92,7 @@ export const AcknowledgementSection = ({
         )}
         <Button
           onClick={() => handleContinueClick(acknowledgementId)}
-          rainbow
+          gradient
           label={
             isIntroSection
               ? `${formatMessage({ defaultMessage: 'Continue' })}`
