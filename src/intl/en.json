@@ -214,9 +214,6 @@
   "3QmqFf": {
     "message": "Top-up transaction"
   },
-  "3URRZK": {
-    "message": "Geth on Goerli documentation"
-  },
   "3XK21U": {
     "message": "We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until The Merge, you will not create your withdrawal keys now. When it is possible to withdraw your funds, you can derive your withdrawal keys from your mnemonic."
   },
@@ -312,6 +309,9 @@
   "7d3Nzd": {
     "description": "{variables} are Beacon Chain block explorers, with links to each (do not translate names)",
     "message": "You can use your validator client's graffiti flag to add a personal touch to your proposed blocks (some text of your choice). You will be able to see it using {beaconchain} or {beaconscan} blockchain explorers."
+  },
+  "7lhBkq": {
+    "message": "Use L15LYX to sync the L15 testnet."
   },
   "7s6XNV": {
     "message": "Staking and rewards"
@@ -953,6 +953,9 @@
   "PglO1W": {
     "message": "Formal verification report"
   },
+  "PlU6f3": {
+    "message": "Testing on L15"
+  },
   "PoBIK+": {
     "message": "You'll need SSD storage to consistently handle necessary read/write speeds."
   },
@@ -1518,9 +1521,6 @@
   "gIauNz": {
     "message": "You should see that you have one keystore per validator. This keystore contains your signing key, encrypted with your password. You can use your mnemonic to generate your withdrawal key when you wish to withdraw."
   },
-  "gN9D/h": {
-    "message": "Use {goerli} to sync the Goerli testnet."
-  },
   "gQkd2y": {
     "message": "Generate deposit keys using the Ethereum Foundation deposit tool"
   },
@@ -2027,6 +2027,9 @@
   },
   "uCikFk": {
     "message": "You need enough upload bandwidth too. As of {date} this is ~700-800 MB/hour, and is likely to increase."
+  },
+  "uHaXQZ": {
+    "message": "Geth on L15 documentation"
   },
   "uJzGSb": {
     "message": "Make sure you're aware of how to avoid phishing attacks. We've prepared a list of things to look out for."
