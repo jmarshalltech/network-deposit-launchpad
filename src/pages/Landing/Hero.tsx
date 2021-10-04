@@ -99,6 +99,7 @@ const StyledLuksoArtImgNode = styled.img`
   margin: 3rem 0 5rem;
   transform: scale(1.2, 1.2);
   transform-origin: 0% 0%;
+  width: 520px;
   @media screen and (min-width: 800px) {
     transform: translate3d(0, 0, 0);
     margin: 0 -3rem 0 3rem;
@@ -175,10 +176,10 @@ export const Hero = () => {
                       <LogoContainer className={m ? 'mb50' : undefined}>
                         <LogoText>
                           {IS_MAINNET ? (
-                            <FormattedMessage defaultMessage="Eth2 Launchpad" />
+                            <FormattedMessage defaultMessage="LUKSO L15 Testnet Launchpad" />
                           ) : (
                             <FormattedMessage
-                              defaultMessage="Eth2 Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
+                              defaultMessage="LUKSO L15 Testnet Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
                               values={{ TESTNET_LAUNCHPAD_NAME }}
                               description="This phrase is a sentence "
                             />
@@ -196,7 +197,7 @@ export const Hero = () => {
                       color="brand"
                       className="my20"
                     >
-                      <FormattedMessage defaultMessage="Become a validator and help secure the future of Ethereum" />
+                      <FormattedMessage defaultMessage="Become a L15 testnet validator and help secure the future of LUKSO" />
                     </Heading>
                   </ScrollAnimation>
                   <ScrollAnimation animateIn="fadeInUp" delay={750} animateOnce>
