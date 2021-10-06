@@ -71,13 +71,26 @@ export const gradientLightColors = [
   '#dabfbf',
 ];
 
+export const gradientFooterColors = [
+  '#fef2f4',
+  '#d9c1c1',
+  '#f1dad7',
+  '#f6e5e5',
+  '#fae9df',
+  '#f1dad7',
+  '#dabfbf',
+];
+
 export const gradientBlackColors = ['#000000', '#0a0a0a', '#1f1f1f', '#151515'];
 export const gradientNavbarColors = ['#7043b0', '#b47983'];
+export const gradientDisclaimerColors = ['#f2dede', '#fff0f0'];
 
 export const gradient = gradientColors.join(', ');
 export const gradientLight = gradientLightColors.join(', ');
 export const gradientBlack = gradientBlackColors.join(', ');
 export const gradientNavbar = gradientNavbarColors.join(', ');
+export const gradientDisclaimer = gradientDisclaimerColors.join(', ');
+export const gradientFooter = gradientFooterColors.join(', ');
 
 export const screenSizes = {
   smaller: '420px',
@@ -98,4 +111,6 @@ export const styledComponentsTheme = {
   gradientBlack,
   gradientNavbar,
   gradientLightColors,
+  gradientDisclaimer,
+  gradientFooter,
 };

@@ -19,7 +19,7 @@ const GradientBackground = styled.div`
   min-width: 100%;
   overflow: hidden;
   background-image: ${p =>
-    `radial-gradient(circle at 100% -80%, ${p.theme.gradientLight})`};
+    `radial-gradient(circle at 100% -80%, ${p.theme.gradientFooter})`};
 `;
 
 const FooterStyles = styled.div`

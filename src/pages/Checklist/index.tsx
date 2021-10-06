@@ -125,7 +125,7 @@ const SectionHeader = styled.div`
 const GradientHeader = styled(SectionHeader as any)`
   margin: 3rem 1rem 1rem;
   background-image: ${p =>
-    `linear-gradient(to right, ${p.theme.gradientLight})`};
+    `linear-gradient(to right, ${p.theme.gradientDisclaimer})`};
 `;
 
 const CardContainer = styled.div`
