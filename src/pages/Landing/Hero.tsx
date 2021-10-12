@@ -133,7 +133,7 @@ const HeroButton = styled(Button)`
   background: #915d9b;
   border-color: #915d9b;
   :hover {
-    background: ${p => p.theme.gray.light};
+    background: ${p => p.theme.gray.brand};
     color: ${p => p.theme.gray.dark};
   }
 `;
